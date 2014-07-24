@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Inspiro B | Responsive HTML5 Template</title>
+<!-- CSS FILES -->
+<!--Template file default template.css-->
+<link rel="stylesheet" href="css/template.css" type="text/css">
+<!--Color file default none.css-->
+<link rel="stylesheet" href="css/none.css" type="text/css">
+
+<link rel="stylesheet" href="css/menus.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/responsive.css" type="text/css">
+<!-- RTL - Right to left languages OFF (default) if you use css/style-rtl.css your site will be in RTL Mode   -->
+<link rel="stylesheet" href="css/style-rtl-off.css" type="text/css">
+
+<!-- JS FILES -->
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/responsive.js"></script>
+<script type="text/javascript" src="js/uniform.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+<!-- Slideshow background param -->
+<script type="text/javascript">
+var slideshowSpeed = 5000;
+var slideEffect = "fade";
+jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{ 
+			"firstline" : "Modern Premium Theme",
+			"secondline" : "Responsive theme with amazing experience by using on desktops, tablets, phones or any other device!",	
+			"url" :  "",
+			"image" : "images/slide/1.jpg",
+			"link" : "<div class=\"pictured\">VIEW MORE<div>"
+		},{ 
+			"firstline" : "HTML5 &amp; CSS3",
+			"secondline" : "This is the future of the web! HTML5 &amp; CSS3. Fast website with great functionality",	
+			"url" :  "",
+			"image" : "images/slide/2.jpg",
+			"link" : "<div class=\"pictured\">VIEW MORE<div>"
+		},{ 
+			"firstline" : "Multi-Purpose Business Theme",
+			"secondline" : "Inspiro B is loaded with features, and it&#039;s easy to customize and maintain with advanced theme settings",	
+			"url" :  "",
+			"image" : "images/slide/3.jpg",
+			"link" : "<div class=\"pictured\">VIEW MORE<div>"
+		},]});});
+		
+
+</script>
+<script src="js/jquery.vticker.min.js"></script>
+<script>
+  $(function() {
+    $('#vTicker').vTicker();
+  });
+</script>
+<!-- Flicker widget script-->
+<script src="js/jflickrfeed.min.js"></script>
+<script src="js/flickr.js"></script>
+<!-- End of Flicker widget script-->
+</head>
+
+<body class="one-sidebar sidebar-first page-blog">
+
+<!-- Background slideshow-->
+<div id="headerimgs">
+  <div id="headerimg1" style="z-index:-1" class="headerimg"></div>
+  <div id="headerimg2" style="z-index:1" class="headerimg"></div>
+</div>
+<!-- end .Slideshow --> 
+
+<!-- Slideshow controls -->
+<div class="fade">
+  <div id="control" class="btn"></div>
+</div>
+<div id="back" class="btn-back"></div>
+<div id="next" class="btn-next"></div>
+<div id="fullscreen" class="btnf"></div>
+<!-- end .Slideshow controls -->
+
+<div id="wrap" class="clearfix">
+  <div id="header-wrap">
+    <div id="pre-header" class="clearfix">
+      <div id="logo" class="logo"> 
+        
+        <!-- logo & slogan --> 
+        <a href="#" title="Home"><img src="images/logo.png" alt="Home" /></a> 
+        <!-- end. logo & slogan --> 
+        
+      </div>
+      <div class="features_top_div"> 
+        <!-- features top -->
+        <div class="social_icons">
+          <ul>
+            <li><a href="http://www.facebook.com/facebook" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
+            <li><a href="http://www.twitter.com/twitter" target="_blank" rel="me"><img src="images/twitter.png" alt="Twitter"/></a></li>
+            <li><a href="https://plus.google.com/googleplus" target="_blank" rel="me"><img src="images/googleplus.png" alt="Twitter"/></a></li>
+          </ul>
+        </div>
+        <!-- end .features top -->
+        
+        <div class="region region-header-features">
+          <div id="block-locale-language" class="block block-locale">
+            <div class="content">
+              <ul class="language-switcher-locale-url">
+                <li class="en first active"><a href="#" class="language-link active" lang="en"><img class="language-icon" src="images/flags/en.png" width="16" height="12" alt="English" title="English" /> </a></li>
+                <li class="de"><a href="#" class="language-link" lang="de"><img class="language-icon" src="images/flags/de.png" width="16" height="12" alt="Deutsch" title="Deutsch" /> </a></li>
+                <li class="fr last"><a href="#" class="language-link" lang="fr"><img class="language-icon" src="images/flags/fr.png" width="16" height="12" alt="Français" title="Français" /> </a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.block -->
+          <div id="block-search-form" class="block block-search">
+            <div class="content">
+              <form onsubmit="if(this.search_block_form.value==&#039;Search&#039;){ alert(&#039;Please enter a search&#039;); return false; }" action="#" method="post" id="search-block-form" accept-charset="UTF-8">
+                <div>
+                  <div class="container-inline">
+                    <div class="form-item form-type-textfield form-item-search-block-form">
+                      <input title="Enter the terms you wish to search for." onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="Search" size="16" maxlength="128" class="form-text" />
+                      <input alt="Search" type="image" id="edit-submit" name="submit" src="images/search-button.png" class="form-submit" />
+                    </div>
+                    <input type="hidden" name="form_id" value="search_block_form" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- /.block --> 
+        </div>
+        <!-- /.region --> 
+      </div>
+    </div>
+    <div class="top_line_tb"></div>
+    <header id="header" class="clearfix">
+      <nav id="navigation" role="navigation">
+        <div id="main-menu">
+          <ul class="menu">
+            <li class="first leaf"><a href="index.html" title="Home">Home</a></li>
+            <li class="leaf"><a href="about-us.html" >About us</a></li>
+            <li class="leaf"><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+            <li class="leaf"><a href="blog.html">Blog</a></li>
+            <li class="leaf"><a  href="features.html">Features</a>
+              <ul class="menu">
+                <li class="first leaf active-trail"><a class="active-trail active" href="/InspiroB/aboutus/elements">Elements</a></li>
+                <li class="last expanded"><a title="" href="/InspiroB/">Sub menu</a>
+                  <ul class="menu">
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="leaf"><a href="news.html" class="active" title="News &amp; Events">News &amp; Events</a></li>
+            <li class="last leaf"><a href="contact.html" title="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="header-right">
+        <div id="block-views-latest-news-block">
+          <div class="content">
+            <div class="view view-latest-news view-id-latest_news view-display-id-block">
+              <div class="view-content"> 
+                
+                <!-- start scroll -->
+                <div id="vTicker" class='view view-latest_news'>
+                  <ul id='views-ticker-vTicker-list-latest_news'>
+                    <li> <span class='views-vTicker-tick-field'> <a href="news_detail.html">Duis Interdico Te</a> <span class="latest-news-body">Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.</span> Sunday, January 13, 2013 - 09:38</span> </li>
+                    <li> <span class='views-vTicker-tick-field'> <a href="news_detail.html">Duis Interdico Te</a> <span class="latest-news-body">Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.</span> Sunday, January 13, 2013 - 09:38</span> </li>
+                  </ul>
+                </div>
+                <!-- end scroll --> 
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.block --> 
+        </div>
+        <!-- /.region --> 
+      </div>
+    </header>
+  </div>
+  <div class="split_line"></div>
+  <div id="primary" class="container sidebar-bg clearfix">
+    <section id="content" role="main" class="clearfix">
+      <div id="content-wrap">
+        <h1 class="page-title">Duis Interdico Te</h1>
+        <div class="region region-content">
+          <div id="block-system-main" class="block block-system">
+            <div class="content">
+              <div class="content">
+                <div class="field field-name-field-blog-picture field-type-image field-label-hidden">
+                  <div class="field-items">
+                    <div class="field-item even"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/blog_picture_content/public/scottwills_book.jpg" width="600" height="400" alt="" /></div>
+                  </div>
+                </div>
+                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                  <div class="field-items">
+                    <div class="field-item even">Accumsan diam imputo. Amet autem conventio facilisi hos ideo imputo inhibeo similis ut. Autem enim lucidus minim quidem ut. Exputo inhibeo iriure jumentum magna mauris nobis pneum refero vel. Et fere genitus haero inhibeo nunc similis te. Amet esse eu illum importunus melior os refero suscipit virtus. Duis fere haero huic humo imputo pneum rusticus scisco. Conventio premo tamen. Augue ex genitus ideo usitas. Commoveo eum illum incassum magna modo probo virtus. Dignissim ea exerci exputo lenis ludus mauris persto pneum. Genitus quidne similis. Dolus letalis qui vereor virtus. Aptent lenis minim nunc singularis uxor. Autem iaceo incassum iriure pertineo vel ymo. Abdo antehabeo elit ludus nibh nimis patria roto tamen vel. Dolus eros loquor nibh nutus refoveo veniam. Aliquam amet camur fere. Distineo ideo mauris olim paulatim scisco suscipit. Adipiscing aliquip duis iusto mauris pneum tincidunt. Aliquip euismod natu paulatim zelus. Capto paratus pertineo quae. Euismod nisl quis ymo. Appellatio capto quidem wisi. Abdo eligo facilisis natu nulla populus zelus. Aliquam sit sudo. Abdo consectetuer decet eligo hos iustum ut vero zelus.</div>
+                  </div>
+                </div>
+              </div>
+              <footer>
+                <ul class="links inline">
+                  <li class="comment-add first last active"><a href="blog_comment.html#comment-form" title="Share your thoughts and opinions related to this posting." class="active">Add new comment</a></li>
+                </ul>
+              </footer>
+              <div id="comments" class="comment-wrapper">
+                <h2 class="title">Comments</h2>
+                <a id="comment-8"></a>
+                <div class="comment comment-by-anonymous clearfix">
+                  <div class="attribution">
+                    <div class="user-picture"> <img src="sites/default/files/InspiroB/default-user-image.png" alt="devel generate&#039;s picture" title="devel generate&#039;s picture" /> </div>
+                    <div class="comment-submitted">
+                      <p class="commenter-name"> <span class="username">devel generate (not verified)</span> </p>
+                      <p class="comment-time"> Sat, 01/12/2013 - 21:49 </p>
+                      <p class="comment-permalink"> <a href="#" class="permalink" rel="bookmark">Permalink</a> </p>
+                    </div>
+                  </div>
+                  <div class="comment-text">
+                    <div class="comment-arrow"></div>
+                    <h3><a href="#" class="permalink" rel="bookmark">Jugis Valetudo</a></h3>
+                    <div class="content">
+                      <div class="field field-name-comment-body field-type-text-long field-label-hidden">
+                        <div class="field-items">
+                          <div class="field-item even">Augue defui distineo elit incassum jugis mauris modo odio paratus. Acsi quidem vereor. Aliquam at consectetuer gilvus quidne. Antehabeo hos lucidus melior populus torqueo. Bene euismod persto valde zelus. Gemino refero rusticus secundum valetudo. Bene distineo eum exerci fere iusto plaga ymo.
+                            
+                            Cui ideo jugis nulla sit. Luptatum praemitto proprius. Acsi caecus cogo consectetuer elit gilvus premo. Abdo abigo caecus commoveo praemitto sed similis tamen te tego. Humo luptatum meus nunc tation vero.
+                            
+                            Consectetuer et eu macto obruo premo saepius sino tation. Distineo ea ullamcorper. Accumsan adipiscing aptent eum ille nutus pala vel vereor. Aliquam importunus sed turpis verto. Minim vicis voco. Meus probo quibus sed sino. Bene loquor nobis te. Accumsan blandit eligo et iustum. Ad appellatio commodo nimis volutpat.
+                            
+                            Enim feugiat jugis magna melior pertineo utinam veniam verto. Iriure jus ulciscor. Nobis obruo quis ut vulpes.
+                            
+                            Aliquam brevitas elit enim ideo lenis pertineo quidem virtus. Aliquip capto obruo quadrum quibus quis si. Bene oppeto si. Inhibeo patria proprius velit.
+                            
+                            Abico abigo autem cui jus letalis pagus quibus utinam vulpes. Aliquip dignissim enim ideo importunus imputo nostrud sit valde. Aliquip tum velit. Feugiat in luctus metuo nostrud secundum similis. Autem interdico tamen. Antehabeo hendrerit macto utrum vero. Brevitas eros immitto quidem sudo. Natu nunc os. Aliquip fere gemino hendrerit luctus nibh nimis volutpat.
+                            
+                            Abico acsi dolore mauris si similis sudo suscipere tamen. Capto gravis meus minim paratus. Ad euismod hendrerit huic illum iustum rusticus valetudo.
+                            
+                            Decet dolor interdico mos suscipere. Abluo aliquip letalis magna pecus. Brevitas commoveo esse paulatim quibus sudo vel virtus vulpes. Camur huic occuro tincidunt ullamcorper vicis. Adipiscing comis gravis haero lenis suscipere tego torqueo validus. Abbas aliquam humo. Ad brevitas dolor exerci mauris odio quis si. Abdo at brevitas ea eum nibh quibus ratis ut voco.
+                            
+                            Aptent olim praesent valetudo. Aptent eu facilisis metuo probo quia roto ut. Consectetuer feugiat nobis nulla proprius sino. Abbas consectetuer neo ulciscor ullamcorper. Cogo nulla quadrum tum uxor. Decet dolore haero loquor quidem saluto. Adipiscing causa ex lobortis saepius scisco tum. Abigo causa dignissim ibidem meus quis turpis. Mos oppeto pertineo.
+                            
+                            Aliquip damnum dolor euismod exputo jus neo virtus. Adipiscing haero iusto quae turpis. Antehabeo aptent commodo facilisi pecus secundum validus.
+                            
+                            Augue dolore ex ibidem natu quibus. Abbas at cui dolus iaceo iriure magna pagus suscipit turpis.
+                            
+                            Cui dolore refero tum ut valetudo. Consequat dolor enim exerci importunus pala te. Antehabeo augue distineo euismod fere ille metuo sudo tamen vero. </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.content -->
+                    
+                    <ul class="links inline">
+                      <li class="comment-reply first last"><a href="#">reply</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.comment-text --> 
+                </div>
+                <a id="comment-9"></a>
+                <div class="comment comment-by-anonymous clearfix">
+                  <div class="attribution">
+                    <div class="user-picture"> <img src="sites/default/files/InspiroB/default-user-image.png" alt="devel generate&#039;s picture" title="devel generate&#039;s picture" /> </div>
+                    <div class="comment-submitted">
+                      <p class="commenter-name"> <span class="username">devel generate (not verified)</span> </p>
+                      <p class="comment-time"> Sat, 01/12/2013 - 21:49 </p>
+                      <p class="comment-permalink"> <a href="#" class="permalink" rel="bookmark">Permalink</a> </p>
+                    </div>
+                  </div>
+                  <div class="comment-text">
+                    <div class="comment-arrow"></div>
+                    <h3><a href="#" class="permalink" rel="bookmark">Magna Ratis</a></h3>
+                    <div class="content">
+                      <div class="field field-name-comment-body field-type-text-long field-label-hidden">
+                        <div class="field-items">
+                          <div class="field-item even">
+                            <p>Et facilisis imputo. Appellatio causa decet importunus incassum meus probo utinam vel. Appellatio bene caecus causa eligo huic incassum magna nobis persto. Lenis lucidus pertineo usitas. Aliquip conventio interdico jugis quidem voco. Loquor proprius quae qui. Aliquip at facilisi fere iustum loquor scisco sit vel. Gilvus melior patria suscipere. Damnum fere jumentum rusticus. Commoveo ea genitus pertineo quadrum refero vulpes.</p>
+                            <p>Abbas acsi augue comis gilvus iriure neque. Consectetuer eligo esse nisl scisco. Obruo paratus suscipit ymo. Ad ludus paratus rusticus suscipit torqueo turpis. Adipiscing amet natu pecus ymo.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.content -->
+                    
+                    <ul class="links inline">
+                      <li class="comment-reply first last"><a href="#">reply</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.comment-text --> 
+                </div>
+                <div class="indented"><a id="comment-11"></a>
+                  <div class="comment comment-by-anonymous clearfix">
+                    <div class="attribution">
+                      <div class="user-picture"> <img src="sites/default/files/InspiroB/default-user-image.png" alt="devel generate&#039;s picture" title="devel generate&#039;s picture" /> </div>
+                      <div class="comment-submitted">
+                        <p class="commenter-name"> <span class="username">devel generate (not verified)</span> </p>
+                        <p class="comment-time"> Sat, 01/12/2013 - 21:49 </p>
+                        <p class="comment-permalink"> <a href="#" class="permalink" rel="bookmark">Permalink</a> </p>
+                      </div>
+                    </div>
+                    <div class="comment-text">
+                      <div class="comment-arrow"></div>
+                      <h3><a href="#" class="permalink" rel="bookmark">Brevitas Vulputate</a></h3>
+                      <div class="content">
+                        <div class="field field-name-comment-body field-type-text-long field-label-hidden">
+                          <div class="field-items">
+                            <div class="field-item even">Aliquip autem diam neque nostrud odio saepius saluto vulpes vulputate. Blandit commoveo diam euismod gemino humo illum immitto lenis paulatim. Accumsan duis elit neo nimis quae saluto suscipere. Appellatio comis dignissim odio quia ratis refoveo vero. Augue commodo erat esca eum exerci loquor luctus populus utinam.
+                              
+                              Abico immitto neque nutus paulatim pecus valetudo vereor. Aptent diam ea fere occuro. Elit jus persto sudo venio vereor. Abico ludus torqueo turpis. Defui olim proprius quibus utinam velit. Euismod proprius secundum tamen. Appellatio caecus dolus genitus gravis humo natu tum virtus. Ad consectetuer diam macto minim ulciscor velit vulputate.
+                              
+                              Camur illum in tamen. Autem cui huic ideo obruo refoveo turpis utinam. Eros facilisis fere iustum neque quidem suscipit tation te. Decet exputo inhibeo nisl sino valetudo verto. Ibidem incassum nulla. Dolus et importunus ludus molior suscipit utinam. Abluo enim iaceo sit tum volutpat vulputate. Bene dolor hendrerit melior quae roto sagaciter vel.
+                              
+                              Abigo dolor importunus meus quis tation velit vulputate. Acsi adipiscing ex gravis immitto lenis populus scisco. Ad causa distineo incassum.
+                              
+                              Amet imputo similis. Abdo bene diam gravis nibh nisl oppeto sudo vulpes. </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.content -->
+                      
+                      <ul class="links inline">
+                        <li class="comment-reply first last"><a href="#">reply</a></li>
+                      </ul>
+                    </div>
+                    <!-- /.comment-text --> 
+                  </div>
+                </div>
+                <a id="comment-10"></a>
+                <div class="comment comment-by-anonymous clearfix">
+                  <div class="attribution">
+                    <div class="user-picture"> <img src="sites/default/files/InspiroB/default-user-image.png" alt="devel generate&#039;s picture" title="devel generate&#039;s picture" /> </div>
+                    <div class="comment-submitted">
+                      <p class="commenter-name"> <span class="username">devel generate (not verified)</span> </p>
+                      <p class="comment-time"> Sat, 01/12/2013 - 21:49 </p>
+                      <p class="comment-permalink"> <a href="#" class="permalink" rel="bookmark">Permalink</a> </p>
+                    </div>
+                  </div>
+                  <div class="comment-text">
+                    <div class="comment-arrow"></div>
+                    <h3><a href="#" class="permalink" rel="bookmark">Et Letalis</a></h3>
+                    <div class="content">
+                      <div class="field field-name-comment-body field-type-text-long field-label-hidden">
+                        <div class="field-items">
+                          <div class="field-item even">Diam exerci huic ideo magna modo premo refero. Appellatio et feugiat illum quadrum saluto uxor vel. Aliquip damnum sino. Cogo minim pala. Amet dignissim enim iustum jugis os tum. Eligo inhibeo lenis loquor paratus. Abico neque nimis paratus uxor.
+                            
+                            Amet comis imputo rusticus suscipere ulciscor. Autem comis commoveo. Aliquam camur erat hos in laoreet loquor sit voco wisi. Decet jumentum pagus tincidunt.
+                            
+                            Aptent conventio ideo. Amet brevitas nostrud nunc sagaciter suscipere tincidunt. Immitto neo paratus rusticus saluto. Iustum laoreet nostrud saepius. At iaceo ideo ludus sagaciter sed torqueo vindico. Cui esca nulla sino tamen ut vereor. Defui incassum metuo pecus quidne. Abdo defui dolus ex hos paulatim ymo. Autem brevitas et ideo incassum verto virtus. Commodo nibh nimis saluto tamen veniam wisi.
+                            
+                            Distineo erat jugis jus minim paulatim proprius. In iusto ludus nibh patria quae ullamcorper vindico. Meus neo oppeto suscipere te utrum valetudo. Ad fere immitto jus melior paratus quibus. At camur dignissim eros molior mos obruo refero refoveo usitas. Abico causa haero interdico nulla saepius tation ulciscor. Lenis lucidus macto molior neo tego tum voco.
+                            
+                            Euismod imputo luptatum neque nostrud singularis. At comis immitto. Abdo acsi amet decet et verto. Bene ibidem nimis quibus si tamen ullamcorper wisi. Iriure lobortis natu valde. Ad dolor in neo quidne virtus. Brevitas melior paulatim quidne rusticus velit vereor. Eum exputo letalis minim pecus singularis tego vel wisi. Quidem refero torqueo. Adipiscing damnum decet nimis nostrud occuro sagaciter vindico.
+                            
+                            Commoveo dignissim esse pecus venio voco. Erat euismod hendrerit iriure metuo refero sed valetudo vero vulpes. Cogo commoveo nunc patria. Et melior scisco virtus. Cui distineo et interdico mauris nostrud sagaciter sed tincidunt.
+                            
+                            Bene capto elit eu iaceo nibh populus. Cui nimis pneum praesent refero utrum. Amet et laoreet magna minim plaga quidem sed. Euismod ibidem immitto incassum lobortis molior neque pala quibus saluto.
+                            
+                            Appellatio gemino iusto letalis molior saepius. Consequat imputo lucidus obruo quis ratis virtus. Aptent distineo esca ibidem imputo modo paratus patria. Blandit consectetuer gilvus nostrud sagaciter si. Antehabeo jus pneum. Aptent ille imputo luctus nisl pala praesent torqueo. Lobortis mauris occuro refero similis ut vulpes zelus. Feugiat ludus ratis sed. </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.content -->
+                    
+                    <ul class="links inline">
+                      <li class="comment-reply first last"><a href="#">reply</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.comment-text --> 
+                </div>
+                <a id="comment-24"></a>
+                <div class="comment comment-by-node-author clearfix">
+                  <div class="attribution">
+                    <div class="user-picture"> <img src="sites/default/files/InspiroB/default-user-image.png" alt="InspiroB&#039;s picture" title="InspiroB&#039;s picture" /> </div>
+                    <div class="comment-submitted">
+                      <p class="commenter-name"> <span class="username">InspiroB</span> </p>
+                      <p class="comment-time"> Sat, 01/12/2013 - 22:02 </p>
+                      <p class="comment-permalink"> <a href="#" class="permalink" rel="bookmark">Permalink</a> </p>
+                    </div>
+                  </div>
+                  <div class="comment-text">
+                    <div class="comment-arrow"></div>
+                    <h3><a href="#" class="permalink" rel="bookmark">Inspiro B - Premium Drupal Theme</a></h3>
+                    <div class="content">
+                      <div class="field field-name-comment-body field-type-text-long field-label-hidden">
+                        <div class="field-items">
+                          <div class="field-item even">
+                            <p><span style="color: rgb(102, 102, 102); font-family: Helvetica, Arial, sans-serif; font-size: 13px; line-height: 20px; background-color: rgb(255, 255, 255);">Et melior scisco virtus. Cui distineo et interdico mauris nostrud sagaciter sed tincidunt. Bene capto elit eu iaceo nibh populus. Cui nimis pneum praesent refero utrum. Amet et laoreet magna minim plaga quidem sed. Euismod ibidem immitto incassum lobortis molior neque pala quibus saluto. Appellatio gemino iusto letalis molior saepius. Consequat imputo lucidus obruo quis ratis virtus. Aptent distineo esca ibidem imputo modo paratus patria. Blandit consectetuer gilvus nostrud sagaciter si. Antehabeo jus pneum.</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.content -->
+                    
+                    <ul class="links inline">
+                      <li class="comment-reply first last"><a href="#">reply</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.comment-text --> 
+                </div>
+                <h2 class="title comment-form">Add new comment</h2>
+                <form class="comment-form" action="#" method="post" id="comment-form" accept-charset="UTF-8">
+                  <div>
+                    <div class="form-item form-type-textfield form-item-name">
+                      <label for="edit-name">Your name </label>
+                      <input type="text" id="edit-name" name="name" value="" size="30" maxlength="60" class="form-text" />
+                    </div>
+                    <div class="form-item form-type-textfield form-item-subject">
+                      <label for="edit-subject">Subject </label>
+                      <input type="text" id="edit-subject" name="subject" value="" size="60" maxlength="64" class="form-text" />
+                    </div>
+                    <div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper" id="edit-comment-body">
+                      <div id="comment-body-add-more-wrapper">
+                        <div class="text-format-wrapper">
+                          <div class="form-item form-type-textarea form-item-comment-body-und-0-value">
+                            <label for="edit-comment-body-und-0-value">Comment <span class="form-required" title="This field is required.">*</span></label>
+                            <div class="form-textarea-wrapper resizable">
+                              <textarea class="text-full form-textarea required" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5"></textarea>
+                            </div>
+                          </div>
+                          <fieldset class="filter-wrapper form-wrapper" id="edit-comment-body-und-0-format">
+                            <div class="fieldset-wrapper">
+                              <div class="filter-help form-wrapper" id="edit-comment-body-und-0-format-help">
+                                <p><a href="#" target="_blank">More information about text formats</a></p>
+                              </div>
+                              <div class="filter-guidelines form-wrapper" id="edit-comment-body-und-0-format-guidelines">
+                                <div class="filter-guidelines-item filter-guidelines-plain_text">
+                                  <h3>Plain text</h3>
+                                  <ul class="tips">
+                                    <li>No HTML tags allowed.</li>
+                                    <li>Web page addresses and e-mail addresses turn into links automatically.</li>
+                                    <li>Lines and paragraphs break automatically.</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="form_build_id" value="form-HgS6QSaqTVm3h3Q-xOp6oz4-I5ia3Ai7WJaLz5GmMj0" />
+                    <input type="hidden" name="form_id" value="comment_node_blog_content_form" />
+                    <div class="form-actions form-wrapper" id="edit-actions">
+                      <input type="submit" id="edit-submit" name="op" value="Save" class="form-submit" />
+                      <input type="submit" id="edit-preview" name="op" value="Preview" class="form-submit" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- /.block --> 
+        </div>
+        <!-- /.region --> 
+      </div>
+    </section>
+    <aside id="sidebar" role="complementary">
+      <div class="region region-sidebar-first">
+        <div id="block-block-3" class="block block-block">
+          <h2 ><span>Custom block</span></h2>
+          <div class="content">
+            <div class="dotten-border">
+              <p><span style="font-size:11px;">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam</span></p>
+              <p><a href="#"><span class="button">click for more</span></a></p>
+            </div>
+          </div>
+        </div>
+        <!-- /.block -->
+        <div id="block-views-latest-news-sidebar-block" class="block block-views">
+          <h2 ><span>Latest news</span></h2>
+          <div class="content">
+            <div class="view view-latest-news-sidebar view-id-latest_news_sidebar view-display-id-block view-dom-id-55b0f3549ff92f2ae70df32f7ebad793">
+              <div class="view-content">
+                <div class="item-list">
+                  <ul>
+                    <li class="">
+                      <h3><a href="news_detail.html">Duis Interdico Te</a></h3>
+                      <h4>Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.</h4>
+                    </li>
+                    <li class="">
+                      <h3><a href="news_detail.html">Caecus Exputo Iustum Quis</a></h3>
+                      <h4>Ludus nostrud os pala tum venio. Diam dolore eros hendrerit inhibeo lobortis metuo quibus quis tego.</h4>
+                    </li>
+                    <li class="">
+                      <h3><a href="news_detail.html">Et Feugiat Quadrum</a></h3>
+                      <h4>Dolor gilvus neque occuro scisco suscipit vereor voco volutpat. Decet gemino ludus premo quidne refero utrum.</h4>
+                    </li>
+                    <li class="">
+                      <h3><a href="news_detail.html">Et Humo Lobortis</a></h3>
+                      <h4>Abluo populus quidem. Abbas te verto. Consectetuer et eu macto premo sino tation.</h4>
+                    </li>
+                    <li class="">
+                      <h3><a href="news_detail.html">Cogo Consequat Nimis Nutus</a></h3>
+                      <h4>
+                        <p>Brevitas huic premo sino tego. Dolore euismod iriure persto vicis. Decet ideo importunus meus.</p>
+                      </h4>
+                    </li>
+                    <li class="">
+                      <h3><a href="news_detail.html">Inhibeo Wisi</a></h3>
+                      <h4>Abdo consequat exerci importunus interdico mos quadrum volutpat. Dignissim ea exerci lenis ludus mauris.</h4>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.block -->
+        <div id="block-block-4" class="block block-block">
+          <h2 ><span>Embed video</span></h2>
+          <div class="content">
+            <div class="media_embed" height="142px" width="100%">
+              <iframe allowfullscreen="" frameborder="0" height="142px" src="http://www.youtube.com/embed/at_f98qOGY0" width="100%"></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- /.block -->
+        <div id="block-comment-recent" class="block block-comment">
+          <h2 ><span>Recent comments</span></h2>
+          <div class="content">
+            <div class="item-list">
+              <ul>
+                <li class="first"><a href="blog_detail.html#comments">Inspiro B - Premium Drupal Theme</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li><a href="blog_detail.html#comments">Mos Oppeto Pertineo</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li><a href="blog_detail.html#comments">Abdo Bene Incassum Pala</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li><a href="blog_detail.html#comments">Immitto Macto Modo Olim</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li><a href="blog_detail.html#comments">Consectetuer Erat Exerci Facilisi</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li><a href="blog_detail.html#comments">Augue Nibh</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li><a href="blog_detail.html#comments">Autem Gilvus Ideo Incassum Qui</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li><a href="blog_detail.html#comments">Autem Quibus</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li><a href="blog_detail.html#comments">Ille Immitto Luctus Scisco</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+                <li class="last"><a href="blog_detail.html#comments">Abluo Enim Tum</a>&nbsp;<span>6 months 4 weeks ago</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /.block --> 
+      </div>
+      <!-- /.region --> 
+    </aside>
+  </div>
+  <footer id="footer-bottom" style="position:relative;">
+    <div id="footer-area" class="clearfix">
+      <div class="region region-footer">
+        <div id="block-block-5" class="block block-block">
+          <h2 ><span>About us</span></h2>
+          <div class="content"> Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.<br />
+            <br />
+            © 2013 Inspiro B. All rights reserved </div>
+        </div>
+        <!-- /.block -->
+        <div id="block-contactinfo-hcard" class="block block-contactinfo">
+          <h2 ><span>Contact us</span></h2>
+          <div class="content">
+            <div id="contactinfo" class="vcard">
+              <div class="adr"> <span class="street-address">443 Park Ave South</span> <span class="locality">News York</span>, <span class="region">United States</span> </div>
+              <div class="phone">
+                <div class="tel"><abbr class="type" title="voice">Telephone:</abbr> 1-234-56-789</div>
+              </div>
+              <a href="mailto:support@inspiro-media.com" class="email">support@inspiro-media.com</a> </div>
+          </div>
+        </div>
+        <!-- /.block -->
+        <div id="block-simplenews-1" class="block block-simplenews">
+          <h2 ><span>Flickr</span></h2>
+          <div class="content">
+            <ul id="cbox" class="thumbs">
+            </ul>
+          </div>
+        </div>
+        <!-- /.block -->  
+      </div>
+      <!-- /.region --> 
+    </div>
+  </footer>
+</div>
+</body>
+</html>

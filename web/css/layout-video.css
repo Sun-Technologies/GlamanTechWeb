@@ -1,0 +1,204 @@
+
+
+
+/* youtube player
+--------------------------------------------------------*/
+
+.mb_YTVPlayer :focus {
+	outline: 0;
+}
+
+.mb_YTVPlayer{
+	display:block;
+}
+
+.mbYTP_wrapper iframe{
+	max-width: 4000px !important;
+}
+
+.inline_YTPlayer{
+	margin-bottom: 20px;
+	vertical-align:top;
+	position:relative;
+	left:0;
+	overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 0 0 5px rgba(0,0,0,.7);
+	background: rgba(0,0,0,.5);
+}
+
+.inline_YTPlayer img{
+	border: none!important;
+	transform: none!important;
+}
+
+/*CONTROL BAR*/
+.mb_YTVPBar{
+	transition: opacity 1s;
+	width:100%;
+	height:10px;
+	padding:0px;
+	position:absolute;
+	top:0;
+	left:0;
+	box-sizing:padding-box;
+	text-align:left;
+	z-index: 1000;
+	font: 14px/16px sans-serif;
+	color:white;
+	opacity:.5;
+}
+
+.mb_YTVPBar:hover{
+	opacity:1;
+}
+
+.mb_YTVPBar .buttonBar{
+	font:12px/14px;
+	position:absolute;
+	top:0px;
+	left:0;
+	padding: 0px;
+	width:100%;
+	box-sizing: border-box;
+	margin-top:10px;
+}
+
+
+.mb_YTVPBar span{
+	display:inline-block;
+	font:16px/20px Calibri, sans-serif;
+	position:relative;
+	width: 22px;
+	height: 25px;
+	vertical-align: middle;
+	float:right;
+}
+.mb_YTVPBar span.mb_YTVPTime {
+    width: 117px;
+    top: 5px;
+	opacity: 0.60;
+}
+
+.mb_YTVPBar span.mb_YTVPUrl,.mb_YTVPBar span.mb_OnlyYT {
+	position: absolute;
+	width: auto;
+	display:block;
+	top:6px;
+	right:20px;
+	cursor: pointer;
+}
+.mb_YTVPBar span.mb_YTVPUrl img{
+	width: 60px;
+}
+
+.mb_YTVPBar span.mb_OnlyYT {
+	left:185px;
+	right: auto;
+}
+.mb_YTVPBar span.mb_OnlyYT img{
+	width: 25px;
+}
+
+.mb_YTVPBar span.mb_YTVPUrl a{
+	color:white;
+}
+
+.mb_YTVPPlaypause,.mb_YTVPlayer .mb_YTVPPlaypause img{
+	cursor:pointer;
+	margin-left: 20px;
+}
+
+.mb_YTVPMuteUnmute{
+	cursor:pointer;
+}
+
+/*PROGRESS BAR*/
+.mb_YTVPProgress{
+	height:5px;
+	width:100%;
+	background:#222;
+	top:0;
+	left:0;
+}
+
+.mb_YTVPLoaded{
+	height:5px;
+	width:0;
+	background:#444;
+	left:0;
+}
+
+.mb_YTVTime{
+	height:5px;
+	width:0;
+	background:#fff;
+	bottom:0;
+	left:0;
+	box-shadow:#666666 1px 1px 3px;
+}
+
+.YTPOverlay{
+  /*box-shadow: inset 0 0 5px rgba(0,0,0,.5);*/
+}
+
+.btn-play {
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+	position: fixed;
+	opacity: 0.4;
+	transition: opacity .35s ease-in-out;
+	-moz-transition: opacity .35s ease-in-out;
+	-webkit-transition: opacity .35s ease-in-out;
+	z-index: 100000;
+	background-image:url('../images/play-video.png');
+	margin-top:8px;
+		right:18px;
+}
+
+.btn-pause {
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+	position: fixed;
+	opacity: 0.4;
+	transition: opacity .35s ease-in-out;
+	-moz-transition: opacity .35s ease-in-out;
+	-webkit-transition: opacity .35s ease-in-out;
+	z-index: 100000;
+	background-image:url('../images/pause-video.png');
+	margin-top:8px;
+	right:18px;
+}
+
+.btn-mute {
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+	position: fixed;
+	opacity: 0.4;
+	transition: opacity .35s ease-in-out;
+	-moz-transition: opacity .35s ease-in-out;
+	-webkit-transition: opacity .35s ease-in-out;
+	z-index: 100000;
+	background-image:url('../images/sound-off.png');
+	margin-top:8px;
+}
+
+.btn-unmute {
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+	position: fixed;
+	opacity: 0.4;
+	transition: opacity .35s ease-in-out;
+	-moz-transition: opacity .35s ease-in-out;
+	-webkit-transition: opacity .35s ease-in-out;
+	z-index: 100000;
+	background-image:url('../images/sound-alt.png');
+	margin-top:8px;
+}
+
+
+	

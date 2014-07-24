@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Inspiro B | Responsive HTML5 Template</title>
+<!-- CSS FILES -->
+<!--Template file default template.css-->
+<link rel="stylesheet" href="css/template.css" type="text/css">
+<!--Color file default none.css-->
+<link rel="stylesheet" href="css/none.css" type="text/css">
+
+<link rel="stylesheet" href="css/menus.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/responsive.css" type="text/css">
+<!-- RTL - Right to left languages OFF (default) if you use css/style-rtl.css your site will be in RTL Mode   -->
+<link rel="stylesheet" href="css/style-rtl-off.css" type="text/css">
+
+<!-- JS FILES -->
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/responsive.js"></script>
+<script type="text/javascript" src="js/uniform.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+<!-- Slideshow background param -->
+<script type="text/javascript">
+var slideshowSpeed = 5000;
+var slideEffect = "fade";
+jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{ 
+			"firstline" : "Modern Premium Theme",
+			"secondline" : "Responsive theme with amazing experience by using on desktops, tablets, phones or any other device!",	
+			"url" :  "",
+			"image" : "images/slide/1.jpg",
+			"link" : "<div class=\"pictured\">VIEW MORE<div>"
+		},{ 
+			"firstline" : "HTML5 &amp; CSS3",
+			"secondline" : "This is the future of the web! HTML5 &amp; CSS3. Fast website with great functionality",	
+			"url" :  "",
+			"image" : "images/slide/2.jpg",
+			"link" : "<div class=\"pictured\">VIEW MORE<div>"
+		},{ 
+			"firstline" : "Multi-Purpose Business Theme",
+			"secondline" : "Inspiro B is loaded with features, and it&#039;s easy to customize and maintain with advanced theme settings",	
+			"url" :  "",
+			"image" : "images/slide/3.jpg",
+			"link" : "<div class=\"pictured\">VIEW MORE<div>"
+		},]});});
+		
+
+</script>
+<script src="js/jquery.vticker.min.js"></script>
+<script>
+  $(function() {
+    $('#vTicker').vTicker();
+  });
+</script>
+<!-- Flicker widget script-->
+<script src="js/jflickrfeed.min.js"></script>
+<script src="js/flickr.js"></script>
+<!-- End of Flicker widget script-->
+</head>
+
+<body class="no-sidebars page-portfolio i18n-en">
+
+<!-- Background slideshow-->
+<div id="headerimgs">
+  <div id="headerimg1" style="z-index:-1" class="headerimg"></div>
+  <div id="headerimg2" style="z-index:1" class="headerimg"></div>
+</div>
+<!-- end .Slideshow --> 
+
+<!-- Slideshow controls -->
+<div class="fade">
+  <div id="control" class="btn"></div>
+</div>
+<div id="back" class="btn-back"></div>
+<div id="next" class="btn-next"></div>
+<div id="fullscreen" class="btnf"></div>
+<!-- end .Slideshow controls -->
+
+<div id="wrap" class="clearfix">
+  <div id="header-wrap">
+    <div id="pre-header" class="clearfix">
+      <div id="logo" class="logo"> 
+        
+        <!-- logo & slogan --> 
+        <a href="#" title="Home"><img src="images/logo.png" alt="Home" /></a> 
+        <!-- end. logo & slogan --> 
+        
+      </div>
+      <div class="features_top_div"> 
+        <!-- features top -->
+        <div class="social_icons">
+          <ul>
+            <li><a href="http://www.facebook.com/facebook" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
+            <li><a href="http://www.twitter.com/twitter" target="_blank" rel="me"><img src="images/twitter.png" alt="Twitter"/></a></li>
+            <li><a href="https://plus.google.com/googleplus" target="_blank" rel="me"><img src="images/googleplus.png" alt="Twitter"/></a></li>
+          </ul>
+        </div>
+        <!-- end .features top -->
+        
+        <div class="region region-header-features">
+          <div id="block-locale-language" class="block block-locale">
+            <div class="content">
+              <ul class="language-switcher-locale-url">
+                <li class="en first active"><a href="#" class="language-link active" lang="en"><img class="language-icon" src="images/flags/en.png" width="16" height="12" alt="English" title="English" /> </a></li>
+                <li class="de"><a href="#" class="language-link" lang="de"><img class="language-icon" src="images/flags/de.png" width="16" height="12" alt="Deutsch" title="Deutsch" /> </a></li>
+                <li class="fr last"><a href="#" class="language-link" lang="fr"><img class="language-icon" src="images/flags/fr.png" width="16" height="12" alt="Français" title="Français" /> </a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.block -->
+          <div id="block-search-form" class="block block-search">
+            <div class="content">
+              <form onsubmit="if(this.search_block_form.value==&#039;Search&#039;){ alert(&#039;Please enter a search&#039;); return false; }" action="#" method="post" id="search-block-form" accept-charset="UTF-8">
+                <div>
+                  <div class="container-inline">
+                    <div class="form-item form-type-textfield form-item-search-block-form">
+                      <input title="Enter the terms you wish to search for." onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="Search" size="16" maxlength="128" class="form-text" />
+                      <input alt="Search" type="image" id="edit-submit" name="submit" src="images/search-button.png" class="form-submit" />
+                    </div>
+                    <input type="hidden" name="form_id" value="search_block_form" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- /.block --> 
+        </div>
+        <!-- /.region --> 
+      </div>
+    </div>
+    <div class="top_line_tb"></div>
+    <header id="header" class="clearfix">
+      <nav id="navigation" role="navigation">
+        <div id="main-menu">
+          <ul class="menu">
+            <li class="first leaf"><a href="index.html" title="Home">Home</a></li>
+            <li class="leaf"><a href="about-us.html" >About us</a></li>
+            <li class="leaf"><a href="portfolio.html" class="active" title="Portfolio">Portfolio</a></li>
+            <li class="leaf"><a href="blog.html" >Blog</a></li>
+            <li class="leaf"><a  href="features.html">Features</a>
+              <ul class="menu">
+                <li class="first leaf active-trail"><a class="active-trail active" href="/InspiroB/aboutus/elements">Elements</a></li>
+                <li class="last expanded"><a title="" href="/InspiroB/">Sub menu</a>
+                  <ul class="menu">
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="leaf"><a href="news.html" title="News &amp; Events">News &amp; Events</a></li>
+            <li class="last leaf"><a href="contact.html" title="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="header-right">
+        <div id="block-views-latest-news-block">
+          <div class="content">
+            <div class="view view-latest-news view-id-latest_news view-display-id-block">
+              <div class="view-content"> 
+                
+                <!-- start scroll -->
+                <div id="vTicker" class='view view-latest_news'>
+                  <ul id='views-ticker-vTicker-list-latest_news'>
+                    <li> <span class='views-vTicker-tick-field'> <a href="news_detail.html">Duis Interdico Te</a> <span class="latest-news-body">Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.</span> Sunday, January 13, 2013 - 09:38</span> </li>
+                    <li> <span class='views-vTicker-tick-field'> <a href="news_detail.html">Duis Interdico Te</a> <span class="latest-news-body">Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.</span> Sunday, January 13, 2013 - 09:38</span> </li>
+                  </ul>
+                </div>
+                <!-- end scroll --> 
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.block --> 
+        </div>
+        <!-- /.region --> 
+      </div>
+    </header>
+  </div>
+  <div class="split_line"></div>
+  <div id="primary" class="container   clearfix">
+    <section id="content" role="main" class="clearfix">
+      <div id="content-wrap">
+        <h1 class="page-title">Portfolio</h1>
+        <div class="region region-content">
+          <div id="block-system-main" class="block block-system">
+            <div class="content">
+              <div class="view view-portfolio view-id-portfolio view-display-id-page view-dom-id-f2bad9baad55058ca5feb1f8db6c045e">
+                <div class="view-content">
+                  <div class="views-view-grid grid-2">
+                    <div class="row-1 row-first">
+                      <div class="gridCol col-1">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Vulputate</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/card14_1.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Your moo minirecords</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="gridCol col-2">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Persto Virtus</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/card18_1.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Your moo minirecords</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-2">
+                      <div class="gridCol col-1">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Pala Persto</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/leaflet07.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Your moo minirecords</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="gridCol col-2">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Ulciscor Vulputate</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/card09_0.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Ta'eed</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-3">
+                      <div class="gridCol col-1">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Nulla Quibus Vereor</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/book07_0.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Ta'eed</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="gridCol col-2">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Vereor</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/moo10.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Ta'eed</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-4">
+                      <div class="gridCol col-1">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Ullamcorper Uxor</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/leaflet08.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Rockcable</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="gridCol col-2">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Secundum Usitas</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/moo05.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Your moo minirecords</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-5 row-last">
+                      <div class="gridCol col-1">
+                        <div class='grid-item'>
+                          <div> <strong><a href="portfolio_detail.html">Abigo Te Ullamcorper</a></strong> </div>
+                          <div> <span class="portfolio-image"><a href="portfolio_detail.html"><img src="http://www.inspiro-media.com/InspiroB/sites/default/files/styles/portfolio_thumbnail/public/card06.jpg" width="270" height="160" alt="" /></a></span> </div>
+                          <div class="portfolio-client"> <span>Client:</span>
+                            <div>Rockcable</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="gridCol col-2"> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.block --> 
+        </div>
+        <!-- /.region --> 
+      </div>
+    </section>
+  </div>
+  <footer id="footer-bottom" style="position:relative;">
+    <div id="footer-area" class="clearfix">
+      <div class="region region-footer">
+        <div id="block-block-5" class="block block-block">
+          <h2 ><span>About us</span></h2>
+          <div class="content"> Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.<br />
+            <br />
+            © 2013 Inspiro B. All rights reserved </div>
+        </div>
+        <!-- /.block -->
+        <div id="block-contactinfo-hcard" class="block block-contactinfo">
+          <h2 ><span>Contact us</span></h2>
+          <div class="content">
+            <div id="contactinfo" class="vcard">
+              <div class="adr"> <span class="street-address">443 Park Ave South</span> <span class="locality">News York</span>, <span class="region">United States</span> </div>
+              <div class="phone">
+                <div class="tel"><abbr class="type" title="voice">Telephone:</abbr> 1-234-56-789</div>
+              </div>
+              <a href="mailto:support@inspiro-media.com" class="email">support@inspiro-media.com</a> </div>
+          </div>
+        </div>
+        <!-- /.block -->
+        <div id="block-simplenews-1" class="block block-simplenews">
+          <h2 ><span>Flickr</span></h2>
+          <div class="content">
+            <ul id="cbox" class="thumbs">
+            </ul>
+          </div>
+        </div>
+        <!-- /.block -->  
+      </div>
+      <!-- /.region --> 
+    </div>
+  </footer>
+</div>
+</body>
+</html>

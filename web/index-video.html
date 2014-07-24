@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Inspiro B | Responsive HTML5 Template</title>
+<!-- CSS FILES -->
+<!--Template file default template.css-->
+<link rel="stylesheet" href="css/template.css" type="text/css">
+<!--Color file default none.css-->
+<link rel="stylesheet" href="css/none.css" type="text/css">
+<link rel="stylesheet" href="css/menus.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/responsive.css" type="text/css">
+<!-- RTL - Right to left languages OFF (default) if you use css/style-rtl.css your site will be in RTL Mode   -->
+<link rel="stylesheet" href="css/style-rtl-off.css" type="text/css">
+
+<!-- JS FILES -->
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/responsive.js"></script>
+<script type="text/javascript" src="js/uniform.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+
+<script src="js/jquery.vticker.min.js"></script>
+<script>
+  $(function() {
+    $('#vTicker').vTicker();
+  });
+</script>
+<!-- Video background script and style-->
+<link rel="stylesheet" type="text/css" href="css/layout-video.css">
+<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+<script type="text/javascript">
+
+        jQuery(function(){
+            jQuery("#bgndVideo").mb_YTPlayer();
+
+        });
+
+    </script>
+<!-- End of Video background script and style-->
+
+<!-- Flicker widget script-->
+<script src="js/jflickrfeed.min.js"></script>
+<script src="js/flickr.js"></script>
+<!-- End of Flicker widget script-->
+</head>
+<body>
+<!-- Background video divs--> 
+
+<a id="bgndVideo" class="player" data-property="{
+videoURL:'http://youtu.be/PRDtRTuMZtM',
+containment:'body',
+quality:'hd720',
+ratio:'16/9',
+startAt:3,
+showControls:true, 
+autoPlay:true, 
+mute:false, 
+startAt:0, 
+opacity:1,
+optimizeDisplay:true
+}"></a>
+<div id="wrap" class="clearfix">
+  <div id="header-wrap">
+    <div id="pre-header" class="clearfix">
+      <div id="logo" class="logo"> 
+        
+        <!-- logo & slogan --> 
+        <a href="#" title="Home"><img src="images/logo.png" alt="Home" /></a> 
+        <!-- end. logo & slogan --> 
+        
+      </div>
+      <div class="features_top_div"> 
+        <!-- features top -->
+        <div class="social_icons">
+          <ul>
+            <li><a href="http://www.facebook.com/facebook" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
+            <li><a href="http://www.twitter.com/twitter" target="_blank" rel="me"><img src="images/twitter.png" alt="Twitter"/></a></li>
+            <li><a href="https://plus.google.com/googleplus" target="_blank" rel="me"><img src="images/googleplus.png" alt="Twitter"/></a></li>
+          </ul>
+        </div>
+        <!-- end .features top -->
+        
+        <div class="region region-header-features">
+          <div id="block-locale-language" class="block block-locale">
+            <div class="content">
+              <ul class="language-switcher-locale-url">
+                <li class="en first active"><a href="#" class="language-link active" lang="en"><img class="language-icon" src="images/flags/en.png" width="16" height="12" alt="English" title="English" /> </a></li>
+                <li class="de"><a href="#" class="language-link" lang="de"><img class="language-icon" src="images/flags/de.png" width="16" height="12" alt="Deutsch" title="Deutsch" /> </a></li>
+                <li class="fr last"><a href="#" class="language-link" lang="fr"><img class="language-icon" src="images/flags/fr.png" width="16" height="12" alt="Français" title="Français" /> </a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.block -->
+          <div id="block-search-form" class="block block-search">
+            <div class="content">
+              <form onsubmit="if(this.search_block_form.value==&#039;Search&#039;){ alert(&#039;Please enter a search&#039;); return false; }" action="#" method="post" id="search-block-form" accept-charset="UTF-8">
+                <div>
+                  <div class="container-inline">
+                    <div class="form-item form-type-textfield form-item-search-block-form">
+                      <input title="Enter the terms you wish to search for." onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="Search" size="16" maxlength="128" class="form-text" />
+                      <input alt="Search" type="image" id="edit-submit" name="submit" src="images/search-button.png" class="form-submit" />
+                    </div>
+                    <input type="hidden" name="form_id" value="search_block_form" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- /.block --> 
+        </div>
+        <!-- /.region --> 
+      </div>
+    </div>
+    <div class="top_line_tb"></div>
+    <header id="header" class="clearfix">
+      <nav id="navigation" role="navigation">
+        <div id="main-menu">
+          <ul class="menu">
+            <li class="first leaf"><a href="index-video.html" title="Home" class="active">Home</a></li>
+            <li class="leaf"><a href="about-us.html">About us</a></li>
+            <li class="leaf"><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+            <li class="leaf"><a href="blog.html">Blog</a></li>
+            <li class="leaf"><a  href="features.html">Features</a>
+              <ul class="menu">
+                <li class="first leaf active-trail"><a class="active-trail active" href="/InspiroB/aboutus/elements">Elements</a></li>
+                <li class="last expanded"><a title="" href="/InspiroB/">Sub menu</a>
+                  <ul class="menu">
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                    <li class="first last leaf"><a title="" href="features.html">Example 1</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="leaf"><a href="news.html" title="News &amp; Events">News &amp; Events</a></li>
+            <li class="last leaf"><a href="contact.html" title="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="header-right">
+        <div id="block-views-latest-news-block">
+          <div class="content">
+            <div class="view view-latest-news view-id-latest_news view-display-id-block">
+              <div class="view-content"> 
+                
+                <!-- start scroll -->
+                <div id="vTicker" class='view view-latest_news'>
+                  <ul id='views-ticker-vTicker-list-latest_news'>
+                    <li> <span class='views-vTicker-tick-field'> <a href="news_detail.html">Duis Interdico Te</a> <span class="latest-news-body">Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.</span> Sunday, January 13, 2013 - 09:38</span> </li>
+                    <li> <span class='views-vTicker-tick-field'> <a href="news_detail.html">Duis Interdico Te</a> <span class="latest-news-body">Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.</span> Sunday, January 13, 2013 - 09:38</span> </li>
+                  </ul>
+                </div>
+                <!-- end scroll --> 
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.block --> 
+        </div>
+        <!-- /.region --> 
+      </div>
+    </header>
+  </div>
+  <footer id="footer-bottom" style="position:absolute;">
+    <div id="footer-area" class="clearfix">
+      <div class="region region-footer">
+        <div id="block-block-5" class="block block-block">
+          <h2 ><span>About us</span></h2>
+          <div class="content"> Duis in jus letalis pagus patria verto. Duis eligo facilisis ideo nostrud paratus ulciscor.<br />
+            <br />
+            © 2013 Inspiro B. All rights reserved</div>
+        </div>
+        <!-- /.block -->
+        <div id="block-contactinfo-hcard" class="block block-contactinfo">
+          <h2 ><span>Contact us</span></h2>
+          <div class="content">
+            <div id="contactinfo" class="vcard">
+              <div class="adr"> <span class="street-address">443 Park Ave South</span> <span class="locality">News York</span>, <span class="region">United States</span> </div>
+              <div class="phone">
+                <div class="tel"><abbr class="type" title="voice">Telephone:</abbr> 1-234-56-789</div>
+              </div>
+              <a href="mailto:support@inspiro-media.com" class="email">support@inspiro-media.com</a> </div>
+          </div>
+        </div>
+        <!-- /.block -->
+        <div id="block-simplenews-1" class="block block-simplenews">
+          <h2 ><span>Flickr</span></h2>
+          <div class="content">
+            <ul id="cbox" class="thumbs">
+            </ul>
+          </div>
+        </div>
+        <!-- /.block --> 
+      </div>
+      <!-- /.region --> 
+    </div>
+  </footer>
+</div>
+</body>
+</html>
