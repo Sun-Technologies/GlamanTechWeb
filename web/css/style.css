@@ -1551,11 +1551,36 @@ ul.inline li {
 
 
 /* custom css is here */
+#logo img {
+	margin-top: -10%;
+}
+#country-location ul li {
+	padding-left: 15px;
+	padding-right: 20px;
+}
+#social-icons ul li {
+	padding-left: 22px;
+}
 .container1 {
 	padding: 20px;
 	background: #fff;
 	margin-bottom: 20%;
 	position: relative;
+}
+.date-style {
+	font-size: 15px;
+	background: #FF9900;
+	padding: 5px;
+	border: 2px solid black;
+	color: #fff;
+}
+.wp-area {
+	margin-bottom: 5%;
+}
+.download-wp {
+	background: blue;
+	padding: 5px;
+	opacity: 0.5;
 }
 @media screen and (max-width: 768px) {
 	.container1 {
