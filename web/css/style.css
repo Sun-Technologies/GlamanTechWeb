@@ -1564,7 +1564,6 @@ ul.inline li {
 .container1 {
 	padding: 20px;
 	background: #fff;
-	margin-bottom: 20%;
 	position: relative;
 }
 .date-style {
@@ -1578,17 +1577,59 @@ ul.inline li {
 	margin-bottom: 5%;
 }
 .download-wp {
-	background: blue;
+	background-color: #CC3333;
+	color: #FFF;
 	padding: 5px;
+}
+.download-wp a {
+	color: #fff;
+}
+.footer-second ul {
+	background: black;
+	width: 99.6%;
+}
+.footer-second ul li h3 {
+	color: #fff;
+}
+.footer-second ul li {
+	display: inline-block;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10%;
+}
+.footer-third {
+	display: inline-block;
+	background: black;
+	width: 100%;
+}
+.footer-third ul {
+	width: 99.6%;
+	background: black;
+}
+.footer-third ul li {
+	display: inline-block;
+	padding: 10px;
+	color: #fff;
+	padding-left: 10%;
+}
+.footer-third ul h3 {
+	color: #fff;
+}
+#footer-blank {
+	background: black;
 	opacity: 0.5;
+	height: 30px;
+	margin-top: 8%;
+	position: relative;
 }
-@media screen and (max-width: 768px) {
-	.container1 {
-		margin-bottom: 30%;
-	}
+/* oracle style */
+.oracle-content {
+	padding: 20px;
+	width: 100%;
+	height: auto; 
 }
-@media screen and (max-width: 480px) {
-	.container1 {
-		margin-bottom: 70%;
-	}
+.oracle-content1 ul li{
+	width: 100%;
+	padding-bottom: 40%;
 }
