@@ -142,13 +142,13 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 <li><a title="Oracle ERP" href="oracle.php">Oracle ERP</a></li>
                 <li><a title="" href="#">Microsoft</a>
                   <ul class="menu">
-                    <li><a title="" href="#">Microsoft SharePoint</a></li>
-                    <li><a title="" href="#">Microsoft Dynamics</a></li>
-                    <li><a title="" href="#">Windows Server</a></li>
-                    <li><a title="" href="#">Microsoft SCOM</a></li>
+                    <li><a title="" href="microsoft-sp.php">Microsoft SharePoint</a></li>
+                    <li><a title="" href="microsoft-dynamics.php">Microsoft Dynamics</a></li>
+                    <li><a title="" href="microsoft-server.php">Windows Server</a></li>
+                    <li><a title="" href="microsoft-scom.php">Microsoft SCOM</a></li>
                   </ul>
                 </li>
-                <li><a title="" href="#">Application Development</a></li>
+                <li><a title="" href="app-dev.php">Application Development</a></li>
                 <li><a title="" href="#">Cloud</a>
                   <ul class="menu">
                     <li><a title="" href="#">Microsoft Cloud</a></li>

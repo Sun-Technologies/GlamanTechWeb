@@ -1565,6 +1565,7 @@ ul.inline li {
 	padding: 20px;
 	background: #fff;
 	position: relative;
+	height: auto;
 }
 .date-style {
 	font-size: 15px;
@@ -1629,7 +1630,6 @@ ul.inline li {
 	width: 100%;
 	height: auto; 
 }
-.oracle-content1 ul li{
-	width: 100%;
-	padding-bottom: 40%;
+.oracle-content li {
+	list-style-type: square;
 }
