@@ -1567,12 +1567,22 @@ ul.inline li {
 	position: relative;
 	height: auto;
 }
-.date-style {
-	font-size: 15px;
-	background: #FF9900;
-	padding: 5px;
-	border: 2px solid black;
-	color: #fff;
+.date-area {
+	background: whitesmoke;
+	height: auto;
+}
+.date-area img {
+	height: 70px;
+	width: 50px;
+}
+.date-head {
+	padding-left: 2%;
+	padding-bottom: 5%;
+	font-size: 20px;
+	color: #FF9900;
+}
+#fcs_div {
+	width: 100%;
 }
 .wp-area {
 	margin-bottom: 5%;
