@@ -1,6 +1,6 @@
 <?php include'header.php'; ?>
   <div class="split_line"></div>
-  <div id="primary" class="container   clearfix">
+  <div id="primary" class="container   clearfix" style="padding-bottom: 22%;">
     <h1 class="page-title">Application Development</h1>
     <hr/>
     <div class="wp-area">

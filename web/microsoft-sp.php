@@ -1,5 +1,5 @@
 <?php include'header.php'; ?>
-  <div id="primary" class="container   clearfix">
+  <div id="side-nav" class="container   clearfix">
     <h1 class="page-title">Microsoft SharePoint</h1>
     <hr/>
     <div class="wp-area">

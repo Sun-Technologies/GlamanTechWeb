@@ -21,6 +21,8 @@
 <script type="text/javascript" src="js/responsive.js"></script>
 <script type="text/javascript" src="js/uniform.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
 <!-- Slideshow background param -->
 <script type="text/javascript">
@@ -123,7 +125,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div id="main-menu">
           <ul class="menu">
             <li><a href="index.php" title="Home" class="active">HOME</a></li>
-            <li><a  href="#">SERVICES</a>
+            <li><a  href="services.php">SERVICES</a>
               <ul class="menu">
                 <li><a title="" href="#">SAP Solutions</a>
                   <ul class="menu">
@@ -140,12 +142,12 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                   </ul>
                 </li>
                 <li><a title="Oracle ERP" href="oracle.php">Oracle ERP</a></li>
-                <li><a title="" href="#">Microsoft</a>
+                <li><a title="" href="microsoft.php">Microsoft</a>
                   <ul class="menu">
-                    <li><a title="" href="microsoft-sp.php">Microsoft SharePoint</a></li>
-                    <li><a title="" href="microsoft-dynamics.php">Microsoft Dynamics</a></li>
-                    <li><a title="" href="microsoft-server.php">Windows Server</a></li>
-                    <li><a title="" href="microsoft-scom.php">Microsoft SCOM</a></li>
+                    <li><a title="" href="#share-point">Microsoft SharePoint</a></li>
+                    <li><a title="" href="#microsoft-dynamics">Microsoft Dynamics</a></li>
+                    <li><a title="" href="#microsoft-server">Windows Server</a></li>
+                    <li><a title="" href="#microsoft-scom">Microsoft SCOM</a></li>
                   </ul>
                 </li>
                 <li><a title="" href="app-dev.php">Application Development</a></li>

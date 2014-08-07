@@ -1618,6 +1618,11 @@ ul.inline li {
 	width: 99.6%;
 	background: black;
 }
+.flags {
+	width: 40px;
+	height: 25px;
+	padding-right: 5%;
+}
 .footer-third ul li {
 	display: inline-block;
 	padding: 10px;
