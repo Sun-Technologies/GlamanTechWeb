@@ -23,19 +23,19 @@
         <ul>
           <li>
             <h3>Visit</h3>
-            <p>500 Terry Francis Street<br>Sn Francisco, CA 94158</p>
+            <p>5525 N MacArthur Blvd,<br>Suite #240 Irving,TX,75038.</p>
           </li>
           <li>
             <h3>Call</h3>
-            <p>+1-123-345-5669<br>+1-123-345-5669</p>
+            <p>Phone No:972-992-0770 Ext100<br>Fax:817-423-6838</p>
           </li>
           <li>
             <h3>Contact</h3>
-            <p>info@glamantech.com<br>hr@glamantech.com</p>
+            <p>Email: hr@glamantech.com<br>Website:www.glamantech.com</p>
           </li>
           <li>
-            <h3>2014 Reserved</h3>
-            <p>2014 By business<br>All Rights Reserved</p>
+            <h3><span>&copy;</span>&nbsp;2012 Glaman Tech</h3>
+            <p>All Rights Reserved<br><a href="#">Terms and conditions</a></p>
           </li>
         </ul>
       </div>

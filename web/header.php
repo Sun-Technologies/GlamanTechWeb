@@ -144,12 +144,13 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 <li><a title="Oracle ERP" href="oracle.php">Oracle ERP</a></li>
                 <li><a title="" href="microsoft.php">Microsoft</a>
                   <ul class="menu">
-                    <li><a title="" href="#share-point">Microsoft SharePoint</a></li>
-                    <li><a title="" href="#microsoft-dynamics">Microsoft Dynamics</a></li>
-                    <li><a title="" href="#microsoft-server">Windows Server</a></li>
-                    <li><a title="" href="#microsoft-scom">Microsoft SCOM</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-sp"><a title="" href="#microsoft-sp">Microsoft SharePoint</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-dynamics"><a title="" href="#microsoft-dynamics">Microsoft Dynamics</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-server"><a title="" href="#microsoft-server">Windows Server</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-scom"><a title="" href="#microsoft-scom">Microsoft SCOM</a></li>
                   </ul>
                 </li>
+                <li><a title="" href="#">Sales Force</a></li>
                 <li><a title="" href="app-dev.php">Application Development</a></li>
                 <li><a title="" href="#">Cloud</a>
                   <ul class="menu">
@@ -173,7 +174,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                   </ul>
                 </li>
                 <li><a title="" href="#">Training and Education</a></li>
-                <li><a title="" href="#">Sales Force</a></li>
+                <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance and Drug Safety Expertise</a></li>
               </ul>
             </li>
             <li><a href="news.html" title="News &amp; Events">JOB SEEKERS</a>

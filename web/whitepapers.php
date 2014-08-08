@@ -7,14 +7,55 @@
     <div class="date-area"><span><img src="images/fourth-nov.png" alt="4th November"></span><span class="date-head">AWS Security</span></div>
     <p>The AWS cloud infrastructure offers secure cloud computing environments with high flexibility, dependability and availability to the customers to build a vast range of applications. It helps in protecting confidentiality, integrity, and availability of our customers’ systems and data.</p>
     <p><span class="download-wp"><a href="http://aws.amazon.com/whitepapers/">Download Whitepaper</a></span></p>
-    <!-- Begin Comments JavaScript Code -->
-    <div class="view-content"> 
-    <p><script type="text/javascript" async>function ajaxpath_53e220c37cd07(url){return window.location.href == '' ? url : url.replace('&s=','&s=' + escape(window.location.href));}
-    (function(){document.write('<div id="fcs_div"><a title="free comment script" href="http://www.freecommentscript.com">&nbsp;&nbsp;<b>Comment Loading......</b>...</a></div>');
-    fcs_53e220c37cd07=document.createElement('script');fcs_53e220c37cd07.type="text/javascript";fcs_53e220c37cd07.src=ajaxpath_53e220c37cd07("http://www.freecommentscript.com/GetComments.php?p=53e220c37cd07&s=&Size=10#!53e220c37cd07");
-    setTimeout("document.getElementById('fcs_div').appendChild(fcs_53e220c37cd07)",1);})();
-    </script></p><!-- End Comments JavaScript Code -->
-    </div>
+       <div id="contact-box">
+                <form id="contact-form" class="clearfix" action="whitepapers.php" method="post">
+                    <div class="form-item form-type-textfield form-item-name">
+                        <label class="required" for="contact_name"><strong>Name:</strong></label>
+                        <input class="valid" type="text" name="name" value="" size="30" maxlength="25">
+                    </div>
+                    <div class="form-item form-type-textarea form-item-message">                      
+                        <label class="required" for="contact_message"><strong>Comment:</strong></label>
+                        <textarea rows="6" cols="30" name="message" maxlength="200"></textarea>
+                    </div>                            
+                     
+                                            <p class="contact-button clearfix">                    
+                                                <input type="submit" name="post" value="Add Comment">
+                                            </p>
+                                            <div class="clear"></div>                       
+                </form>
+                <div id="response"></div>
+                <div class="comment-box">
+                <?php
+                $name = $_POST["name"];
+                $text = $_POST["message"];
+                $date = date('h:i:s, Y');
+                $post = $_POST["post"];
+                if($post) {
+                    #WRITE DOWN COMMENTS#
+                    $write = fopen("com.txt", "a+");
+                    fwrite($write, "<h3><b><img src='images/default-user-image.png' alt='comment image' style='width:50px; height: 50px; padding-right: 15px;'>$name</b><b style='float: right; font-size: 15px; padding-top: 35px;'>$date</b></h3>$text<br>");
+                    fclose($write);
+
+                    #DISPLAY COMMENTS#
+                    $read = fopen("com.txt", "r+t");
+                    echo "<h3>All Comments:</h3><hr>";
+                    while(!feof($read)) {
+                    echo fread($read, 1024);
+                }
+                    fclose($read);
+                }
+                else {
+                    #DISPLAY COMMENTS#
+                    $read = fopen("com.txt", "r+t");
+                    echo "All Comments:<br>";
+                    while(!feof($read)) {
+                    echo fread($read, 1024);
+                }
+                fclose($read);
+                }
+                ?>
+            </div>
+        </div><!--contact-box-->
     </div>
     <div class="wp-area">
     <div class="date-area"><span><img src="images/12-jul.png" alt="4th November"></span><span class="date-head">SAP HANA</span></div>

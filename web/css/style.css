@@ -1607,7 +1607,7 @@ ul.inline li {
 	color: #fff;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 10%;
+	padding-left: 6%;
 }
 .footer-third {
 	display: inline-block;
@@ -1627,7 +1627,7 @@ ul.inline li {
 	display: inline-block;
 	padding: 10px;
 	color: #fff;
-	padding-left: 10%;
+	padding-left: 6%;
 }
 .footer-third ul h3 {
 	color: #fff;
@@ -1647,4 +1647,13 @@ ul.inline li {
 }
 .oracle-content li {
 	list-style-type: square;
+}
+/* white paers style is here */
+.comment-box {
+	background: whitesmoke;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	color: #FF9900;
+	font-size: 15px;
 }
