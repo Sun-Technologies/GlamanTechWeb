@@ -152,20 +152,20 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 </li>
                 <li><a title="" href="#">Sales Force</a></li>
                 <li><a title="" href="app-dev.php">Application Development</a></li>
-                <li><a title="" href="#">Cloud</a>
+                <li><a title="" href="cloud.php">Cloud</a>
                   <ul class="menu">
-                    <li><a title="" href="#">Microsoft Cloud</a></li>
-                    <li><a title="" href="#">SAP Cloud</a></li>
-                    <li><a title="" href="#">Amazon (AWS) Cloud Services</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-cloud"><a title="" href="#microsoft-sp">Microsoft Cloud</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-sp"><a title="" href="#sap-cloud">SAP Cloud</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-sp"><a title="" href="#amazon-cloud">Amazon (AWS) Cloud Services</a></li>
                   </ul>
                 </li>
                 <li><a title="" href="#">Mobility</a>
                   <ul class="menu">
-                    <li><a title="" href="#">SAP</a></li>
+                    <li><a title="" href="sap.php">SAP</a></li>
                   </ul>
                 </li>
-                <li><a title="" href="#">Disaster recovery and Offsite Data center</a></li>
-                <li><a title="" href="#">Staffing Services</a>
+                <li><a title="" href="disaster-recovery.php">Disaster recovery and Offsite Data center</a></li>
+                <li><a title="" href="staffing.php">Staffing Services</a>
                   <ul class="menu">
                     <li><a title="" href="#">Direct Hire</a></li>
                     <li><a title="" href="#">Contract Services</a></li>
@@ -173,7 +173,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="#">Expert Search</a></li>
                   </ul>
                 </li>
-                <li><a title="" href="#">Training and Education</a></li>
+                <li><a title="" href="training-and-education.php">Training and Education</a></li>
                 <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance and Drug Safety Expertise</a></li>
               </ul>
             </li>
