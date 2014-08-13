@@ -129,7 +129,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
               <ul class="menu">
                 <li><a title="" href="#">SAP Solutions</a>
                   <ul class="menu">
-                    <li><a title="" href="#">SAP OS/DB Migration</a></li>
+                    <li><a title="" href="#">SAP Implementation and Migration </a></li>
                     <li><a title="" href="#">SAP ERP and Netweaver Implementation</a></li>
                     <li><a title="" href="#">SAP Customer Relationship Management</a></li>
                     <li><a title="" href="#">SAP Supplier Relationship Management</a></li>
