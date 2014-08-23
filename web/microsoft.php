@@ -1,6 +1,6 @@
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix">
-    <div id="microsoft-sp">
+    <div id="microsoft.php#microsoft-sp">
       <h1 id="side-nav" class="page-title navbar-example">Microsoft SharePoint</h1>
        <hr/>
       <div class="wp-area">
@@ -17,8 +17,8 @@
         <p>Regardless of the location of users, SharePoint facilitates efficient management of enterprise knowledge.</p>
       </div>
     </div>
-    <div id="microsoft-dynamics">
-      <h1 class="page-title">Microsoft Dynamics</h1>
+    <div id="microsoft.php#microsoft-dynamics">
+      <h1>Microsoft Dynamics</h1>
       <hr/>
      <div class="wp-area">
       <h3>It provides business value to your organization in a single ERP solution, to help you:</h3>
@@ -33,8 +33,8 @@
       </ul>
       </div>
     </div>
-    <div id="microsoft-server">
-      <h1 class="page-title">Windows Server</h1>
+    <div id="microsoft.php#microsoft-server">
+      <h1>Windows Server</h1>
       <hr/>
       <div class="wp-area">
        <p>Windows Server offers enhanced virtualization, management, storage, networking, virtual desktop infrastructure, access protection, application platform, and many more features. </p>
@@ -51,8 +51,8 @@
       </ul>
     </div>
     </div>
-    <div id="microsoft-scom">
-    <h1 class="page-title">Windows SCOM</h1>
+    <div id="microsoft.php#microsoft-scom">
+    <h1>Windows SCOM</h1>
     <hr/>
     <div class="wp-area">
       <p>Microsoft System Center 2012 enables easy management and monitoring performance of everything from mobile devices to the datacentre in Microsoft Windows environment.</p>

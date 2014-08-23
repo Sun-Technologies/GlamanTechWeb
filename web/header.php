@@ -99,7 +99,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div class="social_icons" id="social-icons">
           <ul>
             <li><a href="http://www.facebook.com/facebook" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
-            <li><a href="http://www.twitter.com/twitter" target="_blank" rel="me"><img src="images/twitter.png" alt="Twitter"/></a></li>
+            <li><a href="http://www.twitter.com/twitter" target="_blank" rel="me"><img src="images/in.png" alt="Twitter"/></a></li>
             <li><a href="https://plus.google.com/googleplus" target="_blank" rel="me"><img src="images/googleplus.png" alt="Twitter"/></a></li>
           </ul>
         </div>
@@ -125,11 +125,11 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div id="main-menu">
           <ul class="menu">
             <li><a href="index.php" title="Home" class="active">HOME</a></li>
-            <li><a  href="services.php">SERVICES</a>
+            <li><a  href="#">SERVICES</a>
               <ul class="menu">
                 <li><a title="" href="#">SAP Solutions</a>
                   <ul class="menu">
-                    <li><a title="" href="#">SAP Implementation and Migration </a></li>
+                    <li><a title="" href="sap-implementation-migration.php">SAP Implementation and Migration </a></li>
                     <li><a title="" href="#">SAP ERP and Netweaver Implementation</a></li>
                     <li><a title="" href="#">SAP Customer Relationship Management</a></li>
                     <li><a title="" href="#">SAP Supplier Relationship Management</a></li>
@@ -144,10 +144,10 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 <li><a title="Oracle ERP" href="oracle.php">Oracle ERP</a></li>
                 <li><a title="" href="microsoft.php">Microsoft</a>
                   <ul class="menu">
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-sp"><a title="" href="#microsoft-sp">Microsoft SharePoint</a></li>
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-dynamics"><a title="" href="#microsoft-dynamics">Microsoft Dynamics</a></li>
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-server"><a title="" href="#microsoft-server">Windows Server</a></li>
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-scom"><a title="" href="#microsoft-scom">Microsoft SCOM</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-sp"><a title="" href="microsoft.php#microsoft-sp">Microsoft SharePoint</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-dynamics"><a title="" href="microsoft.php#microsoft-dynamics">Microsoft Dynamics</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-server"><a title="" href="microsoft.php#microsoft-server">Windows Server</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-scom"><a title="" href="microsoft.php#microsoft-scom">Microsoft SCOM</a></li>
                   </ul>
                 </li>
                 <li><a title="" href="#">Sales Force</a></li>
@@ -190,7 +190,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="#">Submit a job order</a></li>
                     <li><a title="" href="#">Get Quote</a></li>
                     <li><a title="" href="#">Recruiting Methodology</a></li>
-                    <li><a title="" href="#">Our Clients</a></li>
+                    <li><a title="" href="our-clients.php">Our Clients</a></li>
                     <li><a title="" href="#">Submit Feedback</a></li>
               </ul>
             </li>

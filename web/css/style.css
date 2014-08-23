@@ -1657,3 +1657,8 @@ ul.inline li {
 	color: #FF9900;
 	font-size: 15px;
 }
+/* Our Clients is here */
+#block-adjust li {
+	display: inline-block;
+	padding: 1%;
+}

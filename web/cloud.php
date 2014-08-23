@@ -19,10 +19,10 @@
                         </ul>
         </div>
     <div class="content">
-            <img src="images/cloud-computing.png" alt="Cloud Computing" style="width: 100%;">
+            <img src="images/cloud-computing.png" alt="Cloud Computing">
     </diV>
     <div id="microsoft-cloud">
-      <h1 id="side-nav" class="page-title navbar-example">Microsoft Cloud</h1>
+      <h1 id="side-nav" class="navbar-example">Microsoft Cloud</h1>
        <hr/>
       <div class="wp-area">
         <p>Microsoft's cloud services helps you in gaining better business agility and user experiences. It offers fully managed environment, controlled economic model, including the infrastructure and system and device management.</p>
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div id="sap-cloud">
-      <h1 id="side-nav" class="page-title navbar-example">SAP Cloud</h1>
+      <h1 id="side-nav" class="navbar-example">SAP Cloud</h1>
        <hr/>
       <div class="wp-area">
         <p>Get the best service with SAP HANA Enterprise Cloud. A fully managed, subscription based Cloud service which can help you deploy, maintain, integrate, and extend SAP in-memory apps in a private cloud environment.</p>
@@ -53,7 +53,7 @@
       </div>
     </div>
     <div id="amazon-cloud">
-      <h1 id="side-nav" class="page-title navbar-example">Amazon (AWS) Cloud Services</h1>
+      <h1 id="side-nav" class="navbar-example">Amazon (AWS) Cloud Services</h1>
        <hr/>
       <div class="wp-area">
         <p>AWS, a Cloud computing platform provided by Amazon.com also provides a highly scalable, cost-effective infrastructure platform in the Cloud that powers hundreds of thousands of businesses.</p>
