@@ -18,12 +18,7 @@ nav#navigation div#main-menu ul.menu li ul.menu li a {
 /* Inspiro B Navigation */
 
 #navigation { position: relative; display:block; height:80px; width: 100%;}
-
-
-#navigation #main-menu ul a:active {
-    
-}
-
+#menu li #menu li 
 
 /*hide responsive navigation*/
 
@@ -46,7 +41,7 @@ nav#navigation div#main-menu ul.menu li ul.menu li a {
 #main-menu > ul ul {position: absolute; top: -999em; width: 180px;}
 
 
-#main-menu > ul ul li {width: 220px;}
+#main-menu > ul ul li {width: 280px;}
 
 
 #main-menu > ul li:hover {visibility: inherit;}

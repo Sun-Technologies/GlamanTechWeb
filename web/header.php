@@ -128,7 +128,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
             <li><a  href="#">SERVICES</a>
               <ul class="menu">
                 <li><a title="" href="#">SAP Solutions</a>
-                  <ul class="menu">
+                  <ul>
                     <li><a title="" href="sap-implementation-migration.php">SAP Implementation and Migration </a></li>
                     <li><a title="" href="#">SAP ERP and Netweaver Implementation</a></li>
                     <li><a title="" href="#">SAP Customer Relationship Management</a></li>

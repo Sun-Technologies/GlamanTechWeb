@@ -60,20 +60,20 @@
     <div class="wp-area">
     <div class="date-area"><span><img src="images/12-jul.png" alt="4th November"></span><span class="date-head">SAP HANA</span></div>
     <p>High-Performance Analytic Appliance (HANA) is an application that uses in-memory database technology combining transactional and analytical data processing with application logic processing. It helps in processing high volume of data in real-time.</p>
-    <p>To learn more about the benefits of SAP HANA download</p>
+    <p>To learn more about the benefits of SAP HANA download this whitepaper</p>
     <p><span class="download-wp"><a href="http://www.saphana.com/docs/DOC-1381">Download Whitepaper</a></span></p>
     </div>
     <div class="wp-area">
     <div class="date-area"><span><img src="images/10-apr.png" alt="4th November"></span><span class="date-head">Bring Your Own Device (BYOD) Unleashed in the Age of IT Consumerization (White Paper)</span></div>
     <p>Today, employees bring their mobile devices and use them to access privileged company information and applications. It becomes difficult for IT department to understand what device is accessing their network.</p>
-    <p>For more info download this whitepaper</p>
+    <p>For more information download this whitepaper</p>
     <p><span class="download-wp"><a href="http://resources.idgenterprise.com/original/AST-0055442_BradfordWP0103_2_.pdf">Download Whitepaper</a></span></p>
     </div>
     <div class="wp-area">
     <div class="date-area"><span><img src="images/9th-july.png" alt="4th November"></span><span class="date-head">SAP Management with LVM &amp; VMware on IBM PureSystems</span></div>
     <p>IBM PureSystems can help clients to manage the complexity of SAP landscape, and to reduce application workloads.</p>
     <p>SAP NetWeaver Landscape Virtualization Management provides Virtualization, Storage, and Management/Orchestration (“External Interfaces”) to SAP partner technologies.</p>
-    <p>For more download whitepaper</p> 
+    <p>For more information download this whitepaper</p> 
     <p><span class="download-wp"><a href="http://www-03.ibm.com/support/techdocs/atsmastr.nsf/fe582a1e48331b5585256de50062ae1c/cfa66a29871a2e6c86257a410060dc67/$FILE/Virtualization%20for%20SAP%20on%20IBM%20PureSystems%20with%20Microsoft%20Hyper-V.pdf">Download Whitepaper</a></span></p>
     </div>
     <div class="wp-area">
