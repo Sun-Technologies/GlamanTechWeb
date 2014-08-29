@@ -1648,6 +1648,9 @@ ul.inline li {
 .oracle-content li {
 	list-style-type: square;
 }
+.oracle-content1 li {
+	padding-top: 20px;
+}
 /* white paers style is here */
 .comment-box {
 	background: whitesmoke;

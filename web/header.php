@@ -127,18 +127,18 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
             <li><a href="index.php" title="Home" class="active">HOME</a></li>
             <li><a  href="#">SERVICES</a>
               <ul class="menu">
-                <li><a title="" href="sap-solutions.php">SAP Solutions</a>
+                <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
                   <ul>
-                    <li><a title="" href="sap-implementation-migration.php">SAP Implementation and Migration </a></li>
-                    <li><a title="" href="#">SAP ERP and Netweaver Implementation</a></li>
-                    <li><a title="" href="#">SAP Customer Relationship Management</a></li>
-                    <li><a title="" href="#">SAP Supplier Relationship Management</a></li>
-                    <li><a title="" href="#">SAP Supply Chain Management</a></li>
-                    <li><a title="" href="#">SAP Solution Manager with CHaRM</a></li>
+                    <li><a title="SAP Implementation and Migration" href="sap-implementation-migration.php">SAP Implementation and Migration</a></li>
+                    <li><a title="SAP ERP and Netweaver Implementation" href="sap-erp.php">SAP ERP and Netweaver Implementation</a></li>
+                    <li><a title="SAP Customer Relationship Management" href="sap-crm.php">SAP Customer Relationship Management</a></li>
+                    <li><a title="SAP Supplier Relationship Management" href="sap-srm.php">SAP Supplier Relationship Management</a></li>
+                    <li><a title="SAP Supply Chain Management" href="sap-scm.php">SAP Supply Chain Management</a></li>
+                    <li><a title="SAP Solution Manager with CHaRM" href="sap-solution-manager.php">SAP Solution Manager with CHaRM</a></li>
                     <li><a title="" href="#">SAP Mobility</a></li>
-                    <li><a title="" href="#">SAP HANA</a></li>
-                    <li><a title="" href="#">SAP AMS</a></li>
-                    <li><a title="" href="#">SAP Rapid Deployment Solutions</a></li>
+                    <li><a title="SAP HANA" href="sap-hana.php">SAP HANA</a></li>
+                    <li><a title="SAP AMS" href="sap-ams.php">SAP AMS</a></li>
+                    <li><a title="SAP Rapid Deployment Solutions" href="sap-rds.php">SAP Rapid Deployment Solutions</a></li>
                   </ul>
                 </li>
                 <li><a title="Oracle ERP" href="oracle.php">Oracle ERP</a></li>
@@ -150,7 +150,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-scom"><a title="" href="microsoft.php#microsoft-scom">Microsoft SCOM</a></li>
                   </ul>
                 </li>
-                <li><a title="" href="#">Sales Force</a></li>
+                <li><a title="Sales Force" href="sales-force.php">Sales Force</a></li>
                 <li><a title="" href="app-dev.php">Application Development</a></li>
                 <li><a title="" href="cloud.php">Cloud</a>
                   <ul class="menu">
@@ -189,8 +189,8 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
               <ul class="menu">
                     <li><a title="" href="#">Submit a job order</a></li>
                     <li><a title="" href="#">Get Quote</a></li>
-                    <li><a title="" href="#">Recruiting Methodology</a></li>
-                    <li><a title="" href="our-clients.php">Our Clients</a></li>
+                    <li><a title="Recruiting Methodology" href="recruit-methodology.php">Recruiting Methodology</a></li>
+                    <li><a title="Our Clients" href="our-clients.php">Our Clients</a></li>
                     <li><a title="" href="#">Submit Feedback</a></li>
               </ul>
             </li>
