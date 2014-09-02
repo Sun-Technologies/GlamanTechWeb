@@ -1,5 +1,5 @@
 <?php include'header.php'; ?>
-  <div id="primary" class="container   clearfix" style="padding-bottom: 7%;">
+  <div id="primary" class="container clearfix" style="padding-bottom: 7%;">
     <h1 id="side-nav">SAP HANA</h1>
        <hr/>
       <div class="wp-area">
@@ -16,7 +16,7 @@
           <li>Real time replication service at faster rate.</li>
           <li>Unified information modelling and design environment.</li>
         </ul>
-        <h3>What We Do?</h3><br>
+        <h3>What We Do?</h3>
         <ul class="oracle-content1">
           <li>1.  SAP HANA Installation and Administration</li>
           <li>2.  SAP HANA implementation</li>
