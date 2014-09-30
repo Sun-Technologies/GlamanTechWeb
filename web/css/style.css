@@ -1619,9 +1619,10 @@ ul.inline li {
 	background: black;
 }
 .flags {
-	width: 40px;
+	width: 25px;
 	height: 25px;
 	padding-right: 5%;
+	padding-top: 1%;
 }
 .footer-third ul li {
 	display: inline-block;
