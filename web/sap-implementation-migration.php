@@ -20,6 +20,7 @@
           <li>Data Archiving</li>
           <li>Infrastructure Management</li>
         </ul>
+        <img src="images/sap-impl-migration.png" alt="SAP Implementation and Migration" style="width: 80%; height: auto; margin-left: 10%;">
       </div>
     </div>
   <?php include'footer1.php'; ?>

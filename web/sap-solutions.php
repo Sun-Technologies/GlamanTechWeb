@@ -15,7 +15,7 @@
           <li>Data Center ready SAP HANA</li>
           <li>SAP IS-U Center of Excellence</li>
         </ul>
-        <img src="images/sap-solutions.png" alt="SAP Solutions Image" style="width: 100%; height: 500px;">
+        <img src="images/sap-solutions.png" alt="SAP Solutions Image" style="width: 60%; height: auto; padding-left: 20%;">
       </div>
     </div>
   <?php include'footer1.php'; ?>

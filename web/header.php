@@ -21,7 +21,6 @@
 <script type="text/javascript" src="js/responsive.js"></script>
 <script type="text/javascript" src="js/uniform.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
 <!-- Slideshow background param -->
