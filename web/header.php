@@ -128,8 +128,8 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
               <ul class="menu">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
                   <ul>
-                    <li><a title="SAP Implementation and Migration" href="sap-implementation-migration.php">SAP Implementation and Migration</a></li>
-                    <li><a title="SAP ERP and Netweaver Implementation" href="sap-erp.php">SAP ERP and Netweaver Implementation</a></li>
+                    <li><a title="SAP Implementation and Migration" href="sap-implementation-migration.php">SAP Implementation &amp; Migration</a></li>
+                    <li><a title="SAP ERP and Netweaver Implementation" href="sap-erp.php">SAP ERP &amp; Netweaver Implementation</a></li>
                     <li><a title="SAP Customer Relationship Management" href="sap-crm.php">SAP Customer Relationship Management</a></li>
                     <li><a title="SAP Supplier Relationship Management" href="sap-srm.php">SAP Supplier Relationship Management</a></li>
                     <li><a title="SAP Supply Chain Management" href="sap-scm.php">SAP Supply Chain Management</a></li>
@@ -163,7 +163,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="sap.php">SAP</a></li>
                   </ul>
                 </li>
-                <li><a title="" href="disaster-recovery.php">Disaster recovery and Offsite Data center</a></li>
+                <li><a title="" href="disaster-recovery.php">Data recovery &amp; Offsite Data center</a></li>
                 <li><a title="" href="staffing.php">Staffing Services</a>
                   <ul class="menu">
                     <li><a title="" href="#">Direct Hire</a></li>
@@ -172,8 +172,8 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="#">Expert Search</a></li>
                   </ul>
                 </li>
-                <li><a title="" href="training-and-education.php">Training and Education</a></li>
-                <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance and Drug Safety Expertise</a></li>
+                <li><a title="" href="training-and-education.php">Training &amp; Education</a></li>
+                <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance &amp; Drug Safety Expertise</a></li>
               </ul>
             </li>
             <li><a href="news.html" title="News &amp; Events">JOB SEEKERS</a>

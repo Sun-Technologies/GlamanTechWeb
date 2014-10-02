@@ -1,5 +1,5 @@
 <?php include'header.php'; ?>
-  <div id="primary" class="container clearfix" style="padding-bottom: 15%;">
+  <div id="primary" class="container clearfix">
     <section id="content" role="main" class="clearfix">
       <div id="content-wrap">
         <h1 class="page-title">Our Services</h1>
@@ -66,5 +66,6 @@
       </div>
       <!-- /.region --> 
     </aside>
+    <img src="images/oracle-erp.png" alt="Oracle ERP" style="width: 80%; margin-left: 10%;">
   </div>
   <?php include'footer1.php'; ?>

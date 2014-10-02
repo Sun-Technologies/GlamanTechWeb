@@ -39,5 +39,6 @@
           <li>Add non-SAP data from external source</li>
         </ul>
       </div>
+      <img src="images/sap-erp.png" alt="SAP ERP" style="width: 70%; margin-left: 15%;">
     </div>
   <?php include'footer1.php'; ?>

@@ -30,5 +30,6 @@
           <li>Reliable and sustainable operations</li>
         </ul>
       </div>
+      <img src="images/sap-scm.png" alt="SAP SCM" style="width: 80%; margin-left: 10%;">
     </div>
   <?php include'footer1.php'; ?>

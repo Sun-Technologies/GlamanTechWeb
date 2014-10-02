@@ -1,6 +1,6 @@
 <?php include'header.php'; ?>
   <div class="split_line"></div>
-  <div id="primary" class="container   clearfix" style="padding-bottom: 18%;">
+  <div id="primary" class="container   clearfix" style="padding-bottom: 5%;">
     <h1 class="page-title">Pharmacovigilance and Drug Safety Expertise</h1>
     <hr/>
     <div class="wp-area">
@@ -19,5 +19,6 @@
       <li>Compliance measurement</li>
       <li>Regulatory intelligence</li>
     </ul>
+    <img src="images/drug-safety.png" alt="Pharmacovigilance and Drug Safety Expertise" style="width: 80%; height: auto; margin-left: 10%;">
     </div>
   <?php include'footer1.php'; ?>
