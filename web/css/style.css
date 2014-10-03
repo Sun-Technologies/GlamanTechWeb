@@ -1666,3 +1666,145 @@ ul.inline li {
 	display: inline-block;
 	padding: 1%;
 }
+/* Dropdown for Job Search */
+.dropdown dd, .dropdown dt, .dropdown ul {
+  margin: 0px;
+  padding: 0px;
+}
+.dropdown dd {
+  position: relative;
+}
+.dropdown dt a {
+  background: #FFFFFF url('http://i.imgur.com/hRbauFc.png') no-repeat scroll right center;
+  display: block;
+  padding: 0;
+  border: 1px solid #A6AFB7;
+  border-radius: 3px;
+  width: 170px;
+  text-decoration: none;
+  color: #3C434A;
+}
+.dropdown dt a span {
+  cursor: pointer;
+  display: block;
+  padding: 7px 14px;
+}
+.dropdown dd ul {
+  background: #EEF0F3 none repeat scroll 0 0;
+  border: 1px solid #A6AFB7;
+  border-radius: 0 0 3px 3px;
+  display: none;
+  list-style: none;
+  padding: 5px 0px;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  width: 170px;
+  min-width: 170px;
+}
+.dropdown span.value {
+  display: none;
+}
+.dropdown dd ul li a {
+  padding: 5px 14px;
+  display: block;
+  text-decoration: none;
+  color: #3C434A;
+}
+.dropdown dd ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.dropdown dt a:hover, .dropdown dt a:active {
+  border-color: #85929D;
+}
+
+.dropdownsec dd, .dropdownsec dt, .dropdownsec ul {
+  margin: 0px;
+  padding: 0px;
+}
+.dropdownsec dd {
+  position: relative;
+}
+.dropdownsec dt a {
+  background: #FFFFFF url('http://i.imgur.com/hRbauFc.png') no-repeat scroll right center;
+  display: block;
+  padding: 0;
+  border: 1px solid #A6AFB7;
+  border-radius: 3px;
+  width: 170px;
+  text-decoration: none;
+  color: #3C434A;
+}
+.dropdownsec dt a span {
+  cursor: pointer;
+  display: block;
+  padding: 7px 14px;
+}
+.dropdownsec dd ul {
+  background: #EEF0F3 none repeat scroll 0 0;
+  border: 1px solid #A6AFB7;
+  border-radius: 0 0 3px 3px;
+  display: none;
+  list-style: none;
+  padding: 5px 0px;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  width: 170px;
+  min-width: 170px;
+}
+.dropdownsec span.value {
+  display: none;
+}
+.dropdownsec dd ul li a {
+  padding: 5px 14px;
+  display: block;
+  text-decoration: none;
+  color: #3C434A;
+}
+.dropdownsec dd ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.dropdownsec dt a:hover, .dropdownsec dt a:active {
+  border-color: #85929D;
+}
+.dropdown-area {
+	padding-left: 10%;
+}
+.dropdown-area  .submenu-dropdown {
+	display: inline-block;
+}
+#text-input {
+  padding: 9px 14px;
+  border: 1px solid #A6AFB7;
+  color: #3C434A;
+  border-radius: 3px;
+}
+#text-input:hover {
+  color: #000;
+}
+#submit-input {
+  padding: 9px 14px;
+  border: 1px solid #A6AFB7;
+  color: #3C434A;
+  border-radius: 3px;
+}
+#submit-input:hover {
+  color: #000;
+  background: #fff;
+}
+.drop-head {
+	font-weight: bold;
+}
+.submenu-dropdown {
+	padding-left: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+	.dropdown-area {
+	padding-left: 0%;
+	}
+}

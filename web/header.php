@@ -176,9 +176,9 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance &amp; Drug Safety Expertise</a></li>
               </ul>
             </li>
-            <li><a href="news.html" title="News &amp; Events">JOB SEEKERS</a>
+            <li><a href="#" title="Job Seekers">JOB SEEKERS</a>
               <ul class="menu">
-                    <li><a title="" href="#">Search Jobs</a></li>
+                    <li><a title="Search Jobs" href="search-job.php">Search Jobs</a></li>
                     <li><a title="" href="#">Submit a Resume</a></li>
                     <li><a title="" href="#">Contact a Recruiter</a></li>
                     <li><a title="Benefits" href="benefits.php">Benefits</a></li>
