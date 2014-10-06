@@ -1801,7 +1801,20 @@ ul.inline li {
 .submenu-dropdown {
 	padding-left: 20px;
 }
-
+.table-style td {
+	text-align: center;
+	width: 25%;
+	padding: 10px;
+}
+.table-style {
+	padding-bottom: 10%;
+}
+#apply-button {
+	background: #FF9900;
+	padding: 15px;
+	color: #000;
+	border: 2px;
+}
 
 @media screen and (max-width: 480px) {
 	.dropdown-area {

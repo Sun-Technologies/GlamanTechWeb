@@ -4,6 +4,7 @@
     <h1 class="page-title">Apply For Job</h1>
     <hr/>
     <div class="wp-area">
+    	<form method="post" action="job-list.php">
     	<ul class="dropdown-area">
     	<li class="submenu-dropdown">
     		<span class="drop-head">Keyword</span><br>
@@ -48,6 +49,7 @@
 			<input type="submit" value="Go" id="submit-input">
 		</li>
 		</ul>
+		</form>
     </div>
   </div>
   <?php include'footer1.php'; ?>
