@@ -30,7 +30,7 @@
           <li>Improvement in Financial Management</li>
           <li>Adopt the latest technology and software innovations without disruption.</li>
           <li>Real-time business insight</li>
-          <li>improved visibility of data</li>
+          <li>Improved visibility of data</li>
           <li>Effective resource utilization</li>
           <li>Enhanced financial management and reporting</li>
           <li>Benefits on ROI</li>
