@@ -16,13 +16,14 @@
 			<dt><a class="dark"><span>Select All</span></a></dt>
 			<dd>
 				<ul class="dark">
-					<li><a>Software</a></li>
-					<li><a>Gaming</a></li>
-					<li><a>Civil</a></li>
-					<li><a>Testing</a></li>
-					<li><a>IT Support</a></li>
-					<li><a>Electrical</a></li>
-					<li><a>Mechanical</a></li>
+					<li><a>Accounting &amp; Financial</a></li>
+					<li><a>Distribution</a></li>
+					<li><a>Engineering</a></li>
+					<li><a>Healthcare</a></li>
+					<li><a>Information Technology</a></li>
+					<li><a>Manufacturing</a></li>
+					<li><a>Retail Supermarket</a></li>
+					<li><a>Manufacturing</a></li>
 				</ul>
 			</dd>
 			</dl>
@@ -32,12 +33,65 @@
     		<dl class="dropdownsec">
 			<dt><a class="dark"><span>Select All</span></a></dt>
 			<dd>
-				<ul class="dark">
-					<li><a>San Jose</a></li>
-					<li><a>Redwood City</a></li>
-					<li><a>Malvern</a></li>
-					<li><a>Webster Groves</a></li>
-					<li><a>Fort Wayne</a></li>
+				<ul class="dark" style="height: 200px; overflow: scroll;">
+					<li><a>Alabama</a></li>
+					<li><a>Alaska</a></li>
+					<li><a>Alberta</a></li>
+					<li><a>Arizona</a></li>
+					<li><a>Arkansas</a></li>
+					<li><a>British Columbia</a></li>
+					<li><a>California</a></li>
+					<li><a>Colorado</a></li>
+					<li><a>Connecticut</a></li>
+					<li><a>Delaware</a></li>
+					<li><a>District of Columbia</a></li>
+					<li><a>Florida</a></li>
+					<li><a>Georgia</a></li>
+					<li><a>Hawaii</a></li>
+					<li><a>Idaho</a></li>
+					<li><a>Illinois</a></li>
+					<li><a>Indiana</a></li>
+					<li><a>International</a></li>
+					<li><a>Iowa</a></li>
+					<li><a>Kansas</a></li>
+					<li><a>Kentucky</a></li>
+					<li><a>Louisiana</a></li>
+					<li><a>Maine</a></li>
+					<li><a>Maryland</a></li>
+					<li><a>Massachusetts</a></li>
+					<li><a>Michigan</a></li>
+					<li><a>Minnesota</a></li>
+					<li><a>Mississippi</a></li>
+					<li><a>Missouri</a></li>
+					<li><a>Montana</a></li>
+					<li><a>Nebraska</a></li>
+					<li><a>Nevada</a></li>
+					<li><a>New Hampshire</a></li>
+					<li><a>New Jersey</a></li>
+					<li><a>New Mexico</a></li>
+					<li><a>New York</a></li>
+					<li><a>North Carolina</a></li>
+					<li><a>North Dakota</a></li>
+					<li><a>Nova Scotia</a></li>
+					<li><a>Ohio</a></li>
+					<li><a>Oklahoma</a></li>
+					<li><a>Ontario</a></li>
+					<li><a>Oregon</a></li>
+					<li><a>Pennsylvania</a></li>
+					<li><a>Puerto Rico</a></li>
+					<li><a>Quebec</a></li>
+					<li><a>Rhode Island</a></li>
+					<li><a>South Carolina</a></li>
+					<li><a>South Dakota</a></li>
+					<li><a>Tennessee</a></li>
+					<li><a>Texas</a></li>
+					<li><a>Utah</a></li>
+					<li><a>Vermont</a></li>
+					<li><a>Virginia</a></li>
+					<li><a>Washington</a></li>
+					<li><a>West Virginia</a></li>
+					<li><a>Wisconsin</a></li>
+					<li><a>Wyoming</a></li>
 				</ul>
 			</dd>
 			</dl>
