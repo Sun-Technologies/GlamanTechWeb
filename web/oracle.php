@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container clearfix">
     <section id="content" role="main" class="clearfix">

@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container clearfix" style="padding-bottom: 47%;">
    <h1 class="page-title">SAP Mobility</h1>

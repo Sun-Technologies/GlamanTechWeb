@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "employers"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix">
     <div id="microsoft-sp">

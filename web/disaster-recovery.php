@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix">
    <h1 id="side-nav" class="page-title navbar-example">Data Recovery and Offsite Data Center</h1>

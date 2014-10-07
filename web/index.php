@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "home" ?>
 <?php include 'header.php'; ?>
   <div id="body" class="body" >
     <div>

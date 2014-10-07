@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "resources"; ?>
 <?php include'header.php'; ?>
   <div class="split_line"></div>
   <div id="primary" class="container1">

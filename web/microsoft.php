@@ -1,6 +1,7 @@
+<?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix">
-    <div id="microsoft.php#microsoft-sp">
+    <div id="microsoft-sp">
       <h1 id="side-nav" class="page-title navbar-example">Microsoft SharePoint</h1>
        <hr/>
       <div class="wp-area">
@@ -17,7 +18,7 @@
         <p>Regardless of the location of users, SharePoint facilitates efficient management of enterprise knowledge.</p>
       </div>
     </div>
-    <div id="microsoft.php#microsoft-dynamics">
+    <div id="microsoft-dynamics">
       <h1>Microsoft Dynamics</h1>
       <hr/>
      <div class="wp-area">
@@ -33,7 +34,7 @@
       </ul>
       </div>
     </div>
-    <div id="microsoft.php#microsoft-server">
+    <div id="microsoft-server">
       <h1>Windows Server</h1>
       <hr/>
       <div class="wp-area">
@@ -51,7 +52,7 @@
       </ul>
     </div>
     </div>
-    <div id="microsoft.php#microsoft-scom">
+    <div id="microsoft-scom">
     <h1>Windows SCOM</h1>
     <hr/>
     <div class="wp-area">

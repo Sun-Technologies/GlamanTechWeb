@@ -1812,9 +1812,13 @@ ul.inline li {
 #apply-button {
 	background: #FF9900;
 	padding: 15px;
-	color: #000;
+	color: #fff;
 	border: 2px;
 }
+.table-data {
+	font-weight: bold;
+}
+
 
 @media screen and (max-width: 480px) {
 	.dropdown-area {

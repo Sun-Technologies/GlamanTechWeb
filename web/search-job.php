@@ -1,7 +1,8 @@
+<?php $CURRENT_PAGE= "job-seekers"; ?>
 <?php include'header.php'; ?>
   <div class="split_line"></div>
   <div id="primary" class="container   clearfix" style="padding-bottom: 30%;">
-    <h1 class="page-title">Apply For Job</h1>
+    <h1 class="page-title">Search For Job</h1>
     <hr/>
     <div class="wp-area">
     	<form method="post" action="job-list.php">
@@ -12,17 +13,16 @@
         <li class="submenu-dropdown">
     		<span class="drop-head">Job Speciality</span>
     		<dl class="dropdown">
-			<dt><a class="dark"><span>Dropdown</span></a></dt>
+			<dt><a class="dark"><span>Select All</span></a></dt>
 			<dd>
 				<ul class="dark">
-					<li><a>Brazil</a></li>
-					<li><a>France</a></li>
-					<li><a>Germany</a></li>
-					<li><a>India</a></li>
-					<li><a>Japan</a></li>
-					<li><a>Serbia</a></li>
-					<li><a>United Kingdom</a></li>
-					<li><a>United States</a></li>
+					<li><a>Software</a></li>
+					<li><a>Gaming</a></li>
+					<li><a>Civil</a></li>
+					<li><a>Testing</a></li>
+					<li><a>IT Support</a></li>
+					<li><a>Electrical</a></li>
+					<li><a>Mechanical</a></li>
 				</ul>
 			</dd>
 			</dl>
@@ -30,17 +30,14 @@
 		<li class="submenu-dropdown">
     		<span class="drop-head">Location</span>
     		<dl class="dropdownsec">
-			<dt><a class="dark"><span>Dropdown</span></a></dt>
+			<dt><a class="dark"><span>Select All</span></a></dt>
 			<dd>
 				<ul class="dark">
-					<li><a>Brazil</a></li>
-					<li><a>France</a></li>
-					<li><a>Germany</a></li>
-					<li><a>India</a></li>
-					<li><a>Japan</a></li>
-					<li><a>Serbia</a></li>
-					<li><a>United Kingdom</a></li>
-					<li><a>United States</a></li>
+					<li><a>San Jose</a></li>
+					<li><a>Redwood City</a></li>
+					<li><a>Malvern</a></li>
+					<li><a>Webster Groves</a></li>
+					<li><a>Fort Wayne</a></li>
 				</ul>
 			</dd>
 			</dl>

@@ -123,8 +123,8 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
       <nav id="navigation" role="navigation">
         <div id="main-menu">
           <ul class="menu">
-            <li><a href="index.php" title="Home" class="active">HOME</a></li>
-            <li><a  href="#">SERVICES</a>
+            <li><a href="index.php" title="Home"  class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >HOME</a></li>
+            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>SERVICES</a>
               <ul class="menu">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
                   <ul>
@@ -143,19 +143,19 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 <li><a title="Oracle ERP" href="oracle.php">Oracle ERP</a></li>
                 <li><a title="" href="microsoft.php">Microsoft</a>
                   <ul class="menu">
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-sp"><a title="" href="microsoft.php#microsoft-sp">Microsoft SharePoint</a></li>
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-dynamics"><a title="" href="microsoft.php#microsoft-dynamics">Microsoft Dynamics</a></li>
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-server"><a title="" href="microsoft.php#microsoft-server">Windows Server</a></li>
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft.php#microsoft-scom"><a title="" href="microsoft.php#microsoft-scom">Microsoft SCOM</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-sp"><a title="Microsoft SharePoint" href="microsoft.php#microsoft-sp">Microsoft SharePoint</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-dynamics"><a title="Microsoft Dynamics" href="microsoft.php#microsoft-dynamics">Microsoft Dynamics</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-server"><a title="Windows Server" href="microsoft.php#microsoft-server">Windows Server</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-scom"><a title="Microsoft SCOM" href="microsoft.php#microsoft-scom">Microsoft SCOM</a></li>
                   </ul>
                 </li>
                 <li><a title="Sales Force" href="sales-force.php">Sales Force</a></li>
                 <li><a title="" href="app-dev.php">Application Development</a></li>
                 <li><a title="" href="cloud.php">Cloud</a>
                   <ul class="menu">
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-cloud"><a title="" href="#microsoft-sp">Microsoft Cloud</a></li>
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-sp"><a title="" href="#sap-cloud">SAP Cloud</a></li>
-                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-sp"><a title="" href="#amazon-cloud">Amazon (AWS) Cloud Services</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#microsoft-cloud"><a title="Microsoft Cloud" href="cloud.php#microsoft-cloud">Microsoft Cloud</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#sap-cloud"><a title="SAP Cloud" href="cloud.php#sap-cloud">SAP Cloud</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#amazon-cloud"><a title="Amazon (AWS) Cloud Services" href="cloud.php#amazon-cloud">Amazon (AWS) Cloud Services</a></li>
                   </ul>
                 </li>
                 <li><a title="" href="#">Mobility</a>
@@ -176,7 +176,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance &amp; Drug Safety Expertise</a></li>
               </ul>
             </li>
-            <li><a href="#" title="Job Seekers">JOB SEEKERS</a>
+            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'job-seekers'?   "active" :  ""); ?> title="Job Seekers">JOB SEEKERS</a>
               <ul class="menu">
                     <li><a title="Search Jobs" href="search-job.php">Search Jobs</a></li>
                     <li><a title="" href="#">Submit a Resume</a></li>
@@ -184,7 +184,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="Benefits" href="benefits.php">Benefits</a></li>
               </ul>
             </li>
-            <li><a href="#" title="News &amp; Events">EMPLOYERS</a>
+            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employers'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYERS</a>
               <ul class="menu">
                     <li><a title="" href="#">Submit a job order</a></li>
                     <li><a title="" href="#">Get Quote</a></li>
@@ -193,7 +193,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="#">Submit Feedback</a></li>
               </ul>
             </li>
-            <li><a href="#" title="News &amp; Events">EMPLOYEES</a>
+            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employees'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYEES</a>
               <ul class="menu">
                     <li><a title="" href="#">Enter Hours</a></li>
                     <li><a title="" href="#">Payroll</a></li>
@@ -201,7 +201,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="#">Leave Registration</a></li>
               </ul>
             </li>
-            <li><a href="#" title="Contact">RESOURCES</a>
+            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'resources'?   "active" :  ""); ?> title="Contact">RESOURCES</a>
               <ul class="menu">
                     <li><a title="" href="whitepapers.php">Whitepapers</a></li>
                     <li><a title="" href="#">Case Studies</a></li>

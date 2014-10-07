@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div class="split_line"></div>
   <div id="primary" class="container   clearfix" style="padding-bottom: 22%;">

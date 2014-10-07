@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "job-seekers"; ?>
 <?php 
 include('header.php'); 
 require('database.php');

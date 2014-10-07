@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "job-seekers"; ?>
 <?php 
 include('header.php'); 
 require('database-apply.php');
@@ -10,16 +11,16 @@ $db = new Database('localhost', 'root', '', 'job');
 $dataSet = $db->getApply("SELECT job_code, job_title, job_type, company, location, contact_email, salary, description FROM joblist WHERE job_code = 'J100000'");
 if($dataSet) {
 	foreach ($dataSet as $data) {
-		echo "<table><tr>";
-		echo "<tr><td>Job Code</td><td>".$data->getJobCode()."</td></tr>";
-		echo "<tr><td>Job Title</td><td>".$data->getJobTitle()."</td></tr>";
-		echo "<tr><td>Job Type</td><td>".$data->getJobType()."</td></tr>";
-		echo "<tr><td>Comapny</td><td>".$data->getCompany()."</td></tr>";
-		echo "<tr><td>Location</td><td>".$data->getLocation()."</td></tr>";
-		echo "<tr><td>Contact Email</td><td>".$data->getContact()."</td></tr>";
-		echo "<tr><td>Salary Offered</td><td>".$data->getSalary()."</td></tr>";
-		echo "<tr><td>Description</td><td>".$data->getDescription()."</td></tr>";
-		echo "</tr></table>";
+		echo "<table>";
+		echo "<tr><td class='table-data'>Job Code</td><td>".$data->getJobCode()."</td></tr>";
+		echo "<tr><td class='table-data'>Job Title</td><td>".$data->getJobTitle()."</td></tr>";
+		echo "<tr><td class='table-data'>Job Type</td><td>".$data->getJobType()."</td></tr>";
+		echo "<tr><td class='table-data'>Comapny</td><td>".$data->getCompany()."</td></tr>";
+		echo "<tr><td class='table-data'>Location</td><td>".$data->getLocation()."</td></tr>";
+		echo "<tr><td class='table-data'>Contact Email</td><td>".$data->getContact()."</td></tr>";
+		echo "<tr><td class='table-data'>Salary Offered</td><td>".$data->getSalary()."</td></tr>";
+		echo "<tr><td class='table-data'>Description</td><td>".$data->getDescription()."</td></tr>";
+		echo "</table>";
 	}
 }
 else

@@ -1,3 +1,4 @@
+<?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix" style="padding-bottom: 30%;">
    <h1 id="side-nav" class="page-title navbar-example">Training And Education</h1>
