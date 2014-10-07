@@ -23,7 +23,7 @@
 					<li><a>Information Technology</a></li>
 					<li><a>Manufacturing</a></li>
 					<li><a>Retail Supermarket</a></li>
-					<li><a>Manufacturing</a></li>
+					<li><a>Scientific/Clinical</a></li>
 				</ul>
 			</dd>
 			</dl>
