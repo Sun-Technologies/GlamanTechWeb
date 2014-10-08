@@ -2,28 +2,19 @@
 <?php 
 include('header.php'); 
 require('database.php');
+require('search_job_list.php');
 ?>
 <div id="primary" class="container clearfix">
-<h1 class="page-title">Job Search Results</h1>
+<h1>Job Search Results</h1>
+<hr>
+<table><tr><th>Job Title</th><th>Location</th><th class='hide-data'>Job Type</th><th class='hide-data'>Job Code</th>
 <?php
-$db = new Database('localhost', 'root', '', 'job');
-$dataSet = $db->getJobs("SELECT job_title, location, job_type, job_code FROM joblist");
-if($dataSet) {
-	echo "<table><tr><th>Job Title</th><th>Location</th><th>Job Type</th><th>Job Code</th>";
-	echo "</tr></table>";
-	foreach ($dataSet as $data) {
-		echo "<table class='table-style'><tr>";
-		echo "<td><a href='apply-job.php'>".$data->getJobTitle()."</a></td>";
-		echo "<td> ".$data->getLocation()."</td>";
-		echo "<td> ".$data->getJobType()."</td>";
-		echo "<td> ".$data->getJobCode()."</td>";
-		echo "</tr></table>";
-	}
-}
-else
-{
-echo "No Results Found!";
+$conn = connect($config);
+$results = job_lists($conn);
+foreach ($results as $list) {
+	echo "<tr class='table-data'><td><a href='apply-job.php?job_code=" . $list[0] . "'>" . $list[1] . "</a></td>" . "<td>" . $list[4] . "</td><td class='hide-data'>" . $list[2] . "</td><td class='hide-data'>". $list[0] . "</td></tr>";
 }
 ?>
+</table>
 </div>
 <?php include('footer1.php'); ?>
