@@ -1708,6 +1708,9 @@ ul.inline li {
 .submenu-dropdown {
 	padding-left: 20px;
 }
+.table-head {
+	font-weight: bold;
+}
 .table-data td {
 	text-align: center;
 	width: 20%;

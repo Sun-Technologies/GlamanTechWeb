@@ -2,7 +2,7 @@
 <?php include'header.php'; ?>
   <div class="split_line"></div>
   <div id="primary" class="container   clearfix" style="padding-bottom: 40%;">
-    <h1 class="page-title">Search For Job</h1>
+    <h1>Search For Job</h1>
     <hr/>
     <div class="wp-area">
     	<form method="post" action="job-list.php">
