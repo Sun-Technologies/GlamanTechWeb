@@ -28,6 +28,7 @@
   				<li>
     			<span class="dropdown-header">Location</span><br>
     			<select class="drop-style">
+    				<option>Select All</option>
     				<option>Alabama</option>
 					<option>Alaska</option>
 					<option>Alberta</option>

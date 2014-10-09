@@ -19,10 +19,10 @@ class Database {
 }
 */
 $config =  array(
-		'username' => 'glamantech_admin',
-		'password' => 'Appl$1234',
+		'username' => 'root',
+		'password' => '',
 		'hostname' => 'localhost',
-		'dbname'   => 'glamantech_jobs' 
+		'dbname'   => 'job' 
 );
 
 

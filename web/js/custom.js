@@ -52,3 +52,11 @@ jQuery(document).ready(function(){
         });
     }
 });
+function val() {
+    if(state.selectedIndex==0) {
+        alert('Please Select A State');
+        state.focus();
+        return false;
+    }
+    return true;
+}
