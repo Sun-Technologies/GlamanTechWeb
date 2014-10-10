@@ -32,7 +32,7 @@ if(isset($_POST) && !empty($_POST)) {
 			//standard mail headers
 			$header = "From: ".$from."\r\n";
 			$header .= "Reply-To: ".$to."\r\n";
-			$header .= "MIME-Version: 1.0\r\r";
+			$header .= "MIME-Version: 1.0\r\n";
 
 			//declaring we have multiple kinds of email
 			$header .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
@@ -48,11 +48,11 @@ if(isset($_POST) && !empty($_POST)) {
 			$header .= "--".$uid."\r\n";
 			$header .= "Content-Type: ".$file_type."; name=\"".$file_name."\"\r\n";
 			$header .= "Content-Transfer-Encoding: base64\r\n";
-			$header .= "Content-Disposition: upload; filename=\"".$file_name."\"\r\n";
+			$header .= "Content-Disposition: upload; filename=\"".$file_name."\"\r\n\r\n";
 			$header .= $content."\r\n\r\n";
 
 			//send the email
-			if(mail($to, $from, $header)) {
+			if(mail($to, $from, "", $header)) {
 				header('location: search_job_thanks.php');
 			} else {
 				echo "<script> alert('fail');</script>";
@@ -71,7 +71,7 @@ if(isset($_POST) && !empty($_POST)) {
   <div id="primary" class="container   clearfix">
     <h1>Search For Job</h1>
     <hr/>
-    	<form method="post" action="" enctype="multipart/form-data">
+    	<form method="post" action="search_job_apply.php" enctype="multipart/form-data">
     		<table>
     			<tr>
     			<td class="dropdown-header">First Name *</td>
