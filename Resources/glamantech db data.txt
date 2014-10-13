@@ -26,3 +26,6 @@ INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`
 INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100007","System Analyst","Full Time","GlamanTech Group","Webster Groves","MO","jobs@glamantech.com",'1000$',"Associate System Analyst","software");
 INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100008","DataCenter Electrical Engineer","contract","GlamanTech Group","Webster Groves","MO","jobs@glamantech.com",'800$',"Associate Electrical Engineer","Electrical");
 INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100009","DataCenter Mechanical Engineer","Full Time","GlamanTech Group","Fort Wayne","IN","jobs@glamantech.com",'800$',"Associate Mechanical Engineer","Mechanical");
+
+
+ALTER TABLE joblist MODIFY job_speciality INTEGER;
