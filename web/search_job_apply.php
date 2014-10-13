@@ -53,6 +53,8 @@ if(isset($_POST) && !empty($_POST)) {
 
 			//send the email
 			if(mail($to, $from, "", $header)) {
+				$msg = "Thank You for Contacting us we will get back to you soon!";
+				mail($from, "GlamanTech Feedback", $msg);
 				header('location: search_job_thanks.php');
 			} else {
 				echo "<script> alert('fail');</script>";

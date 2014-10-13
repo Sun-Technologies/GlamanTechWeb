@@ -1669,7 +1669,7 @@ ul.inline li {
 }
 .job-list li {
 	display: inline-block;
-	padding: 30px;
+	padding: 45px;
 }
 #text-input {
 	border: 1px #FF9900 solid;
@@ -1742,7 +1742,10 @@ ul.inline li {
 	font-size: 10px;
 	font-weight: bold;
 }
-
+.result {
+	color: red;
+	padding-left: 5%;
+}
 
 @media screen and (max-width: 480px) {
 	.dropdown-area {
