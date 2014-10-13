@@ -10,22 +10,21 @@ state varchar(100) NOT NULL,
 contact_email varchar(100) NOT NULL,
 salary varchar(100) NOT NULL,
 description varchar(100) NOT NULL,
-job_speciality varchar(100) NOT NULL,
+job_speciality int NOT NULL,
 PRIMARY KEY (job_code)
 );
 
 
 /*inserted values for job lists*/
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100000","Security Software Architect","full time","GlamanTech Group","San Jose","CA","jobs@glamantech.com",'1000$',"Security Software Architect (full-time)","software");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100001","Android Developer","contract","GlamanTech Group","Redwood City","CA","jobs@glamantech.com",'1000$',"Staff Android Developer","software");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100002","Applications Engineer","Full Time","GlamanTech Group","Redwood City","CA","jobs@glamantech.com",'1000$',"Staff Applications Engineer","software");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100003","Game Developer","contract","GlamanTech Group","Malvern","PA","jobs@glamantech.com",'1000$',"Staff Game Developer","Gaming");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100004","Civil Engineer","Full Time","GlamanTech Group","Redwood City","CA","jobs@glamantech.com",'1000$',"Staff Civil Engineer","Civil");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100004","Test Engineer","contract","GlamanTech Group","Malvern","PA","jobs@glamantech.com",'1000$',"Staff Test Engineer","Testing");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100006","Technical Support","contract","GlamanTech Group","Malvern","PA","jobs@glamantech.com",'1000$',"Technical Support Engineer","IT Support");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100007","System Analyst","Full Time","GlamanTech Group","Webster Groves","MO","jobs@glamantech.com",'1000$',"Associate System Analyst","software");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100008","DataCenter Electrical Engineer","contract","GlamanTech Group","Webster Groves","MO","jobs@glamantech.com",'800$',"Associate Electrical Engineer","Electrical");
-INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100009","DataCenter Mechanical Engineer","Full Time","GlamanTech Group","Fort Wayne","IN","jobs@glamantech.com",'800$',"Associate Mechanical Engineer","Mechanical");
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100000","Security Software Architect","full time","GlamanTech Group","San Jose","CA","jobs@glamantech.com",'1000$',"Security Software Architect (full-time)",1);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100001","Android Developer","contract","GlamanTech Group","Redwood City","CA","jobs@glamantech.com",'1000$',"Staff Android Developer",2);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100002","Applications Engineer","Full Time","GlamanTech Group","Redwood City","CA","jobs@glamantech.com",'1000$',"Staff Applications Engineer",3);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100003","Game Developer","contract","GlamanTech Group","Malvern","PA","jobs@glamantech.com",'1000$',"Staff Game Developer",4);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100004","Civil Engineer","Full Time","GlamanTech Group","Redwood City","CA","jobs@glamantech.com",'1000$',"Staff Civil Engineer",5);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100004","Test Engineer","contract","GlamanTech Group","Malvern","PA","jobs@glamantech.com",'1000$',"Staff Test Engineer",6);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100006","Technical Support","contract","GlamanTech Group","Malvern","PA","jobs@glamantech.com",'1000$',"Technical Support Engineer",7);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100007","System Analyst","Full Time","GlamanTech Group","Webster Groves","MO","jobs@glamantech.com",'1000$',"Associate System Analyst",8);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100008","DataCenter Electrical Engineer","contract","GlamanTech Group","Webster Groves","MO","jobs@glamantech.com",'800$',"Associate Electrical Engineer",9);
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100009","DataCenter Mechanical Engineer","Full Time","GlamanTech Group","Fort Wayne","IN","jobs@glamantech.com",'800$',"Associate Mechanical Engineer",10);
 
 
-ALTER TABLE joblist MODIFY job_speciality INTEGER;
