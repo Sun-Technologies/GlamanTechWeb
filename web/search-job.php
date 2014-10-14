@@ -3,7 +3,7 @@
 require('database.php');
 require('search_job_list.php');
 ?>
-  <div class="split_line"></div>
+<div class="split_line"></div>
   <div id="primary" class="container clearfix" style="padding-bottom: 25%;">
     <h1>Search For Job</h1>
     <hr/>
@@ -100,26 +100,15 @@ require('search_job_list.php');
     </div>
   	<?php
     if($_SERVER['REQUEST_METHOD'] === 'POST'){ 
-  	$job_speciality = $_POST['job_speciality'];
-	$job_location = $_POST['location'];
-	$job_keyword = $_POST['keyword'];
-	$conn = connect($config);
-	$results = job_lists($conn, $job_speciality, $job_location, $job_keyword);
-	if( empty($results) ) {
-	 echo "<span class='result'>No Results Found</span>";
-	}
-	else {
-	?>
-	<table><tr><th>Job Title</th><th>Location</th><th class='hide-data'>Job Type</th><th class='hide-data'>Job Code</th>
-	<?php
-	foreach ($results as $list) {
-		echo "<tr class='table-data'><td><a href='search_job_details.php?job_code=" . $list[0] . "'>" . $list[1] . "</a></td>" . "<td>" . $list[4] . "</td><td class='hide-data'>" . $list[2] . "</td><td class='hide-data'>". $list[0] . "</td></tr>";
+  		
+  		$job_speciality	= $_POST['job_speciality'];
+		$job_location 	= $_POST['location'];
+		$job_keyword 	= $_POST['keyword'];
+		//$index 			= $_GET['']
+		$conn = connect($config);
+		job_lists($conn, $job_speciality, $job_location, $job_keyword);
 	}
 	?>
-	</table>
-	<?php 
-	}
-	}
-	?>
+
 	</div>
 <?php include'footer1.php'; ?>

@@ -60,3 +60,6 @@ function val() {
     }
     return true;
 }
+function getData($job_speciality, $job_location, $job_keyword, $currentPage, $itemsPerPage) {
+    
+}

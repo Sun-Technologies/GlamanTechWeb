@@ -12,6 +12,7 @@
 
 <link rel="stylesheet" href="css/menus.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/pagination.css" type="text/css">
 <link rel="stylesheet" href="css/responsive.css" type="text/css">
 <!-- RTL - Right to left languages OFF (default) if you use css/style-rtl.css your site will be in RTL Mode   -->
 <link rel="stylesheet" href="css/style-rtl-off.css" type="text/css">
@@ -21,6 +22,8 @@
 <script type="text/javascript" src="js/responsive.js"></script>
 <script type="text/javascript" src="js/uniform.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<!-- <script type="text/javascript" src="js/pagination.js"></script> -->
 
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
 <!-- Slideshow background param -->
