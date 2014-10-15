@@ -64,6 +64,8 @@ include 'job_location.php';
 		// $job_location 	= isset( $_POST['location']) ? $_POST['location'] : "";
 		// $job_keyword 	= isset( $_POST['keyword']) ? $_POST['keyword'] : "";
 		// $page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0 ; 
+
+
 		
 		job_lists( $reqObj );
 	?>
