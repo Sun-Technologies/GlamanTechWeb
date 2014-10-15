@@ -1746,6 +1746,16 @@ ul.inline li {
 	color: red;
 	padding-left: 5%;
 }
+.arrows li {
+	display: inline;
+	padding-left: 5px;
+}
+#go-disabled {
+	padding: 10px;
+	background: #555;
+	border: none;
+	color: #fff;
+}
 
 @media screen and (max-width: 480px) {
 	.dropdown-area {

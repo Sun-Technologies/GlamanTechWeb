@@ -1,72 +1,122 @@
 <?php
-function job_lists($conn , $job_speciality, $job_location, $job_keyword) {
+define('PAGE_SIZE', 10);
 
-   $query = "SELECT * FROM joblist";
-   
-   $is_where_added = false;
-   if( $job_speciality ){
-      $query = $query . " where job_speciality=". $job_speciality;
-       $is_where_added = true;
-   } 
-   if ( $job_location ) {
-      if( !$is_where_added ){
-        $query = $query . " where state='". $job_location ."'";
-        $is_where_added = true;
-      } else {
-         $query = $query . " and state='". $job_location ."'";
-      }
-   }
+    
+    
+function job_lists(  $reqObj ) {
 
-   if( $job_keyword )  {
-     if( !$is_where_added ){
-        $query = $query . " where  job_title LIKE '%". $job_keyword."%' OR company  LIKE '%". $job_keyword."%' OR location  LIKE '%". $job_keyword."%' OR state  LIKE '%". $job_keyword."%' OR description  LIKE '%". $job_keyword."%'";
-        //$query = $query . " where  job_title  LIKE '%". $job_keyword."%' OR job_title  LIKE '%". $job_keyword."%'";
-        $is_where_added = true;
-     } else {
-        $query = $query . " and job_title LIKE '%". $job_keyword."%'";
-     }
-   }
+  $results = fetchJobsFromDB($reqObj->job_speciality, $reqObj->job_location, $reqObj->job_keyword);
 
-   $itemsPerPage = 5;
-   $binding = null;
-   $results = query( $query, $conn , $binding );
-   if(sizeof($results) <= $itemsPerPage ) {
-      // print all row 
-      printRestuls($results);
-   } else {
+  if( isResultsLessThanItemsPerPage( $results) ) {
+    // print all row 
+    printRestuls($results);
+  } else {
+
     $page_results = array();
-    for($index = 0; $index < $itemsPerPage; $index++) {
-      $page_results[] = $results[$index];
-
+    for($index = $reqObj->page_index; sizeof($page_results) < PAGE_SIZE && $index < sizeof($results)  ; $index++) {
+        $page_results[] = $results[$index];
     } 
+    $db_results_size = sizeof($results);
     // print $page_results 
     printRestuls($page_results);
-    
 
     //show next button 
-    showpagination('', 'current', sizeof($results)/$itemsPerPage , 0 , $itemsPerPage, $job_speciality, $job_location, $job_keyword);
+    showpagination( $db_results_size, $reqObj);
     return $page_results;
-  }
-      
+  }  
 }
-function showpagination($isprv , $isNext , $no_of_page , $currentPage, $itemsPerPage, $job_speciality, $job_location, $job_keyword) {
-  echo $job_speciality;
-  echo '<div class="pagination-page light-theme simple-pagination"><ul>';
-  echo '<li class="active"><span class="'.$isprv.' prev">Prev</span></li>';
-  
+
+function isResultsLessThanItemsPerPage( $results ){
+  return sizeof($results) <= PAGE_SIZE;
+}
+
+function showpagination($db_results_size , $reqObj) {
+
+
+  $no_of_page = $db_results_size/ PAGE_SIZE;
+  $isprv      = $reqObj->page_index != 0 ?   true : false; 
+  $isNext     = ($reqObj->page_index +  PAGE_SIZE ) < $db_results_size ? true : false; 
+
+  echo '<div class="pagination-page light-theme simple-pagination"><ul class="arrows">';
+
+  showPreviousButton($reqObj, $isprv);
+   
   for( $index = 0 ; $index < $no_of_page ; $index++ ){
 
-    // if($currentPage == $index ) {
-    //   echo '<li class="active"><span class="">'. ($index + 1 ).'</span></li>';
-    // } else {
-    //    echo '<li class="active"><span class="current"><a href="?='. ( $index + 1 ) .'">'. ($index + 1 ).'</a></span></li>';
-    // }
+    if($reqObj->page_index/ PAGE_SIZE == $index ) {
+      echo '<li class="active"><span class="">'. ($index + 1) .'</span></li>';
+    } else {
+      $nextpage_index = $index *  PAGE_SIZE;
+      $parameter =  '\''.$reqObj->job_speciality.'\',\''.$reqObj->job_location.'\',\''.$reqObj->job_keyword.'\',\''.$nextpage_index.'\'';
+      echo '<li class="active"><span class="current"><a href="javascript: getData('.$parameter.');">'. ( $index + 1 ).'</a></span></li>';
+    }
 
   }
 
-  echo '<li class="active"><span class="'.$isNext.' next"><a href="javascript: getData('.$job_speciality.'.'.$job_location.'.'.$job_keyword.'.'.$currentPage.'.'.$itemsPerPage.');">Next</a></span></li>';
+  showNextButton($reqObj, $nextpage_index, $isNext); 
   echo '</ul></div>';
 }
+
+function showPreviousButton($reqObj, $isprv) {
+
+  if( $isprv ) { 
+  
+    $nextpage_index = $reqObj->page_index - PAGE_SIZE;
+    $parameter =  '\''.$reqObj->job_speciality.'\',\''.$reqObj->job_location.'\',\''.$reqObj->job_keyword.'\',\''.$nextpage_index.'\'';
+    echo '<li class="active"><a href="javascript: getData('.$parameter.');"  id="go-button">Prev</a></li>';
+  
+  } else {
+    echo '<li class="inactive"><a href="#"  id="go-disabled">Prev</a></li>';
+  }
+}
+function showNextButton($reqObj, $nextpage_index, $isNext){
+
+  if( $isNext ) { 
+    $nextpage_index = $reqObj->page_index +  PAGE_SIZE;
+    $parameter =  '\''.$reqObj->job_speciality.'\',\''.$reqObj->job_location.'\',\''.$reqObj->job_keyword.'\',\''.$nextpage_index.'\'';
+    echo '<li class="active"><a href="javascript: getData('.$parameter.');"  id="go-button">Next</a></li>';
+  } else {
+    echo '<li class="inactive"><a href="#" id="go-disabled">Next</a></li>';
+  }
+}
+
+
+function fetchJobsFromDB($job_speciality, $job_location, $job_keyword){
+  
+  require('database.php');
+  $conn = connect($config);
+  
+  $query = "SELECT * FROM joblist";
+   
+  $is_where_added = false;
+
+  if( $job_speciality ){
+      $query = $query . " where job_speciality=". $job_speciality;
+       $is_where_added = true;
+  } 
+  
+  if ( $job_location ) {
+    if( !$is_where_added ){
+      $query = $query . " where state='". $job_location ."'";
+      $is_where_added = true;
+    } else {
+       $query = $query . " and state='". $job_location ."'";
+    }
+  }
+
+  if( $job_keyword )  {
+    if( !$is_where_added ){
+      $query = $query . " where  job_title LIKE '%". $job_keyword."%' OR company  LIKE '%". $job_keyword."%' OR location  LIKE '%". $job_keyword."%' OR state  LIKE '%". $job_keyword."%' OR description  LIKE '%". $job_keyword."%'";
+      //$query = $query . " where  job_title  LIKE '%". $job_keyword."%' OR job_title  LIKE '%". $job_keyword."%'";
+      $is_where_added = true;
+    } else {
+        $query = $query . " and job_title LIKE '%". $job_keyword."%'";
+    }
+  }
+  return query( $query, $conn , null );
+}
+
+
 
 function printRestuls($results){
 

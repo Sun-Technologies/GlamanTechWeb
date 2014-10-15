@@ -60,6 +60,30 @@ function val() {
     }
     return true;
 }
-function getData($job_speciality, $job_location, $job_keyword, $currentPage, $itemsPerPage) {
-    
+function getData($job_speciality, $job_location, $job_keyword, $nextpage_index) {
+   post('/GlamantechWeb/web/search-job.php', {job_speciality: $job_speciality , location: $job_location, keyword: $job_keyword, pageIndex: $nextpage_index});
+}
+
+function post(path, params, method) {
+    method = method || "post"; // Set method to post by default if not specified.
+
+    // The rest of this code assumes you are not using a library.
+    // It can be made less wordy if you use one.
+    var form = document.createElement("form");
+    form.setAttribute("method", method);
+    form.setAttribute("action", path);
+
+    for(var key in params) {
+        if(params.hasOwnProperty(key)) {
+            var hiddenField = document.createElement("input");
+            hiddenField.setAttribute("type", "hidden");
+            hiddenField.setAttribute("name", key);
+            hiddenField.setAttribute("value", params[key]);
+
+            form.appendChild(hiddenField);
+         }
+    }
+
+    document.body.appendChild(form);
+    form.submit();
 }
