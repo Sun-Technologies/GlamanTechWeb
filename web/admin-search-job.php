@@ -1,9 +1,16 @@
 <?php 
+session_start();
+
 $CURRENT_PAGE= "job-seekers"; 
+include 'admin_functions.php';
+if( !loggedIn() ){
+   header("location:admin.php");
+}
 include'header.php'; 
 require('search_job_functions.php');
 include 'job_speciality.php';
 include 'job_location.php'; 
+
 
 $reqObj= new StdClass;
 $reqObj->job_speciality = isset( $_POST['job_speciality']) ? $_POST['job_speciality'] : 0;
@@ -40,9 +47,6 @@ $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0
 			</ul>
 		</form>
     </div>
-  	<?php
-		  job_lists( $reqObj , false );
-      
-	?>
+  	<?php job_lists( $reqObj , true ); ?>
   </div>
 <?php include'footer1.php'; ?>

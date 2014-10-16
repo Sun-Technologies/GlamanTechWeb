@@ -2,7 +2,7 @@
 <?php 
 include('header.php'); 
 require('database.php');
-require('search_job_list.php');
+require('search_job_functions.php');
 ?>
 <div id="primary" class="container clearfix" style="padding-bottom: 5%;">
 <h1 class="page-title">Job Details</h1>

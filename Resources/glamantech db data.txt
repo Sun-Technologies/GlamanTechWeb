@@ -28,3 +28,10 @@ INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`
 INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`) VALUES ("J100009","DataCenter Mechanical Engineer","Full Time","GlamanTech Group","Fort Wayne","IN","jobs@glamantech.com",'800$',"Associate Mechanical Engineer",10);
 
 
+
+/*admin users*/
+create table users ( uid INT NOT NULL auto_increment, name varchar(20) NOT NULL,email  varchar(20) NOT NULL, password char(40) NOT NULL, status int NOT NULL, role  varchar(5) NOT NULL, primary key(uid), unique(email) );
+
+INSERT INTO users ( name, email, password, status, role ) VALUES ( 'admin', 'chandra.shalwi@gmail.com', '123456', '1', 'admin' );
+
+

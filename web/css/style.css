@@ -1756,6 +1756,25 @@ ul.inline li {
 	border: none;
 	color: #fff;
 }
+.edit-db a {
+	background: #FF9900;
+	color: #fff;
+	padding: 8px;
+
+}
+.table-none tr th {
+	background: #25383C;
+	border: 1px solid #fff;
+}
+.table-width {
+	width: 300px;
+}
+.admin-add-job-left {
+	padding-left: 25%;
+}
+.admin-add-job-right {
+	padding-left: 5%;
+}
 
 @media screen and (max-width: 480px) {
 	.dropdown-area {
