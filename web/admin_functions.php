@@ -37,6 +37,6 @@ function addJObs($conn, $reqObj) {
       'description'   => $reqObj->description
     );
   $results = query( $query, $conn , $binding );
-  return $results;
+  echo "Hi";
 }
 ?>
