@@ -12,7 +12,7 @@ require('search_job_functions.php');
 <?php
 $job_code = $_GET['job_code'];
 $conn = connect($config);
-$results = apply_job($conn, $job_code);
+$results = fetch_job_details_db($conn, $job_code);
 foreach ($results as $list) {
 	echo "<tr><td class='table-head'>Job Code</td><td>".$list[0]."</td></tr>";
 	echo "<tr><td class='table-head'>Job Title</td><td>".$list[1]."</td></tr>";

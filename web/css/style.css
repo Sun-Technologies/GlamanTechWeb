@@ -1756,11 +1756,16 @@ ul.inline li {
 	border: none;
 	color: #fff;
 }
+.edit-db {
+	margin-bottom: 2%;
+}
 .edit-db a {
 	background: #FF9900;
 	color: #fff;
 	padding: 8px;
-
+}
+.edit-db a:hover {
+	color: #fff;
 }
 .table-none tr th {
 	background: #25383C;

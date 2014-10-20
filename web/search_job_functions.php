@@ -112,20 +112,22 @@ function fetchJobsFromDB($reqObj){
 
 function printRestuls($results , $is_admin){
 
-  
+  include 'job_type.php';
   if( empty($results)){
     echo "<span class='result'>No Results Found</span>";
 
   } else {
-  
+    if($is_admin ) {
+      echo "<div class='edit-db'><a href='admin-job-details.php'>Add New Job</a></div>";
+    }
     echo "<table><tbody><th>Job Title</th><th>Location</th><th class='hide-data'>Job Type</th><th class='hide-data'>Job Code</th>";
     if($is_admin ) {
-      echo "<th><span class='edit-db'><a href='admin-job-details.php'>New</a></span></td></th>";
+      echo "<th></th>";
     }
     foreach ($results as $list) {
-      echo "<tr class='table-data'><td><a href='search_job_details.php?job_code=" . $list[0] . "'>" . $list[1] . "</a></td>" . "<td>" . $list[4] . "</td><td class='hide-data'>" . $list[2] . "</td><td class='hide-data'>". $list[0] . "</td>";
+      echo "<tr class='table-data'><td><a href='search_job_details.php?job_code=" . $list[0] . "'>" . $list[1] . "</a></td>" . "<td>" . $list[4]. "</td><td class='hide-data'>" . $job_type_array[$list[2]] . "</td><td class='hide-data'>". $list[0] . "</td>";
       if($is_admin ) {
-        echo "<td><span class='edit-db'><a href='edit_db_values.php'>Edit</a></span></td>";
+        echo "<td><span class='edit-db'><a href='admin-job-details.php?job_code=" . $list[0] . "'>Edit</a></span></td>";
       }
       echo "</tr></tbody>";
       
@@ -135,7 +137,7 @@ function printRestuls($results , $is_admin){
 
 }
 
-function apply_job($conn, $job_code) {
+function fetch_job_details_db($conn, $job_code) {
   $query = "SELECT * FROM joblist WHERE job_code = :job_code";
   $binding = array( 
     'job_code' => $job_code

@@ -35,3 +35,26 @@ create table users ( uid INT NOT NULL auto_increment, name varchar(20) NOT NULL,
 INSERT INTO users ( name, email, password, status, role ) VALUES ( 'admin', 'chandra.shalwi@gmail.com', '123456', '1', 'admin' );
 
 
+/*latest table creation for joblist*/
+CREATE TABLE joblist
+(
+job_code int NOT NULL,
+job_title varchar(100) NOT NULL,
+job_type int NOT NULL,
+company varchar(100) NOT NULL,
+location varchar(100) NOT NULL,
+state varchar(100) NOT NULL,
+contact_email varchar(100) NOT NULL,
+salary varchar(100) NOT NULL,
+description varchar(100) NOT NULL,
+job_speciality int NOT NULL,
+created_by int NOT NULL,
+updated_by int NOT NULL,
+created_date datetime NOT NULL DEFAULT NOW(),
+updated_date datetime NOT NULL DEFAULT NOW(),
+status int NOT NULL,
+PRIMARY KEY (job_code)
+);
+
+/*insert query*/
+INSERT INTO `joblist`(`job_code`, `job_title`, `job_type`, `company`, `location`, `state`, `contact_email`, `salary`, `description`, `job_speciality`, status) VALUES ('0002','Software Engineer','1','GlamanTech Group','San Jose','CA','jobs@glamantech.com','1000$','Security Software Architect','1', '1' )
