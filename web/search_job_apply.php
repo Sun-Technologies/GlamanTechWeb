@@ -71,7 +71,7 @@ if(isset($_POST) && !empty($_POST)) {
 <?php $CURRENT_PAGE= "job-seekers"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix">
-    <h1>Search For Job</h1>
+    <h1>Apply For Job</h1>
     <hr/>
     	<form method="post" action="search_job_apply.php" enctype="multipart/form-data">
     		<table>

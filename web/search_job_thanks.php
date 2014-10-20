@@ -1,4 +1,3 @@
-<?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container clearfix" style="padding-bottom: 38%;">
     <div class="wp-area">

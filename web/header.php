@@ -126,7 +126,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
       <nav id="navigation" role="navigation">
         <div id="main-menu">
           <ul class="menu">
-            <li><a href="index.php" title="Home"  class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >HOME</a></li>
+            <li><a href="index.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >HOME</a></li>
             <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>SERVICES</a>
               <ul class="menu">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
@@ -182,14 +182,14 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
             <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'job-seekers'?   "active" :  ""); ?> title="Job Seekers">JOB SEEKERS</a>
               <ul class="menu">
                     <li><a title="Search Jobs" href="search-job.php">Search Jobs</a></li>
-                    <li><a title="" href="#">Submit a Resume</a></li>
+                    <li><a title="" href="search_job_apply.php">Submit a Resume</a></li>
                     <li><a title="" href="#">Contact a Recruiter</a></li>
                     <li><a title="Benefits" href="benefits.php">Benefits</a></li>
               </ul>
             </li>
             <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employers'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYERS</a>
               <ul class="menu">
-                    <li><a title="" href="#">Submit a job order</a></li>
+                    <li><a title="Submit a job order" href="submit_job_order.php">Submit a job order</a></li>
                     <li><a title="" href="#">Get Quote</a></li>
                     <li><a title="Recruiting Methodology" href="recruit-methodology.php">Recruiting Methodology</a></li>
                     <li><a title="Our Clients" href="our-clients.php">Our Clients</a></li>
