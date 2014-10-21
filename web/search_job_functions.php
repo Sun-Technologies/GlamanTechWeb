@@ -1,9 +1,10 @@
 <?php
 define('PAGE_SIZE', 10);
   
-function job_lists(  $reqObj , $is_admin ) {
+function job_lists(  $reqObj , $is_admin , $user_id) {
 
-  $results = fetchJobsFromDB($reqObj);
+  $results = fetchJobsFromDB($reqObj , $user->id);
+
   if( isResultsLessThanItemsPerPage( $results) ) {
     printRestuls($results , $is_admin);
   } else {
@@ -76,7 +77,7 @@ function showNumberOfPages($no_of_page, $reqObj) {
   }
 }
 
-function fetchJobsFromDB($reqObj){
+function fetchJobsFromDB($reqObj , $user_id){
   
   require('database.php');
   $conn = connect($config);
@@ -107,6 +108,14 @@ function fetchJobsFromDB($reqObj){
         $query = $query . " and job_title LIKE '%". $reqObj->job_keyword."%'";
     }
   }
+
+  if( $user_id ){
+      if( !$is_where_added ){
+        $query = $query . " where state='". $reqObj->job_location ."'";
+      }else{
+        $query = $query . " and state='". $reqObj->job_location ."'";
+      }
+  }
   return query( $query, $conn , null );
 }
 
@@ -117,9 +126,7 @@ function printRestuls($results , $is_admin){
     echo "<span class='result'>No Results Found</span>";
 
   } else {
-    if($is_admin ) {
-      echo "<div class='edit-db'><a href='admin-job-details.php'>Add New Job</a></div>";
-    }
+    
     echo "<table><tbody><th>Job Title</th><th>Location</th><th class='hide-data'>Job Type</th><th class='hide-data'>Job Code</th>";
     if($is_admin ) {
       echo "<th></th>";

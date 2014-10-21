@@ -1,4 +1,5 @@
 <?php
+require_once( 'admin/cms.php' );
 include 'database.php';
 include 'admin_functions.php';
 if (isset($_POST['submit'])) {
@@ -15,10 +16,12 @@ if (isset($_POST['submit'])) {
   $reqObj->job_code        = $_POST['job_code'];
 
   $conn = connect($config);
+  
   if( $reqObj->job_code ){ 
-    update_job_db($conn, $reqObj);
+    
+    update_job_db($conn, $reqObj , $AUTH->user->id);
   } else {
-    add_jobs_db($conn, $reqObj);
+    add_jobs_db($conn, $reqObj , $AUTH->user->id);
   }
   
 }

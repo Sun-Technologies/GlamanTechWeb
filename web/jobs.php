@@ -1,11 +1,11 @@
 <?php 
-session_start();
 
+require_once( 'admin/cms.php' );
 $CURRENT_PAGE= "job-seekers"; 
 include 'admin_functions.php';
-if( !loggedIn() ){
-   header("location:admin.php");
-}
+// if( !loggedIn() ){
+//    header("location:admin.php");
+// }
 include'header.php'; 
 require('search_job_functions.php');
 include 'job_speciality.php';
@@ -18,10 +18,15 @@ $reqObj->job_location   = isset( $_POST['location']) ? $_POST['location'] : "";
 $reqObj->job_keyword    = isset( $_POST['keyword']) ? $_POST['keyword'] : "";
 $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0 ;
 ?>
+<div  style="float:right;position:absolute; top:0px;right:30%;background-color:#000;height:44px;width:100px;z-index:1999;padding:10px;" >
+<a href="<cms:show k_logout_link />">Logout (<cms:show k_user_title />)</a>
+</div>
+
 <div class="split_line"></div>
   <div id="primary" class="container clearfix" style="padding-bottom: 25%;">
-    <h1>Search For Job</h1>
-    <hr/>
+   
+    <div class='edit-db'><a href='admin-job-details.php'>Add New Job</a> </div>
+    
     <div class="wp-area">
     	<form method="POST">
     		<ul class="job-list">
@@ -46,7 +51,12 @@ $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0
   				</li>
 			</ul>
 		</form>
-    </div>
-  	<?php job_lists( $reqObj , true ); ?>
+
+    </div><br/>
+
+    
+    
+  	<?php job_lists( $reqObj , true  , $AUTH->user->id ); ?>
   </div>
 <?php include'footer1.php'; ?>
+<?php COUCH::invoke(); ?>
