@@ -3,9 +3,7 @@
 require_once( 'admin/cms.php' );
 $CURRENT_PAGE= "job-seekers"; 
 include 'admin_functions.php';
-// if( !loggedIn() ){
-//    header("location:admin.php");
-// }
+
 include'header.php'; 
 require('search_job_functions.php');
 include 'job_speciality.php';

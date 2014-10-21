@@ -14,9 +14,9 @@ if (isset($_POST['submit'])) {
   $reqObj->salary 		     = $_POST['salary'];
   $reqObj->description     = $_POST['description'];
   $reqObj->job_code        = $_POST['job_code'];
+  $reqObj->status          = $_POST['status'];
 
   $conn = connect($config);
-  
   if( $reqObj->job_code ){ 
     
     update_job_db($conn, $reqObj , $AUTH->user->id);

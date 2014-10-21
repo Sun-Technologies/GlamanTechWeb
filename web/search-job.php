@@ -10,6 +10,7 @@ $reqObj->job_speciality = isset( $_POST['job_speciality']) ? $_POST['job_special
 $reqObj->job_location   = isset( $_POST['location']) ? $_POST['location'] : "";
 $reqObj->job_keyword    = isset( $_POST['keyword']) ? $_POST['keyword'] : "";
 $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0 ;
+$reqObj->job_status     = 1; 
 ?>
 <div class="split_line"></div>
   <div id="primary" class="container clearfix" style="padding-bottom: 25%;">
