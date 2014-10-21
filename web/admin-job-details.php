@@ -7,6 +7,7 @@ include 'admin_functions.php';
 require('search_job_functions.php');
 include 'job_speciality.php';
 include 'job_location.php';
+include 'job_status.php';
 include 'job_type.php'; 
 ?>
 <?php
@@ -69,6 +70,14 @@ include 'job_type.php';
 				<tr>
 					<td>Salary Offered</td>
 					<td><input type="text" id="text-input" name="salary"  class="table-width"  value="<?php echo isset($salary) ? $salary : ''; ?>"   required></td>
+				</tr>
+				<tr>
+					<td>Status</td>
+					<td>
+						<select class="drop-style" name="status" required>
+            			<?php setSelectOptions($job_status_array  , $status); ?>
+          				</select>
+          			</td>
 				</tr>
 				<tr>
 					<td><h4 style="position: absolute;">Description</h4></td>

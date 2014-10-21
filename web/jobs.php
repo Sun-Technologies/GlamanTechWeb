@@ -10,11 +10,13 @@ include'header.php';
 require('search_job_functions.php');
 include 'job_speciality.php';
 include 'job_location.php'; 
+include 'job_status.php';
 
 
 $reqObj= new StdClass;
 $reqObj->job_speciality = isset( $_POST['job_speciality']) ? $_POST['job_speciality'] : 0;
 $reqObj->job_location   = isset( $_POST['location']) ? $_POST['location'] : "";
+$reqObj->job_status   = isset( $_POST['status']) ? $_POST['status'] : "";
 $reqObj->job_keyword    = isset( $_POST['keyword']) ? $_POST['keyword'] : "";
 $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0 ;
 ?>
@@ -29,7 +31,7 @@ $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0
     
     <div class="wp-area">
     	<form method="POST">
-    		<ul class="job-list">
+    		<ul class="job-list-admin">
     			<li>
     			<span class="dropdown-header">Keyword</span><br>
     			<input type="text" name="keyword" id="text-input" value="<?php echo  (isset($_POST['keyword']) ?  $_POST['keyword'] : ""); ?>" >
@@ -46,6 +48,12 @@ $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0
     			  <?php setSelectOptions($job_location_array  , $reqObj->job_location); ?>
     			</select>
   				</li>
+          <li>
+          <span class="dropdown-header">Status</span><br>
+          <select class="drop-style" name="status">
+            <?php setSelectOptions($job_status_array  , $reqObj->job_status); ?>
+          </select>
+          </li>
   				<li>
   					<input type="submit" id="go-button" value="Go!">
   				</li>

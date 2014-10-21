@@ -76,6 +76,10 @@ if(isset($_POST) && !empty($_POST)) {
     	<form method="post" action="search_job_apply.php" enctype="multipart/form-data">
     		<table>
     			<tr>
+    			<td>Job Code</td>
+    			<td><input type="text" id="job_code" name="job_code" value="" required></td>
+    			</tr>
+    			<tr>
     			<td class="dropdown-header">First Name *</td>
     			<td><input type="text" id="fname" name="fname" placeholder="First Name" required ></td>
     			</tr>

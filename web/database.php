@@ -4,7 +4,7 @@ $config =  array(
 		'username' => 'root',
 		'password' => '',
 		'hostname' => 'localhost',
-		'dbname'   => 'job' 
+		'dbname'   => 'glamantech_jobs' 
 );
 
 

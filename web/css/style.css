@@ -1671,6 +1671,10 @@ ul.inline li {
 	display: inline-block;
 	padding: 45px;
 }
+.job-list-admin li {
+	display: inline-block;
+	padding: 25px;
+}
 #text-input {
 	border: 1px #FF9900 solid;
 	height: 20px;
@@ -1801,6 +1805,9 @@ ul.inline li {
 		margin-left: 9%;
 		padding-top: 4%;
 	}
+	#sap-image {
+		margin-right: 50%;
+	}
 }
 @media screen and (max-width: 768px) {
 	.icon-date {
@@ -1808,4 +1815,3 @@ ul.inline li {
 		padding-left: 2%;
 	}
 }
-

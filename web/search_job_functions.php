@@ -3,7 +3,7 @@ define('PAGE_SIZE', 10);
   
 function job_lists(  $reqObj , $is_admin , $user_id) {
 
-  $results = fetchJobsFromDB($reqObj , $user->id);
+  $results = fetchJobsFromDB($reqObj , $user_id);
 
   if( isResultsLessThanItemsPerPage( $results) ) {
     printRestuls($results , $is_admin);
@@ -109,11 +109,11 @@ function fetchJobsFromDB($reqObj , $user_id){
     }
   }
 
-  if( $user_id ){
+  if( $reqObj->job_status ){
       if( !$is_where_added ){
-        $query = $query . " where state='". $reqObj->job_location ."'";
+        $query = $query . " where status='". $reqObj->job_status ."'";
       }else{
-        $query = $query . " and state='". $reqObj->job_location ."'";
+        $query = $query . " and status='". $reqObj->job_status ."'";
       }
   }
   return query( $query, $conn , null );
@@ -129,12 +129,19 @@ function printRestuls($results , $is_admin){
     
     echo "<table><tbody><th>Job Title</th><th>Location</th><th class='hide-data'>Job Type</th><th class='hide-data'>Job Code</th>";
     if($is_admin ) {
-      echo "<th></th>";
+      echo "<th>status</th><th></th>";
     }
     foreach ($results as $list) {
       echo "<tr class='table-data'><td><a href='search_job_details.php?job_code=" . $list[0] . "'>" . $list[1] . "</a></td>" . "<td>" . $list[4]. "</td><td class='hide-data'>" . $job_type_array[$list[2]] . "</td><td class='hide-data'>". $list[0] . "</td>";
       if($is_admin ) {
-        echo "<td><span class='edit-db'><a href='admin-job-details.php?job_code=" . $list[0] . "'>Edit</a></span></td>";
+        echo "<td>";
+        if($list[14] == 1) {
+          echo "Published";
+        } else {
+          echo "unpublished";
+        }
+        echo "</td>" .
+        "<td><span class='edit-db'><a href='admin-job-details.php?job_code=" . $list[0] . "'>Edit</a></span></td>";
       }
       echo "</tr></tbody>";
       

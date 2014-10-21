@@ -183,7 +183,6 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
               <ul class="menu">
                     <li><a title="Search Jobs" href="search-job.php">Search Jobs</a></li>
                     <li><a title="" href="search_job_apply.php">Submit a Resume</a></li>
-                    <li><a title="" href="#">Contact a Recruiter</a></li>
                     <li><a title="Benefits" href="benefits.php">Benefits</a></li>
               </ul>
             </li>
@@ -214,6 +213,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
           </ul>
         </div>
       </nav>
+      <img src="images/sap-partner.png" alt="Sap Partner" style="width: 115px; margin-left: -15%; position: absolute;" id="sap-image"/>
       <div id="header-right">
         <div id="block-views-latest-news-block">
           <div class="content">

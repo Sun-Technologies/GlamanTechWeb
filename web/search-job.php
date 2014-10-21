@@ -41,7 +41,7 @@ $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0
 		</form>
     </div>
   	<?php
-		  job_lists( $reqObj , false );
+		  job_lists( $reqObj , false, null );
       
 	?>
   </div>
