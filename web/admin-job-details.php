@@ -9,6 +9,7 @@ include 'job_speciality.php';
 include 'job_location.php';
 include 'job_status.php';
 include 'job_type.php'; 
+include 'job_edit_status.php';
 ?>
 <?php
   $job_code = isset( $_GET['job_code'] ) ? $_GET['job_code'] : 0 ;
@@ -35,6 +36,7 @@ include 'job_type.php';
 				<tr>
 					<td>Job Type</td>
 					<td><select class="drop-style" name="job_type"   class="table-width"  required>
+    					<?php echo '<option value="">Select AnyOne</option>'; ?>
     					<?php setSelectOptions($job_type_array  , $job_type); ?>
   					</select>
 					</td>
@@ -51,6 +53,7 @@ include 'job_type.php';
 					<td>Job Speciality</td>
 					<td>
 						<select class="drop-style" name="job_speciality" class="table-width"  required>
+						<?php echo '<option value="">Select AnyOne</option>'; ?>
     					<?php setSelectOptions($job_speciality_array  , $job_speciality); ?>
   						</select>
 					</td>
@@ -59,6 +62,7 @@ include 'job_type.php';
 					<td>State</td>
 					<td>
 						<select class="drop-style" name="state" class="table-width" required>
+						<?php echo '<option value="">Select AnyOne</option>'; ?>
     			  		<?php setSelectOptions($job_location_array  , $state); ?>
     					</select>
     				</td>
@@ -75,7 +79,8 @@ include 'job_type.php';
 					<td>Status</td>
 					<td>
 						<select class="drop-style" name="status" required>
-            			<?php setSelectOptions($job_status_array  , $status); ?>
+						<?php echo '<option value="">Select AnyOne</option>'; ?>
+            			<?php setSelectOptions($job_edit_status_array  , $status); ?>
           				</select>
           			</td>
 				</tr>

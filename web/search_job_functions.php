@@ -122,6 +122,7 @@ function fetchJobsFromDB($reqObj , $user_id){
 function printRestuls($results , $is_admin){
 
   include 'job_type.php';
+  include 'job_status.php';
   if( empty($results)){
     echo "<span class='result'>No Results Found</span>";
 
@@ -135,11 +136,7 @@ function printRestuls($results , $is_admin){
       echo "<tr class='table-data'><td><a href='search_job_details.php?job_code=" . $list[0] . "'>" . $list[1] . "</a></td>" . "<td>" . $list[4]. "</td><td class='hide-data'>" . $job_type_array[$list[2]] . "</td><td class='hide-data'>". $list[0] . "</td>";
       if($is_admin ) {
         echo "<td>";
-        if($list[14] == 1) {
-          echo "Published";
-        } else {
-          echo "unpublished";
-        }
+        echo  $job_status_array[$list[14]];
         echo "</td>" .
         "<td><span class='edit-db'><a href='admin-job-details.php?job_code=" . $list[0] . "'>Edit</a></span></td>";
       }
@@ -162,7 +159,6 @@ function fetch_job_details_db($conn, $job_code) {
 }
 
 function setSelectOptions($val_list , $selected_val ){
-  echo '<option value="">Select All</option>';
   foreach ($val_list as $key => $value) {
     $sel = ( strval($selected_val) === strval($key) ) ? "selected" : "";
     echo "<option value=$key  ".$sel." >" .$value."</option>";

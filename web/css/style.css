@@ -1679,6 +1679,11 @@ ul.inline li {
 	border: 1px #FF9900 solid;
 	height: 20px;
 }
+#text-input-order {
+	width: 300px;
+	border: 1px #FF9900 solid;
+	height: 20px;
+}
 #go-button {
 	padding: 10px;
 	background: #FF9900;

@@ -37,18 +37,21 @@ $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0
     			<li>
     			<span class="dropdown-header">Job Speciality</span><br>
     			<select class="drop-style" style="width: 155px;" name="job_speciality">
+            <?php echo '<option value="">Select All</option>'; ?>
     				<?php setSelectOptions($job_speciality_array  , $reqObj->job_speciality); ?>
   				</select>
   				</li>
   				<li>
     			<span class="dropdown-header">Location</span><br>
     			<select class="drop-style" name="location">
+            <?php echo '<option value="">Select All</option>'; ?>
     			  <?php setSelectOptions($job_location_array  , $reqObj->job_location); ?>
     			</select>
   				</li>
           <li>
           <span class="dropdown-header">Status</span><br>
           <select class="drop-style" name="status">
+            <?php echo '<option value="">Select All</option>'; ?>
             <?php setSelectOptions($job_status_array  , $reqObj->job_status); ?>
           </select>
           </li>

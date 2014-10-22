@@ -69,99 +69,51 @@ if(isset($_POST) && !empty($_POST)) {
 }
 ?>
 <?php $CURRENT_PAGE= "job-seekers"; ?>
-<?php include'header.php'; ?>
+<?php 
+include'header.php';
+include 'job_location.php';
+require('search_job_functions.php');
+require('database.php');
+?>
   <div id="primary" class="container   clearfix">
-    <h1>Apply For Job</h1>
+    <h1>Submit Your Resume</h1>
     <hr/>
+    	<p>If you think you have knowledge, talent and zest to make a difference and are interested in joining us, then apply online or send in your resumes to <a href="mailto:hr@glamantech.com?Subject=Resume">hr@glamantech.com</a>. We'll get back to you shortly.</p>
     	<form method="post" action="search_job_apply.php" enctype="multipart/form-data">
     		<table>
-    			<tr>
-    			<td>Job Code</td>
-    			<td><input type="text" id="job_code" name="job_code" value="" required></td>
-    			</tr>
-    			<tr>
+    			<?php 
+    			if(isset($_GET['job_code'])) {
+    				echo "<tr><td>Job Code</td><td>".$_GET['job_code']."</td></tr><tr>";
+
+    			}
+    			?>
     			<td class="dropdown-header">First Name *</td>
-    			<td><input type="text" id="fname" name="fname" placeholder="First Name" required ></td>
+    			<td><input type="text" id="text-input-order" name="fname" placeholder="First Name" required ></td>
     			</tr>
     			<tr>
     			<td class="dropdown-header">Last Name *</td>
-    			<td><input type="text" id="lname" name="lname" placeholder="Last Name" required></td>
+    			<td><input type="text" id="text-input-order" name="lname" placeholder="Last Name" required></td>
   				</tr>
   				<tr>
     			<td class="dropdown-header">Phone# *</td>
-    			<td><input type="text" id="phone" name="phone" placeholder="Phone" required></td>
+    			<td><input type="text" id="text-input-order" name="phone" placeholder="Phone" required></td>
     			</tr>
     			<tr>
     			<td class="dropdown-header">State *</td>
-    			<td  class="dropdown-header"><select class="drop-style" style="width: 155px; border:1px solid grey;" name="state" id="state">
-    				<option value="">Select AnyOne</option>
-    				<option value="Alabama">Alabama</option>
-					<option value="Alaska">Alaska</option>
-					<option value="Alberta">Alberta</option>
-					<option value="Arizona">Arizona</option>
-					<option value="Arkansas">Arkansas</option>
-					<option value="British Columbia">British Columbia</option>
-					<option value="California">California</option>
-					<option value="Colorado">Colorado</option>
-					<option value="Connecticut">Connecticut</option>
-					<option value="Delaware">Delaware</option>
-					<option value="District of Columbia">District of Columbia</option>
-					<option value="Florida">Florida</option>
-					<option value="Georgia">Georgia</option>
-					<option value="Hawaii">Hawaii</option>
-					<option value="Idaho">Idaho</option>
-					<option value="Illinois">Illinois</option>
-					<option value="Indiana">Indiana</option>
-					<option value="International">International</option>
-					<option value="Iowa">Iowa</option>
-					<option value="Kansas">Kansas</option>
-					<option value="Kentucky">Kentucky</option>
-					<option value="Louisiana">Louisiana</option>
-					<option value="Maine">Maine</option>
-					<option value="Maryland">Maryland</option>
-					<option value="Massachusetts">Massachusetts</option>
-					<option value="Michigan">Michigan</option>
-					<option value="Minnesota">Minnesota</option>
-					<option value="Mississippi">Mississippi</option>
-					<option value="Missouri">Missouri</option>
-					<option value="Montana">Montana</option>
-					<option value="Nebraska">Nebraska</option>
-					<option value="Nevada">Nevada</option>
-					<option value="Hampshire">New Hampshire</option>
-					<option value="New Jersey">New Jersey</option>
-					<option value="New Mexico">New Mexico</option>
-					<option value="New York">New York</option>
-					<option value="North Carolina">North Carolina</option>
-					<option value="North Dakota">North Dakota</option>
-					<option value="Nova Scotia">Nova Scotia</option>
-					<option value="Ohio">Ohio</option>
-					<option value="Oklahoma">Oklahoma</option>
-					<option value="Ontario">Ontario</option>
-					<option value="Oregon">Oregon</option>
-					<option value="Pennsylvania">Pennsylvania</option>
-					<option value="Puerto">Puerto Rico</option>
-					<option value="Quebec">Quebec</option>
-					<option value="Rhode">Rhode Island</option>
-					<option value="South Carolina">South Carolina</option>
-					<option value="South Dakota">South Dakota</option>
-					<option value="Tennessee">Tennessee</option>
-					<option value="Texas">Texas</option>
-					<option value="Utah">Utah</option>
-					<option value="Vermont">Vermont</option>
-					<option value="Virginia">Virginia</option>
-					<option value="Washington">Washington</option>
-					<option value="West Virginia">West Virginia</option>
-					<option value="Wisconsin">Wisconsin</option>
-					<option value="Wyoming">Wyoming</option>
-  				</select></td>
+    			<td  class="dropdown-header">
+    				<select class="drop-style" name="state" class="table-width" required>
+    					<?php echo '<option value="">Select AnyOne</option>'; ?>
+    			  		<?php setSelectOptions($job_location_array  , $state); ?>
+    				</select>
+    			</td>
     			</tr>
     			<tr>
     			<td class="dropdown-header">Zip Code *</td>
-    			<td><input type="text" id="zip" name="zip" placeholder="Zip Code"  required></td>
+    			<td><input type="text" id="text-input-order" name="zip" placeholder="Zip Code"  required></td>
     			</tr>
   				<tr>
     			<td class="dropdown-header">Email *</td>
-    			<td><input type="email" id="email" name="email" placeholder="Email" required></td>
+    			<td><input type="email" id="text-input-order" name="email" placeholder="Email" required></td>
     			</tr>
     			<tr>
     			<td class="dropdown-header">Attach Your Resume *</td>
@@ -172,7 +124,7 @@ if(isset($_POST) && !empty($_POST)) {
     			</tr>
     			<tr>
     			<td colspan="2" class="dropdown-header">Paste Your Resume<br>
-    			<textarea maxlength="2000" style="width: 490px; height: 150px;" id="text-input" name="resume"></textarea></td>
+    			<textarea maxlength="2000" style="width: 490px; height: 150px;" id="text-input-order" name="resume"></textarea></td>
     			</tr>
   				<tr>
   				<td colspan="2">
