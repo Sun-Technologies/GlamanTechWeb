@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
   $reqObj->location 	     = $_POST['location'];
   $reqObj->contact_email   = $_POST['contact_email'];
   $reqObj->salary 		     = $_POST['salary'];
-  $reqObj->description     = $_POST['description'];
+  $reqObj->description     = htmlspecialchars($_POST['description']);
   $reqObj->job_code        = $_POST['job_code'];
   $reqObj->status          = $_POST['status'];
 

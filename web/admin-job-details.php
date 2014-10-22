@@ -86,7 +86,7 @@ include 'job_edit_status.php';
 				</tr>
 				<tr>
 					<td><h4 style="position: absolute;">Description</h4></td>
-					<td><textarea  rows="5" cols="41" id="text-input" style="height: auto;" name="description" required><?php echo isset($description) ? $description : ''; ?></textarea></td>
+					<td><textarea  rows="5" cols="41" id="text-input-desc" name="description" required><?php echo isset($description) ? $description : ''; ?></textarea></td>
 				</tr>	
 			</tbody>
 		</table>

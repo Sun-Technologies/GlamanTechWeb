@@ -23,7 +23,7 @@ foreach ($results as $list) {
 	echo "<tr><td class='table-head'>Location</td><td>".$location. "," . $state . "</td></tr>";
 	echo "<tr><td class='table-head'>Contact Email</td><td><a href=mailto:hr@glamantech.com?Subject=" . $job_title . ">".$contact_email."</a></td></tr>";
 	echo "<tr><td class='table-head'>Salary Offered</td><td>".$salary."</td></tr>";
-	echo "<tr><td class='table-head'>Description</td><td>".$description."</td></tr>";
+	echo "<tr><td class='table-head'>Description</td><td>".htmlentities($description)."</td></tr>";
 }
 ?>
 </table>

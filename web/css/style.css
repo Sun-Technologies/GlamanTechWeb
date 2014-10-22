@@ -1765,6 +1765,11 @@ ul.inline li {
 	border: none;
 	color: #fff;
 }
+#text-input-desc {
+	width: 700px;
+	height: 530px;
+	border: 1px #FF9900 solid;
+}
 .edit-db {
 	/*margin-bottom: 2%;*/
 }
