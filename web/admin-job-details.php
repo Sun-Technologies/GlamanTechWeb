@@ -86,7 +86,7 @@ include 'job_edit_status.php';
 				</tr>
 				<tr>
 					<td><h4 style="position: absolute;">Description</h4></td>
-					<td><textarea  rows="5" cols="41" id="text-input-desc" name="description" required><?php echo isset($description) ? $description : ''; ?></textarea></td>
+					<td><textarea  rows="5" cols="41" id="text-input-desc" name="description"><?php echo isset($description) ? $description : ''; ?></textarea></td>
 				</tr>	
 			</tbody>
 		</table>
@@ -97,3 +97,9 @@ include 'job_edit_status.php';
 </div>
 <?php include'footer1.php'; ?>
 <?php COUCH::invoke(); ?>
+<script type="text/javascript" src="js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea"
+ });
+</script>
