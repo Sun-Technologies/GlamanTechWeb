@@ -34,7 +34,7 @@ foreach ($results as $list) {
 	echo "<tr><td class='table-head'>Location</td><td>".$location. "," . $state . "</td></tr>";
 	echo "<tr><td class='table-head'>Contact Email</td><td><a href=mailto:hr@glamantech.com?Subject=" . $job_title . ">".$contact_email."</a></td></tr>";
 	echo "<tr><td class='table-head'>Salary Offered</td><td>".$salary."</td></tr>";
-	echo "<tr><td class='table-head'>Description</td><td class='mceEditable' style='padding-left:30px;list-style:circle inside none'>".html_entity_decode($description)."</td></tr>";
+	echo "<tr><td class='table-head'>Description</td><td style='padding-left:30px;'>".html_entity_decode($description)."</td></tr>";
 }
 ?>
 </table>
@@ -43,11 +43,4 @@ foreach ($results as $list) {
 </form>
 </div>
 </div>
-<script type="text/javascript" src="js/tinymce/tinymce.min.js"></script>
-<script type="text/javascript">
-tinymce.init({
-	 plugins: "noneditable",
-     noneditable_leave_contenteditable: true
- });
-</script>
 <?php include('footer1.php'); ?>
