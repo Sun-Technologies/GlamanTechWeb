@@ -95,11 +95,12 @@ include 'job_edit_status.php';
 		</form>
 	</div>
 </div>
-<?php include'footer1.php'; ?>
-<?php COUCH::invoke(); ?>
 <script type="text/javascript" src="js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
 tinymce.init({
     selector: "textarea"
  });
 </script>
+<?php include'footer1.php'; ?>
+<?php COUCH::invoke(); ?>
+
