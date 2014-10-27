@@ -76,16 +76,6 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
   <div id="headerimg2" style="z-index:1" class="headerimg"></div>
 </div>
 
-<!-- Slideshow controls -->
-<div class="fade">
-  <div id="control" class="btn"></div>
-</div>
-<div id="back" class="btn-back"></div>
-<div id="next" class="btn-next"></div>
-<div id="fullscreen" class="btnf"></div>
-
-<!-- end .Slideshow controls -->
-
 <div id="wrap" class="clearfix">
   <div id="header-wrap">
     <div id="pre-header" class="clearfix">
@@ -127,7 +117,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div id="main-menu">
           <ul class="menu">
             <li><a href="index.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >HOME</a></li>
-            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>SERVICES</a>
+            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>SERVICES</a>
               <ul class="menu">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
                   <ul>
@@ -136,7 +126,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="SAP Customer Relationship Management" href="sap-crm.php">SAP Customer Relationship Management</a></li>
                     <li><a title="SAP Supplier Relationship Management" href="sap-srm.php">SAP Supplier Relationship Management</a></li>
                     <li><a title="SAP Supply Chain Management" href="sap-scm.php">SAP Supply Chain Management</a></li>
-                    <li><a title="SAP Solution Manager with CHaRM" href="sap-solution-manager.php">SAP Solution Manager with CHaRM</a></li>
+                    <li><a title="SAP Solution Manager with CHaRM" href="sap-scmsolution-manager.php">SAP Solution Manager with CHaRM</a></li>
                     <li><a title="SAP Mobility" href="sap-mobility.php">SAP Mobility</a></li>
                     <li><a title="SAP HANA" href="sap-hana.php">SAP HANA</a></li>
                     <li><a title="SAP AMS" href="sap-ams.php">SAP AMS</a></li>
@@ -179,14 +169,14 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance &amp; Drug Safety Expertise</a></li>
               </ul>
             </li>
-            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'job-seekers'?   "active" :  ""); ?> title="Job Seekers">JOB SEEKERS</a>
+            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'job-seekers'?   "active" :  ""); ?> title="Job Seekers">JOB SEEKERS</a>
               <ul class="menu">
                     <li><a title="Search Jobs" href="search-job.php">Search Jobs</a></li>
                     <li><a title="" href="search_job_apply.php">Submit a Resume</a></li>
                     <li><a title="Benefits" href="benefits.php">Benefits</a></li>
               </ul>
             </li>
-            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employers'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYERS</a>
+            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employers'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYERS</a>
               <ul class="menu">
                     <li><a title="Submit a job order" href="submit_job_order.php">Submit a job order</a></li>
                     <li><a title="" href="#">Get Quote</a></li>
@@ -195,7 +185,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="#">Submit Feedback</a></li>
               </ul>
             </li>
-            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employees'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYEES</a>
+            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employees'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYEES</a>
               <ul class="menu">
                     <li><a title="" href="#">Enter Hours</a></li>
                     <li><a title="" href="#">Payroll</a></li>
@@ -203,7 +193,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="#">Leave Registration</a></li>
               </ul>
             </li>
-            <li><a class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'resources'?   "active" :  ""); ?> title="Contact">RESOURCES</a>
+            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'resources'?   "active" :  ""); ?> title="Contact">RESOURCES</a>
               <ul class="menu">
                     <li><a title="" href="whitepapers.php">Whitepapers</a></li>
                     <li><a title="" href="#">Case Studies</a></li>
