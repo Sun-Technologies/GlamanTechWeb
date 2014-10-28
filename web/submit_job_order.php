@@ -3,10 +3,12 @@ require('search_job_functions.php');
 include 'job_location.php';
 include 'job_speciality.php';
 include 'job_type.php';
+include 'job_services.php';
 require('database.php');
 if(isset($_POST['submit'])) {
   $msg  = "Name: " . $_POST['name'] . "\n" . "Company: " . $_POST['company'] . "\n" .
           "Address: " . $_POST['address'] . "\n" . "City: " . $_POST['city'] . "\n" .
+          "Services: " . $_POST['services'] . "\n" .
           "State: " . $_POST['state'] . "\n" . "Zip Code: " . $_POST['zip'] . "\n" .
           "Email: " . $_POST['email'] . "\n" . "Phone: " . $_POST['phone'] . "\n" .
           "Job Speciality: ". $_POST['job_speciality'] . "\n" . "Job Title: " . $_POST['job_title'] . "\n" .
@@ -42,6 +44,15 @@ if(isset($_POST['submit'])) {
           </tr>
           <td class="dropdown-header">City *</td>
           <td><input type="text" id="text-input-order" name="city" placeholder="City" required></td>
+          </tr>
+          <tr>
+          <td class="dropdown-header">Services</td>
+          <td>
+            <select id="text-input-order" style="width: 155px; height: 30px;" name="services" required>
+                <?php echo '<option value="">Select AnyOne</option>'; ?>
+                <?php setSelectOptions($job_services_array  , $services); ?>
+            </select>
+          </td>
           </tr>
           <tr>
           <td class="dropdown-header">State</td>

@@ -33,25 +33,25 @@ var slideEffect = "fade";
 jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{ 
 			"firstline" : "Our Vision",
 			"secondline" : "To be the most respected, trusted global consulting firm by providing transparent, reliable and innovative solutions to our prestige clients.",	
-			"url" :  "",
+			"url" :  "about-us.php",
 			"image" : "images/slide/slide22.jpg",
 			"link" : "<div class=\"pictured\">READ MORE<div>"
 		},{ 
 			"firstline" : "Our Philosophy",
 			"secondline" : "We measure our achievement by the success of our client. We make sure that we are providing practical and result driven solution to our client.",	
-			"url" :  "",
+			"url" :  "about-us.php",
 			"image" : "images/slide/slide33.jpg",
 			"link" : "<div class=\"pictured\">READ MORE<div>"
 		},{ 
 			"firstline" : "Who we are",
 			"secondline" : "A dynamically growing adaptive IT consulting firm providing solutions to complex challenges, with highly qualified, passionate, down to earth, and approachable trained professionals.",
-			"url" :  "",
+			"url" :  "about-us.php",
 			"image" : "images/slide/slide44.jpg",
 			"link" : "<div class=\"pictured\">READ MORE<div>"
 		},{ 
       "firstline" : "What we do",
       "secondline" : "We offer strategic consultative approach on time and within budget, to boost your business profitability, productivity and also to increase the velocity of your success.",  
-      "url" :  "",
+      "url" :  "about-us.php",
       "image" : "images/slide/slide11.jpg",
       "link" : "<div class=\"pictured\">READ MORE<div>"
     },]});});
@@ -117,6 +117,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div id="main-menu">
           <ul class="menu">
             <li><a href="index.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >HOME</a></li>
+            <li><a href="about-us.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'about'?   "active" :  ""); ?> >ABOUT US</a></li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>SERVICES</a>
               <ul class="menu">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
@@ -157,14 +158,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                   </ul>
                 </li>
                 <li><a title="" href="disaster-recovery.php">Data recovery &amp; Offsite Data center</a></li>
-                <li><a title="" href="staffing.php">Staffing Services</a>
-                  <ul class="menu">
-                    <li><a title="" href="#">Direct Hire</a></li>
-                    <li><a title="" href="#">Contract Services</a></li>
-                    <li><a title="" href="#">Cloud Resources</a></li>
-                    <li><a title="" href="#">Expert Search</a></li>
-                  </ul>
-                </li>
+                <li><a title="" href="staffing.php">Staffing Services</a></li>
                 <li><a title="" href="training-and-education.php">Training &amp; Education</a></li>
                 <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance &amp; Drug Safety Expertise</a></li>
               </ul>
@@ -179,7 +173,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employers'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYERS</a>
               <ul class="menu">
                     <li><a title="Submit a job order" href="submit_job_order.php">Submit a job order</a></li>
-                    <li><a title="" href="#">Get Quote</a></li>
+                    <li><a title="" href="#">Contact an Account Manager</a></li>
                     <li><a title="Recruiting Methodology" href="recruit-methodology.php">Recruiting Methodology</a></li>
                     <li><a title="Our Clients" href="our-clients.php">Our Clients</a></li>
                     <li><a title="" href="#">Submit Feedback</a></li>
@@ -196,14 +190,20 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'resources'?   "active" :  ""); ?> title="Contact">RESOURCES</a>
               <ul class="menu">
                     <li><a title="" href="whitepapers.php">Whitepapers</a></li>
-                    <li><a title="" href="#">Case Studies</a></li>
+                    <li><a title="" href="career-tools.php">Career Tools</a>
+                    <ul class="menu">
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#resume-tips"><a title="Resume Tips" href="career-tools.php#resume-tips">Resume Tips</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#interview-que"><a title="Interview Questions" href="career-tools.php#interview-que">Interview Questions</a></li>
+                    <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#interview-tips"><a title="Interview Tips" href="career-tools.php#interview-tips">Interview Tips</a></li>
+                    </ul>
+                    </li>
                     <li><a title="" href="blog.php">Blogs</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </nav>
-      <img src="images/sap-partner.png" alt="Sap Partner" style="width: 115px; margin-left: -15%; position: absolute;" id="sap-image"/>
+      <img src="images/sap-partner.png" alt="Sap Partner" style="width: 115px; margin-left: -12%; position: absolute;" id="sap-image"/>
       <div id="header-right">
         <div id="block-views-latest-news-block">
           <div class="content">

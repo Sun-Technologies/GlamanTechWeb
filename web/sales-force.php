@@ -5,7 +5,7 @@
        <hr/>
       <div class="wp-area">
         <p>Salesforce Service Cloud is a web based total customer service management solution offering an easy and extremely effective CRM solution. It helps in integrating CRM with other applications by delivering an environment that is intuitive, easy-to-use and always available for improved customer satisfaction at every interaction.</p>
-        <p>GlamanTech has been a global salesforce.com partner. With many years of experience in consulting and implementing business critical enterprise-wide solutions, we deliver quality Salesforce services quickly, cost-effectively, and at minimal risk helping our clients to manage and grow their business.</p>
+        <p>With many years of experience in consulting and implementing business critical enterprise-wide solutions, we deliver quality Salesforce services quickly, cost-effectively, and at minimal risk helping our clients to manage and grow their business.</p>
         <p>Our outstanding team of Salesforce consultants, trainers and technical expertise supported by a dedicated Center of Excellence, will work with you to build Salesforce consulting strategy, evaluate existing system and to integrate Salesforce with your business system.</p>
         <h3>What we do?</h3>
         <ul class="oracle-content">

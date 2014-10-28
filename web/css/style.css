@@ -1794,6 +1794,38 @@ ul.inline li {
 .admin-add-job-right {
 	padding-left: 5%;
 }
+.training {
+	background: #F0F8FF;
+	padding-left: 5%;
+	padding-bottom: 5%;
+	padding-top: 2%;
+	margin-top: 2%;
+	width: 90%;
+}
+.training a {
+	color: #00B2EE;
+	font-size: 15px;
+}
+.training-seca {
+	padding-top: 2%;
+}
+#content-images ul li {
+	display: inline-block;
+	padding-left: 5%;
+	padding-top: 3%;
+}
+#content-images ul li img {
+	width: 150px;
+	height: 100px;
+	margin-left: 20%;
+}
+.list-style-none li {
+	list-style: none;
+	padding-top: 2%;
+}
+.div-styles {
+	margin-top: 30%;
+}
 
 @media screen and (max-width: 480px) {
 	.dropdown-area {

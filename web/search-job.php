@@ -16,6 +16,7 @@ $reqObj->job_status     = 1;
   <div id="primary" class="container clearfix" style="padding-bottom: 25%;">
     <h1>Search For Job</h1>
     <hr/>
+    <p>For the latest and most up to date requirements from Glamantech, Please <a href="http://www.dice.com/jobsearch/company/DiceId_90542354/Glaman+Tech" target="_blank">Click here</a>.</p>
     <div class="wp-area">
     	<form method="POST">
     		<ul class="job-list">
