@@ -117,7 +117,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div id="main-menu">
           <ul class="menu">
             <li><a href="index.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >HOME</a></li>
-            <li><a href="about-us.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'about'?   "active" :  ""); ?> >ABOUT US</a></li>
+            <li><a href="about-us.php" title="About US" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'about'?   "active" :  ""); ?> >ABOUT US</a></li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>SERVICES</a>
               <ul class="menu">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
@@ -154,29 +154,29 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 </li>
                 <li><a title="" href="#">Mobility</a>
                   <ul class="menu">
-                    <li><a title="" href="sap.php">SAP</a></li>
+                    <li><a title="SAP" href="sap.php">SAP</a></li>
                   </ul>
                 </li>
-                <li><a title="" href="disaster-recovery.php">Data recovery &amp; Offsite Data center</a></li>
-                <li><a title="" href="staffing.php">Staffing Services</a></li>
-                <li><a title="" href="training-and-education.php">Training &amp; Education</a></li>
-                <li><a title="" href="pharmacovigilance-and-drug.php">Pharmacovigilance &amp; Drug Safety Expertise</a></li>
+                <li><a title="Data recovery" href="data-recovery.php">Data recovery &amp; Offsite Data center</a></li>
+                <li><a title="Staffing Services" href="staffing.php">Staffing Services</a></li>
+                <li><a title="Training Education" href="training-and-education.php">Training &amp; Education</a></li>
+                <li><a title="Drug Safety Expertise" href="pharmacovigilance-and-drug.php">Pharmacovigilance &amp; Drug Safety Expertise</a></li>
               </ul>
             </li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'job-seekers'?   "active" :  ""); ?> title="Job Seekers">JOB SEEKERS</a>
               <ul class="menu">
                     <li><a title="Search Jobs" href="search-job.php">Search Jobs</a></li>
-                    <li><a title="" href="search_job_apply.php">Submit a Resume</a></li>
+                    <li><a title="Submit a Resume" href="search_job_apply.php">Submit a Resume</a></li>
                     <li><a title="Benefits" href="benefits.php">Benefits</a></li>
               </ul>
             </li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employers'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYERS</a>
               <ul class="menu">
                     <li><a title="Submit a job order" href="submit_job_order.php">Submit a job order</a></li>
-                    <li><a title="" href="#">Contact an Account Manager</a></li>
+                    <li><a title="Contact an Account Manager" href="contacting-account-manager.php">Contact an Account Manager</a></li>
                     <li><a title="Recruiting Methodology" href="recruit-methodology.php">Recruiting Methodology</a></li>
                     <li><a title="Our Clients" href="our-clients.php">Our Clients</a></li>
-                    <li><a title="" href="#">Submit Feedback</a></li>
+                    <li><a title="Submit Feedback" href="submit_feedback.php">Submit Feedback</a></li>
               </ul>
             </li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employees'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYEES</a>

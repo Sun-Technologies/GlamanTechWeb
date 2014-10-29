@@ -15,7 +15,9 @@
           <p>If you know an experienced professional or a good candidate, let us know to fill an open position.  Provide us the resume of candidate, with referrer's name and contact information and complete the Candidate Referral Online Form.</p>
           <p>The referrer is eligible for bonus only, if the hired candidate is employed by GlamanTech for a period of 3 months. If your referral is not hired within 6 months, the referrer is no longer eligible for a bonus.</p>
           </li>
-          <li>6. Rewards Program Bonus<br><p>We recognize your efforts in helping us to grow our organization and to thank you, we offer various kinds of bonus as employee reward programs.</p></li>
+          <li>6. Rewards Program Bonus<br><p>We recognize your efforts in helping us to grow our organization and to thank you, we offer various kinds of bonus as employee reward programs. We offer bonuses linked to the performance of our employee.</p>
+          <p>GlamanTech has various awards like Gold award, Silver award for an employee or team of workers for their outstanding performances, Contributor of the year, and Developer of the year. These awards inspire our employees to improve their performance and to do more.</p>
+          </li>
           <li>7. Employee Assistance Program<br><p>We offer Employee Assistance Program (EAP) to our employees in order to boost their effectiveness for personal as well as professional growth and to balance their work life and personal life.</p>
           <p>We provide counseling, consultation service, educational training on EAP to our employees for a productive workforce.</p>
           </li>

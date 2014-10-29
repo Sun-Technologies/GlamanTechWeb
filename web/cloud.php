@@ -2,28 +2,37 @@
 <?php include'header.php'; ?>
   <div id="primary" class="container clearfix">
    <h1 class="page-title">Cloud</h1>
-        <hr>
-        <div class="content">
-              <p>The term "Cloud Computing" refers to the on-demand delivery of IT resources via the Internet with pay-as-you-go pricing.</p>
-                       <p>Cloud Computing drives down up-front and on-going IT labor costs and gives you access to a highly distributed, full-featured platform at a fraction of the cost of traditional infrastructure.</p>
-                       <p>We help you understand the potential of Cloud to accelerate the ROI and innovation in the organization. Cloud service helps in addressing the flexible business and communication needs of your people from anywhere, by supporting mobile devices.</p>
-                       <h3>Our Cloud computing service includes:</h3>
-                        <ul class="oracle-content">
-                              <li>Private, public and Hybrid Cloud Models</li>
-                              <li>Wide range of Cloud based services </li>
-                        </ul>
-                        <h3>Why Cloud?</h3>
-                        <ul class="oracle-content">
-                              <li>Lower Cost to operate, migrate and develop system.</li>
-                              <li>Reduce Carbon Footprint by lowering operational and environmental costs.</li>
-                              <li>Simplify IT management</li>
-                        </ul>
+       <hr/>
+       <div class="region region-content">
+        <div id="block-system-main" class="block block-system">
+          <div class="content">
+            <div id="portfolio-content" class="content">
+              <div class="field field-name-field-client field-type-text field-label-inline clearfix">
+                <p>The term "Cloud Computing" refers to the on-demand delivery of IT resources via the Internet with pay-as-you-go pricing.</p>
+                <p>Cloud Computing drives down up-front and on-going IT labor costs and gives you access to a highly distributed, full-featured platform at a fraction of the cost of traditional infrastructure.</p>
+                <p>We help you understand the potential of Cloud to accelerate the ROI and innovation in the organization. Cloud service helps in addressing the flexible business and communication needs of your people from anywhere, by supporting mobile devices.</p>
+                <h3>Our Cloud computing service includes:</h3>
+                <ul class="list-cloud">
+                  <li>Private, public and Hybrid Cloud Models</li>
+                  <li>Wide range of Cloud based services </li>
+                </ul>
+                <ul class="list-cloud">
+                <h3>Why Cloud?</h3>
+                  <li>Lower Cost to operate, migrate and develop system.</li>
+                  <li>Reduce Carbon Footprint by lowering operational and environmental costs.</li>
+                  <li>Simplify IT management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-    <div class="content">
-            <img src="images/cloud-computing.png" alt="Cloud Computing">
-    </diV>
+        <div id="block-views-portfolio-client-images-block" class="block block-views">
+          <img src="images/cloud-computing.png" alt="Cloud Computing" style="width: 100%;">
+        </div>
+      </div>
+      <div style="height: 400px;"></div>
     <div id="microsoft-cloud">
-      <h1 id="side-nav" class="navbar-example">Microsoft Cloud</h1>
+      <h1 style="margin-right: 50%;">Microsoft Cloud</h1>
        <hr/>
       <div class="wp-area">
         <p>Microsoft's cloud services helps you in gaining better business agility and user experiences. It offers fully managed environment, controlled economic model, including the infrastructure and system and device management.</p>

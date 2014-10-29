@@ -1642,6 +1642,13 @@ ul.inline li {
 	position: relative;
 }
 /* oracle style */
+.list-cloud {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.list-cloud li {
+	list-style-type: square;
+}
 .oracle-content {
 	padding: 20px;
 	width: 100%;
@@ -1795,7 +1802,6 @@ ul.inline li {
 	padding-left: 5%;
 }
 .training {
-	background: #F0F8FF;
 	padding-left: 5%;
 	padding-bottom: 5%;
 	padding-top: 2%;
@@ -1807,7 +1813,11 @@ ul.inline li {
 	font-size: 15px;
 }
 .training-seca {
-	padding-top: 2%;
+	background: #F0F8FF;
+	padding: 30px;
+}
+.training-seca:first-child {
+	margin-bottom: 5%;
 }
 #content-images ul li {
 	display: inline-block;
@@ -1825,6 +1835,12 @@ ul.inline li {
 }
 .div-styles {
 	margin-top: 30%;
+}
+.image-content-position {
+	display: inline-block;
+}
+.image-content-position li {
+	width: 50%;
 }
 
 @media screen and (max-width: 480px) {

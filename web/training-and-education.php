@@ -15,14 +15,14 @@
             <p>Delivery Method: Classroom, Virtual Live Classroom</p>
             <p>Duration: 20 days</p>
             <p>Delivery Languages: English</p>
-            <a id="go-button" style="margin-top: 1%; margin-bottom: 1%;">Register Now</a>
-          </div><br>
+            <a href="contacting-account-manager.php" id="go-button" style="margin-top: 1%; margin-bottom: 1%;">Register Now</a>
+          </div>
           <div class="training-seca">
             <a href="#">GT530 : Oracle Database 12c: New Features for Administrators</a><br><br>
             <p>Delivery Method: Classroom, Virtual Live Classroom</p>
             <p>Duration: 5 days</p>
             <p>Delivery Languages: English</p>
-            <a id="go-button" style="margin-top: 1%; margin-bottom: 1%;">Register Now</a>
+            <a href="contacting-account-manager.php" id="go-button" style="margin-top: 1%; margin-bottom: 1%;">Register Now</a>
           </div>
       </div>
       </div>

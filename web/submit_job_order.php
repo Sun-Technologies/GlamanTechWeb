@@ -14,7 +14,8 @@ if(isset($_POST['submit'])) {
           "Job Speciality: ". $_POST['job_speciality'] . "\n" . "Job Title: " . $_POST['job_title'] . "\n" .
           "Job Type: " . $_POST['job_type'] . "\n" . "Job Responsibilities" . $_POST['job_responsibilility'] . "\n" .
           "Additional Comments: " . $_POST['comments'] . "\n";
-          mail('chandra.shalwi@gmail.com', 'New Job Order', $msg);
+          mail('hr@glamantech.com', 'New Job Order', $msg);
+          mail('tahiri@suntechnologies.com', 'New Job Order', $msg);
           if($msg == null) {
             header('location: submit_job_order.php');
           }

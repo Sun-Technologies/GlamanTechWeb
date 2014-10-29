@@ -5,7 +5,7 @@
       <h1 id="side-nav" class="page-title navbar-example">Resume Tips</h1>
        <hr/>
       <div class="wp-area">
-      <h3>Resume is a self-promotional document which helps you to get your dream job, if presented properly. Read on the tips and tricks to make your resume the best:</h3>
+      <p>Resume is a self-promotional document which helps you to get your dream job, if presented properly. Read on the tips and tricks to make your resume the best:</p>
       <ul class="list-style-none">
         <li><h3>1.  Make it simple</h3><br><p>Keep your resume short, clear and use words concisely. Avoid long paragraphs instead use bullet points and short sentences, and straight forward text.</p></li>
         <li><h3>2.  Prioritize your content</h3><br><p>Always use action words that describes your strength and reflects your accomplishments. Always put it at the top. Make sure that your skills are as per the employers need.</p></li>
@@ -50,12 +50,13 @@
       </ul>
      </div>
     </div>
-    <div id="interview-tips" class="div-styles" style="margin-top: 10%;">
+    <div style="height: 150px;"></div>
+    <div id="interview-tips" class="div-styles">
       <h1>Interview Tips</h1>
       <hr/>
       <div class="wp-area">
        <p>Read on the tips for a successful interview.</p>
-       <h3 style="text-align: center; padding-top: 2%; padding-bottom: 2%;">BEFORE INTERVIEW:</h3>
+       <h3 style="text-align: center; padding-top: 1%; padding-bottom: 1%;">BEFORE INTERVIEW</h3>
        <h3>Research the company</h3>
        <p>Research everything about the place via company website. Know about the organization work culture to know if it is the right place to work at.</p>
        <h3>Know the position description</h3>
@@ -64,14 +65,14 @@
        <p>Know the job requirements and prepare a list of your strengths, skills and experiences which interviewer can link to the position.</p>
        <h3>Prepare question</h3>
        <p>Be prepared with questions in advance to ask the interviewer like if you are uncertain about roles and responsibilities, just ask for clarification.</p>
-       <h3 style="text-align: center; padding-top: 2%; padding-bottom: 2%;">DAY OF INTERVIEW:</h3>
+       <h3 style="text-align: center; padding-top: 1%; padding-bottom: 1%;">DAY OF INTERVIEW</h3>
        <h3>Dress appropriately</h3>
        <p>Appearance counts on the day of interview. Understand the work culture of the company and what is their dress code, then dress yourself accordingly.</p>
        <h3>Arrive early</h3>
        <p>The first chance to show your attitude and commitment, is to arrive few minutes early for the personal interview.</p>
        <h3>Documents</h3>
        <p>Be prepared with all your documents and make sure to get copies of the same.</p>
-       <h3 style="text-align: center; padding-top: 2%; padding-bottom: 2%;">INTERVIEW</h3>
+       <h3 style="text-align: center; padding-top: 1%; padding-bottom: 1%;">INTERVIEW</h3>
        <h3>Body language</h3>
        <p>Make your body language positive and confident. Always smile, speak in clear voice, make eye contact and greet the interviewer with a firm handshake. Sit forward in your chair and show your interest towards the organization.</p>
        <h3>Answer properly</h3>
@@ -80,7 +81,7 @@
        <p>Stay calm and do not waffle. Always talk positive about colleagues and boss. Tell about all the positive experiences you had in your previous organization.</p>
        <h3>Ask questions</h3>
        <p>Always be prepared with questions for your interviewer. Ask about the culture and objective of the company. Ask about interviewer experiences in the company.</p>
-       <h3 style="text-align: center; padding-top: 2%; padding-bottom: 2%;">AFTER INTERVIEW</h3>
+       <h3 style="text-align: center; padding-top: 1%; padding-bottom: 1%;">AFTER INTERVIEW</h3>
        <h3>Make sure you have contact information</h3>
        <p>Get the contact number or email id of the interviewer or HR team for future contact and to send thank you note. Ask for the business card.</p>
        <h3>Discuss next steps</h3>
