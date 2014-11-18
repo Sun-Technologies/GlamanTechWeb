@@ -1,5 +1,5 @@
 <?php 
-$CURRENT_PAGE= "about";
+$CURRENT_PAGE= "home";
 include'header.php';
 ?>
   <div class="split_line"></div>

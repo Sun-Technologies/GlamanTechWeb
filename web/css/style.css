@@ -1842,6 +1842,18 @@ ul.inline li {
 .image-content-position li {
 	width: 50%;
 }
+.my-hr-box li {
+	display: inline-block;
+	padding: 30px;
+	background: #000;
+	opacity: 0.8;
+}
+.my-hr-box h3 {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 10px
+}
+
 
 @media screen and (max-width: 480px) {
 	.dropdown-area {

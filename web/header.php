@@ -117,7 +117,6 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div id="main-menu">
           <ul class="menu">
             <li><a href="index.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >HOME</a></li>
-            <li><a href="about-us.php" title="About US" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'about'?   "active" :  ""); ?> >ABOUT US</a></li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>SERVICES</a>
               <ul class="menu">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
@@ -182,9 +181,8 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employees'?   "active" :  ""); ?> title="News &amp; Events">EMPLOYEES</a>
               <ul class="menu">
                     <li><a title="" href="#">Enter Hours</a></li>
-                    <li><a title="" href="#">Payroll</a></li>
+                    <li><a title="" href="myhr.php">myHR</a></li>
                     <li><a title="" href="#">Benefits</a></li>
-                    <li><a title="" href="#">Leave Registration</a></li>
               </ul>
             </li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'resources'?   "active" :  ""); ?> title="Contact">RESOURCES</a>
@@ -200,6 +198,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="blog.php">Blogs</a></li>
               </ul>
             </li>
+            <li><a href="contact.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'contact'?   "active" :  ""); ?> >CONTACT US</a></li>
           </ul>
         </div>
       </nav>
