@@ -34,25 +34,25 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
 			"firstline" : "Our Vision",
 			"secondline" : "To be the most respected, trusted global consulting firm by providing transparent, reliable and innovative solutions to our prestige clients.",	
 			"url" :  "about-us.php",
-			"image" : "images/slide/slide22.jpg",
+			"image" : "images/slide/our-vision.jpg",
 			"link" : "<div class=\"pictured\">READ MORE<div>"
 		},{ 
 			"firstline" : "Our Philosophy",
 			"secondline" : "We measure our achievement by the success of our client. We make sure that we are providing practical and result driven solution to our client.",	
 			"url" :  "about-us.php",
-			"image" : "images/slide/slide33.jpg",
+			"image" : "images/slide/our-philosophy.jpg",
 			"link" : "<div class=\"pictured\">READ MORE<div>"
 		},{ 
 			"firstline" : "Who we are",
 			"secondline" : "A dynamically growing adaptive IT consulting firm providing solutions to complex challenges, with highly qualified, passionate, down to earth, and approachable trained professionals.",
 			"url" :  "about-us.php",
-			"image" : "images/slide/slide44.jpg",
+			"image" : "images/slide/who-we-are.jpg",
 			"link" : "<div class=\"pictured\">READ MORE<div>"
 		},{ 
       "firstline" : "What we do",
       "secondline" : "We offer strategic consultative approach on time and within budget, to boost your business profitability, productivity and also to increase the velocity of your success.",  
       "url" :  "about-us.php",
-      "image" : "images/slide/slide11.jpg",
+      "image" : "images/slide/what-we-do.jpg",
       "link" : "<div class=\"pictured\">READ MORE<div>"
     },]});});
 		

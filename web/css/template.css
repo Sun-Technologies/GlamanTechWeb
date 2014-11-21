@@ -22,6 +22,7 @@ body{
 	clear: both;
 	position: relative;
 	background-image: url("../images/transparent-bg.png");
+	opacity: 1;
 	top: 40px;
 }
 @media screen and (max-width: 500px) {
