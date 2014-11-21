@@ -12,6 +12,7 @@
 
 <link rel="stylesheet" href="css/menus.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/animate.css" type="text/css">
 <link rel="stylesheet" href="css/admin-page.css" type="text/css">
 <link rel="stylesheet" href="css/responsive.css" type="text/css">
 <!-- RTL - Right to left languages OFF (default) if you use css/style-rtl.css your site will be in RTL Mode   -->
@@ -23,6 +24,7 @@
 <script type="text/javascript" src="js/uniform.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="http://cherne.net/brian/resources/jquery.hoverIntent.minified.js"></script>
 <!-- <script type="text/javascript" src="js/pagination.js"></script> -->
 
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
@@ -118,9 +120,9 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
           <ul class="menu">
             <li><a href="index.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >HOME</a></li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>SERVICES</a>
-              <ul class="menu">
+              <ul class="menu" id="">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
-                  <ul>
+                  <ul class="dropdown">
                     <li><a title="SAP Implementation and Migration" href="sap-implementation-migration.php">SAP Implementation &amp; Migration</a></li>
                     <li><a title="SAP ERP and Netweaver Implementation" href="sap-erp.php">SAP ERP &amp; Netweaver Implementation</a></li>
                     <li><a title="SAP Customer Relationship Management" href="sap-crm.php">SAP Customer Relationship Management</a></li>
