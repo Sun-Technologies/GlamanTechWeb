@@ -15,7 +15,7 @@ require('search_job_functions.php');
  		
 	}
 </style>
-<div id="primary" class="container clearfix" style="padding-bottom: 5%;">
+<div id="primary" class="container clearfix animated bounceIn" style="padding-bottom: 5%;">
 <h1 class="page-title">Job Details</h1>
 <div class="wp-area">
 <table>

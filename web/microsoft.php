@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container   clearfix">
+  <div id="primary" class="container   clearfix animated bounceIn">
     <div id="microsoft-sp">
       <h1 id="side-nav" class="page-title navbar-example">Microsoft SharePoint</h1>
        <hr/>

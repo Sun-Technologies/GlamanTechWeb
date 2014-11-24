@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container clearfix" style="padding-bottom: 17%;">
+  <div id="primary" class="container clearfix animated bounceIn" style="padding-bottom: 17%;">
    <h1 class="page-title">SAP Mobility</h1>
         <hr>
         <div class="region region-content">

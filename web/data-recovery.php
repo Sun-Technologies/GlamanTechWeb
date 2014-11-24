@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container   clearfix">
+  <div id="primary" class="container   clearfix animated bounceIn">
    <h1 id="side-nav" class="page-title navbar-example">Data Recovery and Offsite Data Center</h1>
        <hr/>
       <div class="wp-area">

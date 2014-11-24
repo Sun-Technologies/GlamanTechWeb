@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "employers"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container clearfix">
+  <div id="primary" class="container clearfix animated bounceIn">
     <section id="content" role="main" class="clearfix">
       <div id="content-wrap">
         <h1><span>We are in good Company</span></h1>

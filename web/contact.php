@@ -1,7 +1,7 @@
 <?php $CURRENT_PAGE= "contact"; ?>
 <?php include'header.php'; ?>
   <div class="split_line"></div>
-  <div id="primary" class="container   clearfix" style="padding-bottom: 10%;">
+  <div id="primary" class="container   clearfix animated bounceIn" style="padding-bottom: 10%;">
     <h1 class="page-title">Contact Us</h1>
     <hr/>
     <div class="region region-content">

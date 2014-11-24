@@ -1,7 +1,7 @@
 <?php $CURRENT_PAGE= "resources"; ?>
 <?php include'header.php'; ?>
   <div class="split_line"></div>
-  <div id="primary" class="container1">
+  <div id="primary" class="container1 animated bounceIn">
     <h1 class="page-title">White Papers</h1>
     <hr/>
     <div class="wp-area">

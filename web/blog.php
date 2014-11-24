@@ -1,7 +1,7 @@
 <?php $CURRENT_PAGE= "resources"; ?>
 <?php include'header.php'; ?>
   <div class="split_line"></div>
-  <div class="container1">
+  <div class="container1 animated bounceIn">
   <h1 class="page-title">Blog</h1>
   <hr/>
   <h2>SAP FIORI APPS FREE</h2>

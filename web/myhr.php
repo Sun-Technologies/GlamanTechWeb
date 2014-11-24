@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "employees"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container   clearfix" style="padding-bottom: 25%;">
+  <div id="primary" class="container   clearfix animated bounceIn" style="padding-bottom: 25%;">
    <h1 id="side-nav" class="page-title navbar-example">My HR</h1>
        <hr/>
       <div class="wp-area">

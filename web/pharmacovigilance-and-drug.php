@@ -1,7 +1,7 @@
 <?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div class="split_line"></div>
-  <div id="primary" class="container   clearfix" style="padding-bottom: 5%;">
+  <div id="primary" class="container   clearfix animated bounceIn" style="padding-bottom: 5%;">
     <h1 class="page-title">Pharmacovigilance and Drug Safety Expertise</h1>
     <hr/>
     <div class="region region-content">

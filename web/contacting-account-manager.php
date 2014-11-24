@@ -15,7 +15,7 @@ if(isset($_POST['submit'])) {
 } 
 ?>
 <?php include'header.php'; ?>
-<div id="primary" class="container   clearfix">
+<div id="primary" class="container   clearfix animated bounceIn">
     <h1>Contact Our Account Manager</h1>
     <hr/>
       <form method="post" action="">

@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "resources"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container   clearfix">
+  <div id="primary" class="container   clearfix animated bounceIn">
     <div id="resume-tips">
       <h1 id="side-nav" class="page-title navbar-example">Resume Tips</h1>
        <hr/>

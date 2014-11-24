@@ -13,7 +13,7 @@ $reqObj->page_index     = isset( $_POST['pageIndex'] ) ? $_POST['pageIndex'] : 0
 $reqObj->job_status     = 1; 
 ?>
 <div class="split_line"></div>
-  <div id="primary" class="container clearfix" style="padding-bottom: 25%;">
+  <div id="primary" class="container clearfix animated bounceIn" style="padding-bottom: 25%;">
     <h1>Search For Job</h1>
     <hr/>
     <p>For the latest and most up to date requirements from Glamantech, Please <a href="http://www.dice.com/jobsearch/company/DiceId_90542354/Glaman+Tech" target="_blank">Click here</a>.</p>

@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container clearfix">
+  <div id="primary" class="container clearfix animated bounceIn">
    <h1 class="page-title">Cloud</h1>
        <hr/>
        <div class="region region-content">

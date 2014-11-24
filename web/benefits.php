@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "job-seekers"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container clearfix">
+  <div id="primary" class="container clearfix animated bounceIn">
     <h1 id="side-nav">Benefits</h1>
        <hr/>
       <div class="wp-area">

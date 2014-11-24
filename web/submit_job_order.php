@@ -25,7 +25,7 @@ if(isset($_POST['submit'])) {
 } 
 ?>
 <?php include'header.php'; ?>
-<div id="primary" class="container   clearfix">
+<div id="primary" class="container   clearfix animated bounceIn">
     <h1>Submit a Job Order</h1>
     <hr/>
     <p>Please fill out the following information, to let us know about your requirements. We will get in touch with you promptly to discuss your staffing needs.</p>

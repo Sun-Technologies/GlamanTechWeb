@@ -75,7 +75,7 @@ include 'job_location.php';
 require('search_job_functions.php');
 require('database.php');
 ?>
-  <div id="primary" class="container   clearfix">
+  <div id="primary" class="container   clearfix animated bounceIn">
     <h1>Submit Your Resume</h1>
     <hr/>
     	<p>If you think you have knowledge, talent and zest to make a difference and are interested in joining us, then apply online or send in your resumes to <a href="mailto:hr@glamantech.com?Subject=Resume">hr@glamantech.com</a>. We'll get back to you shortly.</p>

@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "services" ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container   clearfix" style="padding-bottom: 4%;">
+  <div id="primary" class="container   clearfix animated bounceIn" style="padding-bottom: 4%;">
     <h1 id="side-nav">SAP SRM</h1>
        <hr/>
       <div class="wp-area">

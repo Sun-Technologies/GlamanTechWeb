@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container clearfix">
+  <div id="primary" class="container clearfix animated bounceIn">
     <section>
       <h1>Our Services</h1>
         <hr>

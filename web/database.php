@@ -2,7 +2,7 @@
 
 $config =  array(
 		'username' => 'root',
-		'password' => '',
+		'password' => 'root',
 		'hostname' => 'localhost',
 		'dbname'   => 'glamantech_jobs' 
 );
@@ -10,10 +10,10 @@ $config =  array(
 
 //Prod configuration
 // $config =  array(
-// 		'username' => 'popcliqsweb'	 	,
-// 		'password' => 'Bubble@2013'		,
-// 		'hostname' => 'popcliqsweb.db.10862321.hostedresource.com'	,
-// 		'dbname'   => 'popcliqsweb'
+// 		'username' => 'glamantech_admin'	 	,
+// 		'password' => 'Appl$1234'		,
+// 		'hostname' => 'localhost'	,
+// 		'dbname'   => 'glamantech_jobs'
 // );
 
 

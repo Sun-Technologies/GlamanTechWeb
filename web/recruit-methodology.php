@@ -1,6 +1,6 @@
 <?php $CURRENT_PAGE= "employers"; ?>
 <?php include'header.php'; ?>
-  <div id="primary" class="container   clearfix" style="padding-bottom: 7%;">
+  <div id="primary" class="container   clearfix animated bounceIn" style="padding-bottom: 7%;">
     <h1 id="side-nav">Recruiting Methodology</h1>
        <hr/>
       <div class="wp-area">
