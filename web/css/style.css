@@ -1586,7 +1586,7 @@ ul.inline li {
 	width: 100%;
 }
 .wp-area {
-	margin-bottom: 5%;
+	margin-bottom: 1%;
 }
 .download-wp {
 	background-color: #CC3333;
@@ -1650,16 +1650,20 @@ ul.inline li {
 	list-style-type: square;
 }
 .oracle-content {
-	padding: 20px;
+	padding: 1px;
+	padding-left: 30px;
+	padding-bottom: 15px;
 	width: 100%;
 	height: auto; 
 }
 .oracle-content li {
 	list-style-type: square;
+	padding-bottom: 1px;
 }
 .oracle-content1 li {
-	padding-top: 20px;
-}
+	padding-top: 5px;
+	margin-top: 1%;
+	
 /* white paers style is here */
 .comment-box {
 	background: whitesmoke;
@@ -1831,7 +1835,7 @@ ul.inline li {
 }
 .list-style-none li {
 	list-style: none;
-	padding-top: 2%;
+	padding-top: 25%;
 }
 .div-styles {
 	margin-top: 30%;
@@ -1854,6 +1858,13 @@ ul.inline li {
 	padding-bottom: 10px
 }
 
+.text-background-style {
+	text-align: center;
+	padding-top: 15px ;
+	padding-bottom: 15px;
+	background:#DCDCDC;
+	border-radius: 5px 5px 5px 5px;
+}
 
 @media screen and (max-width: 480px) {
 	.dropdown-area {

@@ -45,7 +45,7 @@ if(isset($_POST['submit'])) {
           </tr>
           <tr>
           <td colspan="2">
-          <input type="submit" name="submit" value="Apply Now" id="go-button">
+          <input type="submit" name="submit" value="Submit" id="go-button">
           </td>
           </tr>
       </table>

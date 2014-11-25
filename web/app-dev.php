@@ -8,7 +8,7 @@
         <p>To gain competitive edge, we ensure that we offering high-quality flexible, robust, scalable and secure applications which are easy-to-use, easy-to-deploy and simple-to-maintain.</p>
         <p>We help you throughout the full life cycle of application development, from defining your requirements, documenting specifications, developing, testing, to integrating software applications with your business across globe and technologies.</p>
     </div>
-    <h3>Our services include:</h3>
+    <p>Our services include:</p>
     <ul class="oracle-content">
       <li>Application assessment</li>
       <li>Custom application development</li>

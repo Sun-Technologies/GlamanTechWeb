@@ -6,7 +6,7 @@
        <hr/>
       <div class="wp-area">
         <p>SharePoint is the simplest, most cost-effective way to organize, share and collaborate more effectively.</p>
-      <h3>SharePoint include mentioned services to enable client to meet business needs, to make better decisions, save costs and to adapt to market changes:</h3>
+      <p>SharePoint include mentioned services to enable client to meet business needs, to make better decisions, save costs and to adapt to market changes:</p>
       <ul class="oracle-content">
         <li>Business Intelligence</li>
         <li>Business Collaboration</li>
@@ -22,9 +22,9 @@
       <h1>Microsoft Dynamics</h1>
       <hr/>
      <div class="wp-area">
-      <h3>It provides business value to your organization in a single ERP solution, to help you:</h3>
+      <p>It provides business value to your organization in a single ERP solution, to help you:</p>
       <ul class="oracle-content">
-       <li>To work entirely from Microsoft Office and Microsoft Outlook</li>
+        <li>To work entirely from Microsoft Office and Microsoft Outlook</li>
         <li>To provide one place to keep all of your customer information</li>
         <li>To provide access to data at ease</li>
         <li>To send and receive faxes without the need for a fax machine</li>
@@ -40,8 +40,8 @@
       <div class="wp-area">
        <p>Windows Server offers enhanced virtualization, management, storage, networking, virtual desktop infrastructure, access protection, application platform, and many more features. </p>
         <p>We offer implementation and monitoring of the window server of our clients to prevent any damage or loss to it. </p>
-      <h3>Our services include:</h3>
-      <ul class="oracle-content">
+      <p>Our services include:</p>
+     <ul class="oracle-content">
         <li>Server security</li>
         <li>Server backups</li>
         <li>Server virtualization</li>

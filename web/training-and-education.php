@@ -8,7 +8,7 @@
         <p>We also provide custom courseware that reflects your business processes and train your employees to deliver it.</p>
         <p>We can help you design a comprehensive training plan for your organization to maximize your investments at affordable price.</p>
         <p>Our practical approach lets you learn quickly through step-by-step procedures, using real-world scenarios. </p><br>
-      <h3>We offer wide range of training options to polish employee skills:</h3>
+      <p>We offer wide range of training options to polish employee skills:</p>
       <div class="training">
           <div class="training-seca">
             <a href="#">GT260 : SAP Netweaver Technology Professional</a><br><br>
