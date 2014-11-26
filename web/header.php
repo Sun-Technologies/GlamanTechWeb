@@ -153,7 +153,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li class='scrollspy-example' data-offset='0' data-spy="scroll" data-target="#amazon-cloud"><a title="Amazon (AWS) Cloud Services" href="cloud.php#amazon-cloud">Amazon (AWS) Cloud Services</a></li>
                   </ul>
                 </li>
-                <li><a title="" href="#">Mobility</a>
+                <li><a title="" href="sap.php">Mobility</a>
                   <ul class="menu">
                     <li><a title="SAP" href="sap.php">SAP</a></li>
                   </ul>

@@ -11,14 +11,14 @@
       <p>We offer wide range of training options to polish employee skills:</p>
       <div class="training">
           <div class="training-seca">
-            <a href="#">GT260 : SAP Netweaver Technology Professional</a><br><br>
+            <h3 style="color: #00B2EE;">GT260 : SAP Netweaver Technology Professional</h3><br>
             <p>Delivery Method: Classroom, Virtual Live Classroom</p>
             <p>Duration: 20 days</p>
             <p>Delivery Languages: English</p>
             <a href="contacting-account-manager.php" id="go-button" style="margin-top: 1%; margin-bottom: 1%;">Register Now</a>
           </div>
           <div class="training-seca">
-            <a href="#">GT530 : Oracle Database 12c: New Features for Administrators</a><br><br>
+            <h3 style="color: #00B2EE;">GT530 : Oracle Database 12c: New Features for Administrators</h3><br>
             <p>Delivery Method: Classroom, Virtual Live Classroom</p>
             <p>Duration: 5 days</p>
             <p>Delivery Languages: English</p>

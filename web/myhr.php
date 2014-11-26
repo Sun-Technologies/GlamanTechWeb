@@ -5,9 +5,9 @@
        <hr/>
       <div class="wp-area">
       <ul class="my-hr-box">
-        <li><h3 style="text-align: center;">Form W4</h3><hr> <a href="http://www.irs.gov/pub/irs-pdf/fw4.pdf" target="_blank">http://www.irs.gov/pub/irs-pdf/fw4.pdf </a></li>
-        <li><h3 style="text-align: center;">Form I9</h3><hr> <a href="http://www.uscis.gov/sites/default/files/files/form/i-9.pdf" target="_blank">http://www.uscis.gov/sites/default/files/files/form/i-9.pdf</a></li>
-        <li><h3 style="text-align: center;">ADP Payroll Link</h3><hr> <a href="http://myaccess.adp.com/" target="_blank">http://myaccess.adp.com/</a></li>
+        <li><h3 style="text-align: center;">Form W4</h3> <a href="http://www.irs.gov/pub/irs-pdf/fw4.pdf" target="_blank"><br>http://www.irs.gov/pub/irs-pdf/fw4.pdf </a></li>
+        <li><h3 style="text-align: center;">Form I9</h3> <a href="http://www.uscis.gov/sites/default/files/files/form/i-9.pdf" target="_blank"><br>http://www.uscis.gov/sites/default/files/files/form/i-9.pdf</a></li>
+        <li><h3 style="text-align: center;">ADP Payroll Link</h3> <a href="http://myaccess.adp.com/" target="_blank"><br>http://myaccess.adp.com/</a></li>
       </ul>
       </div>
   </div>

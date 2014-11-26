@@ -1336,7 +1336,6 @@ ol.search-results {
 
 #block-contactinfo-hcard {
 	width: 280px;
-	background: url(../images/world_map.png) 40px 50px no-repeat;
 	padding: 20px;
 	float: left;
 }
@@ -1589,9 +1588,10 @@ ul.inline li {
 	margin-bottom: 1%;
 }
 .download-wp {
-	background-color: #CC3333;
-	color: #FFF;
-	padding: 5px;
+	padding: 10px;
+	background: #FF9900;
+	border: none;
+	color: #fff;
 }
 .download-wp a {
 	color: #fff;
@@ -1850,12 +1850,12 @@ ul.inline li {
 .my-hr-box li {
 	display: inline-block;
 	padding: 30px;
-	background: #000;
+	background: #F0F8FF;
 	opacity: 0.8;
 }
 .my-hr-box h3 {
-	color: #fff;
-	border-bottom: 2px solid #fff;
+	color: #00B2EE;
+	border-bottom: 2px solid #00B2EE;
 	padding-bottom: 10px
 }
 

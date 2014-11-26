@@ -41,7 +41,7 @@
           </div>
         </div>
         <div id="block-views-portfolio-client-images-block" class="block block-views">
-          <img src="images/sap-scm.png" alt="SAP SCM">
+          <img src="images/sap-scm.png" alt="SAP SCM" style="height:120%">
         </div>
     </div>
   </div>

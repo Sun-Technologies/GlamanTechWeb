@@ -50,8 +50,7 @@
       </ul>
      </div>
     </div>
-    <div style="height: 150px;"></div>
-    <div id="interview-tips" class="div-styles">
+        <div id="interview-tips">
       <h1>Interview Tips</h1>
       <hr/>
       <div class="wp-area">
@@ -103,4 +102,4 @@
     </div>
     </div>
   </div>
-  <?php include'footer1.php'; ?>
+  <?php include'footer1.php';?>

@@ -14,8 +14,8 @@
             <p>Email: hr@glamantech.com<br>Website:www.glamantech.com</p>
           </li>
           <li>
-            <h3><span>&copy;</span>&nbsp;2012 Glaman Tech</h3>
-            <p>All Rights Reserved<br><a href="#">Terms and conditions</a></p>
+            <h3><span>&copy;</span>&nbsp;<?php echo date("Y");?> Glaman Tech</h3>
+            <p>All Rights Reserved<br><a href="terms_and_conditions.php">Terms and conditions</a></p>
           </li>
         </ul>
       </div>

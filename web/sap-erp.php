@@ -21,7 +21,7 @@
                   <li>SAP ERP Human Capital Management</li>
                   <li>SAP ERP Operations</li>
                 </ul>
-              <h3>What we do?</h3>
+              <p>What we do?</p>
                 <ul class="oracle-content">
                   <li>Technical and Functional Upgrades</li>
                   <li>HR / Payroll solutions</li>
@@ -31,7 +31,7 @@
                   <li>Deployment of Customer Relationship Management (CRM)</li>
                   <li>Optimizing data migration strategy</li>
                 </ul>
-              <h3>Benefits:</h3>
+              <p>Benefits:</p>
                 <ul class="oracle-content">
                   <li>Improvement in Financial Management</li>
                   <li>Adopt the latest technology and software innovations without disruption.</li>
