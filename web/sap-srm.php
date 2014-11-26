@@ -8,7 +8,7 @@
         <p>SAP SRM automates, simplifies, and accelerates procure-to-pay processes by automating goods and services. It provides you with innovative methods to coordinate your business processes with your key suppliers.</p>
         <p>We help and guide our clients from pre-analysis or blue print designing to preparation, implementation, and maintenance.</p>
         <p>Our SAP SRM team makes sure that SAP SRM is implemented by using proven methodologies, proven technology and best practices to help you run your business more effectively. They will assist you in developing an implementation plan using SRM solution various modes.</p>
-        <h3>What we do?</h3>
+        <p>What we do?</p>
         <ul class="oracle-content">
           <li>Design and configuration</li>
           <li>Testing, planning and execution.</li>
@@ -17,7 +17,7 @@
           <li>Data Migration and Upgrade</li>
           <li>Maintenance</li>
         </ul>
-        <h3>Benefits:</h3>
+        <p>Benefits:</p>
         <ul class="oracle-content">
           <li>Sustainable cost savings</li>
           <li>Contract compliance</li>

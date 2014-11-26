@@ -14,7 +14,7 @@
           <div class="content">
             <div id="portfolio-content" class="content">
               <div class="field field-name-field-client field-type-text field-label-inline clearfix">
-                <h3>What we do?</h3>
+                <p>What we do?</p>
                 <ul class="oracle-content">
                   <li>SAP APO/GATP</li>
                   <li>Distribution and production planning</li>
@@ -27,7 +27,7 @@
                   <li>Setup SAP EWM</li>
                   <li>Upgrade SAP SCM system landscape</li>
                 </ul>
-                <h3>Benefits:</h3>
+                <p>Benefits:</p>
                 <ul class="oracle-content">
                   <li>Increasing process efficiency</li>
                   <li>Increase asset utilization</li>

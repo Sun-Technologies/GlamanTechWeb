@@ -8,7 +8,7 @@
         <p>If your organization is considering outsourcing the management of its SAP system landscape, then you are at the right place. We have the experience and the resources to constantly monitor, administer, support, and improve the performance and efficiency of your SAP solution.</p>
         <p>Proven application maintenance capability, offers unique and innovative solutions for managing your application IT estate efficiently.</p>
         <p>We proactively supports our client in the entire life-cycle of your SAP environment from planning, implementing, operating, optimizing and extending your application landscape via proven methodologies and best practices.</p>
-        <h3>What we do?</h3>
+        <p>What we do?</p>
         <ul class="oracle-content">
           <li>System Monitoring</li>
           <li>AMS Customer Portal</li>
@@ -20,7 +20,7 @@
           <li>Solution upgradability</li>
           <li>Post-implementation Application Support</li>
         </ul>
-        <h3>Benefits:</h3>
+        <p>Benefits:</p>
         <ul class="oracle-content">
           <li>Reduced risks</li>
           <li>Optimization of quality and cost</li>
