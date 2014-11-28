@@ -31,6 +31,7 @@
           <li>e-Procurement Strategy Development</li>
           <li>Forward and reverse auctions</li>
         </ul>
+         <center> <img  src="images/srm.png" alt="benefits:" style="width: 70%; height:75%;"></center>
       </div>
     </div>
   <?php include'footer1.php'; ?>

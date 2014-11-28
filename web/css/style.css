@@ -1567,9 +1567,10 @@ ul.inline li {
 	height: auto;
 }
 .date-area {
-	background: whitesmoke;
+	background: #F0F8FF;
 	position: relative;
 	height: auto;
+	
 }
 .date-area img {
 	height: 70px;

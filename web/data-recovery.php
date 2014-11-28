@@ -15,6 +15,6 @@
         <li>Cost effective</li>
       </ul>
       </div>
-      <img src="images/data-recovery.png" alt="Data Recovery" style="width: 80%; margin-left: 10%;">
+      <img src="images/data-recovery.png" alt="Data Recovery" style="width: 80%; margin-left: 10%; margin-bottom:-5%; margin-top:3%;">
 </div>
 <?php include'footer1.php'; ?>

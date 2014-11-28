@@ -183,7 +183,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employees'?   "active" :  ""); ?> title="News &amp; Events">Employees</a>
               <ul class="menu">
                     <li><a title="" href="#">Enter Hours</a></li>
-                    <li><a title="" href="myhr.php">myHR</a></li>
+                    <li><a title="" href="myhr.php">My HR</a></li>
                     <li><a title="" href="benefits.php">Benefits</a></li>
               </ul>
             </li>

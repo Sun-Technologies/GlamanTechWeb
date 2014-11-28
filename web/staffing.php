@@ -16,5 +16,6 @@
       	<h4>4.	Expert Research</h4>
       	<p>If you are unable to conduct the research due to lack of time or resources, then we are here to help by conducting research for you and providing you with all the details as per your needs.</p>
       </div>
+       <center> <img  src="images/staffing_services.png" alt="benefits:" style="width: 70%; height:75%; margin-bottom:-5%; margin-top:3%;"></center>
 </div>
 <?php include'footer1.php'; ?>

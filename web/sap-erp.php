@@ -50,7 +50,7 @@
           </div>
         </div>
         <div id="block-views-portfolio-client-images-block" class="block block-views">  
-          <img src="images/sap-erp.png" alt="SAP ERP">
+          <img src="images/sap_erp.png" alt="SAP ERP">
         </div>
       </div>
   </div>

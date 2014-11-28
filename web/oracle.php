@@ -21,6 +21,6 @@
                               <li>Ongoing Support</li>
                         </ul>
     </section>
-    <img src="images/oracle-erp.png" alt="Oracle ERP" style="width: 70%; margin-left: 15%; margin-top:-3%;">
+    <img src="images/oracle-erp.png" alt="Oracle ERP" style="width: 70%; margin-left: 15%; margin-bottom:1%;">
   </div>
   <?php include'footer1.php'; ?>
