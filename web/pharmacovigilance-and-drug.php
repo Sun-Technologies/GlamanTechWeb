@@ -27,8 +27,8 @@
             </div>
           </div>
         </div>
-        <div id="block-views-portfolio-client-images-block" class="block block-views">
-          <img src="images/drug-safety.png" alt="Pharmacovigilance and Drug Safety Expertise" style="height:130%; width:50%; margin-left:15%; margin-bottom:25%;">
+        <div id="block-views-portfolio-client-images-block" class="block block-views" style="padding-bottom: 20%;">
+          <img src="images/drug-safety.png" alt="Pharmacovigilance and Drug Safety Expertise" style="height:130%; width:50%; margin-left:25%; margin-bottom:25%;">
         </div>
     </div>
   </div>

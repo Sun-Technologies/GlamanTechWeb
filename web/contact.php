@@ -9,7 +9,7 @@
           <div class="content">
             <div id="portfolio-content" class="content">
               <div class="field field-name-field-client field-type-text field-label-inline clearfix">
-                <img src="images/img_contact.jpg" alt="Pharmacovigilance and Drug Safety Expertise" style="width: 100%; height: 400px; margin-top: 8%;">
+                <img src="images/img_contact.jpg" alt="Pharmacovigilance and Drug Safety Expertise" id="company-image">
               </div>
             </div>
           </div>

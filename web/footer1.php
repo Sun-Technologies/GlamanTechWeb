@@ -1,4 +1,4 @@
-<footer style="position:absolute; width: 100%;">
+<footer style="position:absolute; width: 100%; margin-top: 5px;">
       <div class="footer-third">
         <ul>
           <li>

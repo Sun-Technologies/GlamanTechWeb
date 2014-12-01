@@ -1559,7 +1559,13 @@ ul.inline li {
 }
 #social-icons ul li {
 	padding-left: 22px;
+	padding-top: 5px;
 }
+#social-icons ul li img {
+	width: 15px;
+	height: 15px;
+}
+
 .container1 {
 	padding: 20px;
 	background: #fff;
@@ -1866,6 +1872,17 @@ ul.inline li {
 	padding-bottom: 15px;
 	background:#DCDCDC;
 	border-radius: 5px 5px 5px 5px;
+}
+#company-image {
+	-webkit-box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+	width: 100%; 
+	height: 400px; 
+	margin-top: 8%;
+}
+.left-border {
+	border-left: 1px solid #fff;
 }
 
 @media screen and (max-width: 480px) {

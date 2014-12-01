@@ -79,7 +79,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
 </div>
 
 <div id="wrap" class="clearfix">
-  <div id="header-wrap">
+  <div id="header-wrap" style="margin-bottom: 5px;">
     <div id="pre-header" class="clearfix">
       <div id="logo" class="logo"> 
         
@@ -93,8 +93,8 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div class="social_icons" id="social-icons">
           <ul>
             <li><a href="http://www.facebook.com/facebook" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
-            <li><a href="http://www.twitter.com/twitter" target="_blank" rel="me"><img src="images/in.png" alt="Twitter"/></a></li>
-            <li><a href="https://plus.google.com/googleplus" target="_blank" rel="me"><img src="images/googleplus.png" alt="Twitter"/></a></li>
+            <li><a href="http://www.twitter.com/twitter" target="_blank" rel="me"><img src="images/in.png" alt="Linked In" style="height: 21px;"/></a></li>
+            <li><a href="https://plus.google.com/googleplus" target="_blank" rel="me"><img src="images/googleplus.png" alt="Google Plus"/></a></li>
           </ul>
         </div>
         <!-- end .features top -->
@@ -119,7 +119,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div id="main-menu">
           <ul class="menu">
             <li><a href="index.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >Home</a></li>
-            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>Services</a>
+            <li class="left-border"><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>Services</a>
               <ul class="menu" id="bg-color">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
                   <ul class="menu">
@@ -164,14 +164,14 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                 <li><a title="Drug Safety Expertise" href="pharmacovigilance-and-drug.php">Pharmacovigilance &amp; Drug Safety Expertise</a></li>
               </ul>
             </li>
-            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'job-seekers'?   "active" :  ""); ?> title="Job Seekers">Job Seekers</a>
+            <li class="left-border"><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'job-seekers'?   "active" :  ""); ?> title="Job Seekers">Job Seekers</a>
               <ul class="menu">
                     <li><a title="Search Jobs" href="search-job.php">Search Jobs</a></li>
                     <li><a title="Submit a Resume" href="search_job_apply.php">Submit a Resume</a></li>
                     <li><a title="Benefits" href="benefits.php">Benefits</a></li>
               </ul>
             </li>
-            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employers'?   "active" :  ""); ?> title="News &amp; Events">Employers</a>
+            <li class="left-border"><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employers'?   "active" :  ""); ?> title="News &amp; Events">Employers</a>
               <ul class="menu">
                     <li><a title="Submit a job order" href="submit_job_order.php">Submit a job order</a></li>
                     <li><a title="Contact an Account Manager" href="contacting-account-manager.php">Contact an Account Manager</a></li>
@@ -180,14 +180,14 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="Submit Feedback" href="submit_feedback.php">Submit Feedback</a></li>
               </ul>
             </li>
-            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employees'?   "active" :  ""); ?> title="News &amp; Events">Employees</a>
+            <li class="left-border"><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'employees'?   "active" :  ""); ?> title="News &amp; Events">Employees</a>
               <ul class="menu">
                     <li><a title="" href="#">Enter Hours</a></li>
                     <li><a title="" href="myhr.php">My HR</a></li>
                     <li><a title="" href="benefits.php">Benefits</a></li>
               </ul>
             </li>
-            <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'resources'?   "active" :  ""); ?> title="Contact">Resources</a>
+            <li class="left-border"><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'resources'?   "active" :  ""); ?> title="Contact">Resources</a>
               <ul class="menu">
                     <li><a title="" href="whitepapers.php">Whitepapers</a></li>
                     <li><a title="" href="career-tools.php">Career Tools</a>
@@ -200,11 +200,11 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="" href="blog.php">Blogs</a></li>
               </ul>
             </li>
-            <li><a href="contact.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'contact'?   "active" :  ""); ?> >Contact Us</a></li>
+            <li class="left-border"><a href="contact.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'contact'?   "active" :  ""); ?> >Contact Us</a></li>
           </ul>
         </div>
       </nav>
-      <img src="images/sap-partner.png" alt="Sap Partner" style="width: 115px; margin-left: -12%; position: absolute;" id="sap-image"/>
+      <img src="images/sap-partner.png" alt="Sap Partner" style="width: 100px; margin-left: -10%; position: absolute;" id="sap-image"/>
       <div id="header-right">
         <div id="block-views-latest-news-block">
           <div class="content">
