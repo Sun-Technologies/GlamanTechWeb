@@ -39,17 +39,20 @@ body{
 #firstline {
 	
 	color: #FFF;
+	font-family: Century Gothic;
 	text-decoration: none;
 	font-size: 32px;
 	padding: 4px 13px 7px;
 	float: left;
 	display: block;
+	font-weight: 600;
 	line-height: normal;
 }
 #secondline {
 	color: #FFF;
+	font-family: Calibri;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 1.2em;
 	padding: 4px 13px 7px;
 	float: left;
 	display: block;
