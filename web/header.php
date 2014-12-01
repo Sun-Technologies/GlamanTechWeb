@@ -120,9 +120,9 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
           <ul class="menu">
             <li><a href="index.php" title="Home" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'home'?   "active" :  ""); ?> >Home</a></li>
             <li><a href="#" class=<?php  echo (isset($CURRENT_PAGE) && $CURRENT_PAGE === 'services'?   "active" :  ""); ?>>Services</a>
-              <ul class="menu" id="">
+              <ul class="menu" id="bg-color">
                 <li><a title="SAP Solutions" href="sap-solutions.php">SAP Solutions</a>
-                  <ul class="dropdown">
+                  <ul class="menu">
                     <li><a title="SAP Implementation and Migration" href="sap-implementation-migration.php">SAP Implementation &amp; Migration</a></li>
                     <li><a title="SAP ERP and Netweaver Implementation" href="sap-erp.php">SAP ERP &amp; Netweaver Implementation</a></li>
                     <li><a title="SAP Customer Relationship Management" href="sap-crm.php">SAP Customer Relationship Management</a></li>
