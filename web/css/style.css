@@ -1566,6 +1566,17 @@ ul.inline li {
 	height: 15px;
 }
 
+.blog-area {
+	background: #F0F8FF;
+	position: relative;
+	height: auto;
+	margin-top:1%;
+	margin-bottom:3%;
+	display:inline-block;
+	overflow:auto; 
+	margin-bottom:2%
+	
+}
 .container1 {
 	padding: 20px;
 	background: #fff;
@@ -1594,6 +1605,19 @@ ul.inline li {
 .wp-area {
 	margin-bottom: 1%;
 }
+
+.click-wp {
+	padding: 10px;
+	background: #FF9900;
+	border: none;
+	color: #fff;
+	display:inline-block;
+	overflow:auto;
+}
+.click-wp a {
+	color: #fff;
+}
+
 .download-wp {
 	padding: 10px;
 	background: #FF9900;
