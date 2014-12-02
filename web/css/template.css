@@ -39,7 +39,7 @@ body{
 #firstline {
 	
 	color: #FFF;
-	font-family: Century Gothic;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	text-decoration: none;
 	font-size: 32px;
 	padding: 4px 13px 7px;
@@ -50,7 +50,7 @@ body{
 }
 #secondline {
 	color: #FFF;
-	font-family: Calibri;
+	font-family: 'Calibri', sans-serif;
 	text-decoration: none;
 	font-size: 1.2em;
 	padding: 4px 13px 7px;

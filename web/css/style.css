@@ -1759,9 +1759,17 @@ ul.inline li {
   color: #000;
   background: #fff;
 }
+.header-font-style {
+ font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+.footer-content-style {
+	font-family: Calibri;
+	font-size:1em;
+}
 .drop-head {
 	font-weight: bold;
 }
+
 .submenu-dropdown {
 	padding-left: 20px;
 }
