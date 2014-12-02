@@ -22,7 +22,7 @@
           <p>We provide counseling, consultation service, educational training on EAP to our employees for a productive workforce.</p>
           </li>
         </ul>
-        <center> <img  src="images/benefits.png" alt="benefits:" style="width: 70%; height:75%;"></center>
+        <center> <img  src="images/benefits.jpg" alt="benefits:" style="width: 50%; height:50%;"></center>
       </div>
 </div>
   <?php include'footer1.php'; ?>

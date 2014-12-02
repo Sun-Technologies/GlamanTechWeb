@@ -39,7 +39,7 @@
           </li>
         </ul>
       </div>
-      <div id="footer-blank">
+      <div id="footer-blank" class="hide-data">
 
       </div>
   </footer>

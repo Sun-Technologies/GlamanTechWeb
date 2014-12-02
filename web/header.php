@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="css/none.css" type="text/css">
 
 <link rel="stylesheet" href="css/menus.css?<?php echo rand(1,1000) ?>" type="text/css">
-<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/style.css?<?php echo rand(1,1000) ?>" type="text/css">
 <link rel="stylesheet" href="css/animate.css" type="text/css">
 <link rel="stylesheet" href="css/admin-page.css" type="text/css">
 <link rel="stylesheet" href="css/responsive.css" type="text/css">

@@ -1936,6 +1936,12 @@ ul.inline li {
 	.hide-data {
 		display: none;
 	}
+	.features_top_div ul li {
+		float: left;
+	}
+	#block-views-portfolio-client-images-block img {
+		padding-bottom: 500px;
+	}
 }
 @media screen and (max-width: 320px) {
 	.icon-date {
@@ -1944,6 +1950,9 @@ ul.inline li {
 	}
 	#sap-image {
 		margin-right: 60%;
+	}
+	#block-views-portfolio-client-images-block img {
+		padding-bottom: 500px;
 	}
 }
 @media screen and (max-width: 768px) {
