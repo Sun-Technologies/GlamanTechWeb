@@ -128,7 +128,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
                     <li><a title="SAP Customer Relationship Management" href="sap-crm.php">SAP Customer Relationship Management</a></li>
                     <li><a title="SAP Supplier Relationship Management" href="sap-srm.php">SAP Supplier Relationship Management</a></li>
                     <li><a title="SAP Supply Chain Management" href="sap-scm.php">SAP Supply Chain Management</a></li>
-                    <li><a title="SAP Solution Manager with CHaRM" href="sap-scmsolution-manager.php">SAP Solution Manager with CHaRM</a></li>
+                    <li><a title="SAP Solution Manager with CHaRM" href="sap-solution-manager.php">SAP Solution Manager with CHaRM</a></li>
                     <li><a title="SAP Mobility" href="sap-mobility.php">SAP Mobility</a></li>
                     <li><a title="SAP HANA" href="sap-hana.php">SAP HANA</a></li>
                     <li><a title="SAP AMS" href="sap-ams.php">SAP AMS</a></li>
