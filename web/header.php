@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=device-width, maximum-scale=1" />
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/>
 <title>Home | GlamanTech</title>
 <!-- CSS FILES -->
 <!--Template file default template.css-->
@@ -204,7 +205,7 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
           </ul>
         </div>
       </nav>
-      <img src="images/sap-partner.png" alt="Sap Partner" style="width: 100px; margin-left: -10%; position: absolute;" id="sap-image"/>
+      <img src="images/sap-partner.png" alt="Sap Partner" id="sap-image"/>
       <div id="header-right">
         <div id="block-views-latest-news-block">
           <div class="content">

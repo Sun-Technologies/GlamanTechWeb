@@ -19,7 +19,7 @@ if(isset($_POST['submit'])) {
     <h1>Contact Our Account Manager</h1>
     <hr/>
       <form method="post" action="">
-        <table>
+        <table class="contact-manager-table">
           <tr>
           <td class="dropdown-header">Name *</td>
           <td><input type="text" id="text-input-order" name="name" placeholder="Name" required ></td>
@@ -41,7 +41,7 @@ if(isset($_POST['submit'])) {
           <td><input type="text" id="text-input-order" name="subject" placeholder="Subject" required></td>
           </tr>
           <td colspan="2" class="dropdown-header">Message *<br>
-            <textarea maxlength="2000" style="width: 490px; height: 150px;" id="text-input-order" name="message" required></textarea></td>
+            <textarea maxlength="2000" class="contact-message" name="message" required></textarea></td>
           </tr>
           <tr>
           <td colspan="2">

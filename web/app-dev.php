@@ -2,7 +2,7 @@
 <?php include'header.php'; ?>
   <div class="split_line"></div>
   <div id="primary" class="container   clearfix animated bounceIn" style="padding-bottom: 22%;">
-    <h1 class="page-title">Application Development</h1>
+    <h1>Application Development</h1>
     <hr/>
     <div class="wp-area">
         <p>To gain competitive edge, we ensure that we offering high-quality flexible, robust, scalable and secure applications which are easy-to-use, easy-to-deploy and simple-to-maintain.</p>

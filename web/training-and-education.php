@@ -1,7 +1,7 @@
 <?php $CURRENT_PAGE= "services"; ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix animated bounceIn" style="padding-bottom: 10%;">
-   <h1 id="side-nav" class="page-title navbar-example">Training And Education</h1>
+   <h1 id="side-nav" class="navbar-example">Training And Education</h1>
        <hr/>
       <div class="wp-area">
         <p>To improve your productivity and to guide you towards success we provide training and education services to your project team.</p>

@@ -1921,7 +1921,16 @@ ul.inline li {
 .left-border {
 	border-left: 1px solid #fff;
 }
-
+.contact-message {
+		width: 490px; 
+		height: 150px;
+		border: 1px #FF9900 solid;
+}
+#sap-image {
+	width: 100px; 
+	margin-left: -10%; 
+	position: absolute;
+}
 @media screen and (max-width: 480px) {
 	.dropdown-area {
 	padding-left: 0%;
@@ -1933,31 +1942,107 @@ ul.inline li {
 	.whitepaper-icon b {
 		padding-top: 3%;
 	}
+	#sap-image {
+		width: 100px; 
+		margin-left: -35%; 
+		position: absolute;
+	}
+	#company-image {
+		-webkit-box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+		-moz-box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+		box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+		width: 100%; 
+		height: 300px; 
+	}
+	.social_icons {
+		background-image: none;
+		float: left;
+	}
+	#table-left {
+		width: 50px;
+	}
+	.social_icons ul li:last-child {
+		padding-right: 10px;
+	}
+	#country-location {
+		border-left: 1px solid #fff;
+		float: right;
+	}
+	#country-location ul li:first-child {
+		padding-left: 8px;
+	}
+	#country-location ul li {
+		padding-left: 2px;
+	}
 	.hide-data {
 		display: none;
 	}
 	.features_top_div ul li {
 		float: left;
 	}
-	#block-views-portfolio-client-images-block img {
-		padding-bottom: 500px;
+	.my-hr-box li {
+		display: inline-block;
+		background: #F0F8FF;
+		opacity: 0.8;
+		margin-bottom: 10%;
 	}
+	.my-hr-box {
+		width: 100px;
+	}
+	.my-hr-box h3 {
+		color: #00B2EE;
+		border-bottom: 2px solid #00B2EE;
+		padding-bottom: 5px;
+	}
+	#block-views-portfolio-client-images-block {
+		width: 350px;
+		float: left;
+		padding-right: -10px;
+		margin-right: -10px;
+		padding-top: 10px;
+		padding-bottom: 50px;
+	}
+	.dropdown-header {
+		width: 50px;
+	}
+	#text-input-order {
+		width: 120px;
+	}
+	.contact-manager-table {
+		width: 100px;
+	}
+	.contact-message {
+		width: 10px; 
+	}
+	.job-list li {
+	display: inline-block;
+	padding: 10px;
+}
 }
 @media screen and (max-width: 320px) {
 	.icon-date {
 		margin-left: 9%;
 		padding-top: 4%;
 	}
-	#sap-image {
-		margin-right: 60%;
+	#block-views-portfolio-client-images-block {
+		width: 150px;
+		height: 100px;
+		float: left;
+		padding-right: -10px;
+		margin-right: -10px;
+		padding-top: 10px;
 	}
-	#block-views-portfolio-client-images-block img {
-		padding-bottom: 500px;
+	.contact-message {
+		width: 200px; 
 	}
 }
 @media screen and (max-width: 768px) {
 	.icon-date {
 		padding-top: 0.5%;
 		padding-left: 2%;
+	}
+	.contact-message {
+		width: 490px; 
+		height: 150px;
 	}
 }

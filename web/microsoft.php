@@ -2,7 +2,7 @@
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix animated bounceIn">
     <div id="microsoft-sp">
-      <h1 id="side-nav" class="page-title navbar-example">Microsoft SharePoint</h1>
+      <h1 id="side-nav" class="navbar-example">Microsoft SharePoint</h1>
        <hr/>
       <div class="wp-area">
         <p>SharePoint is the simplest, most cost-effective way to organize, share and collaborate more effectively.</p>

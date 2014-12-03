@@ -2,7 +2,7 @@
 <?php include'header.php'; ?>
   <div class="split_line"></div>
   <div id="primary" class="container   clearfix animated bounceIn" style="padding-bottom: 5%;">
-    <h1 class="page-title">Pharmacovigilance and Drug Safety Expertise</h1>
+    <h1 class="">Pharmacovigilance and Drug Safety Expertise</h1>
     <hr/>
     <div class="region region-content">
         <div id="block-system-main" class="block block-system">

@@ -14,7 +14,7 @@
           </div>
       	</div>
       	<div id="block-views-portfolio-client-images-block" class="block block-views">
-            <img src="images/sap-mobility.png" alt="SAP Mobility Image" style="width: 45%; padding-left: 20%;">
+            <img src="images/sap-mobility.png" alt="SAP Mobility Image" style="width: 50%; padding-left: 25%;">
         </div>
     	</div>
   </div>
