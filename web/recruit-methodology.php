@@ -14,7 +14,7 @@
           <li><h3>6. Feedback</h3>We wait for your feedback regarding the selected candidate. Here you can accept or reject the proposed candidate list. Once accepted you execute final interview either telephonic/ face to face interview to finalize candidate.</li>
           <li><h3>7. Finalizing</h3>Once you feel that the candidate is right choice for your organization, you formulate offer letter with start date. On-boarding of the candidate is done and via web based performance monitor hired member’s performance is monitored.</li>
         </ul>
-        <center> <img  src="images/recruiting_methodology.png" alt="recruiting_methodology:" style="width: 60%; height:auto; margin-bottom:-5%; margin-top:3%;"></center>
+        <center> <img  src="images/recruiting_methodology.jpg" alt="recruiting_methodology:" style="width: 60%; height:auto; margin-bottom:-5%; margin-top:3%;"></center>
       </div>
     </div>
   <?php include'footer1.php'; ?>
