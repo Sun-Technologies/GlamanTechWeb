@@ -93,9 +93,9 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <!-- features top -->
         <div class="social_icons" id="social-icons">
           <ul>
-            <li><a href="http://www.facebook.com/facebook" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
-            <li><a href="http://www.twitter.com/twitter" target="_blank" rel="me"><img src="images/in.png" alt="Linked In" style="height: 21px;"/></a></li>
-            <li><a href="https://plus.google.com/googleplus" target="_blank" rel="me"><img src="images/googleplus.png" alt="Google Plus"/></a></li>
+            <li><a href="http://www.facebook.com/" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
+            <li><a href="http://www.linkedin.com/" target="_blank" rel="me"><img src="images/in.png" alt="Linked In" style="height: 21px;"/></a></li>
+            <li><a href="https://plus.google.com/" target="_blank" rel="me"><img src="images/googleplus.png" alt="Google Plus"/></a></li>
           </ul>
         </div>
         <!-- end .features top -->
@@ -103,9 +103,9 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <div class="region region-header-features">
           <div class="content" id="country-location">
               <ul class="language-switcher-locale-url">
-                <li class="en first active"><a href="#" class="language-link active" lang="en"><img class="language-icon" src="images/flags/en.png" width="16" height="12" alt="English" title="English" /> </a></li>
-                <li class="de"><a href="#" class="language-link" lang="de"><img class="language-icon" src="images/flags/gb.png" width="16" height="12" alt="Deutsch" title="Deutsch" /> </a></li>
-                <li class="fr last"><a href="#" class="language-link" lang="fr"><img class="language-icon" src="images/flags/in.png" width="16" height="12" alt="Français" title="Français" /> </a></li>
+                <li class="en first active"><img class="language-icon" src="images/flags/en.png" width="16" height="12" alt="English" title="English" /></li>
+                <li class="de"><img class="language-icon" src="images/flags/gb.png" width="16" height="12" alt="Deutsch" title="Deutsch" /></li>
+                <li class="fr last"><img class="language-icon" src="images/flags/in.png" width="16" height="12" alt="Français" title="Français" /></li>
               </ul>
           </div>
           <!-- /.block -->

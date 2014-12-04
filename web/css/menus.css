@@ -8,7 +8,7 @@
 }
 
 nav#navigation div#main-menu ul.menu li ul.menu li a {
-    color: #000;
+    color: #fff;
     height: 40px;
     line-height: 40px;
     padding-left: 0;
@@ -97,7 +97,7 @@ nav#navigation div#main-menu ul.menu li ul.menu li a {
 #navigation #main-menu > ul li { position: relative;}
 
 
-#navigation #main-menu > ul > li:hover {background-color: #FF9900; color: #000;}
+#navigation #main-menu > ul > li:hover {background-color: #666666; color: #fff;}
 
 
 #navigation #main-menu > ul > li > a.active {line-height: 80px; height:80px;}
@@ -118,7 +118,7 @@ nav#navigation div#main-menu ul.menu li ul.menu li a {
 #navigation #main-menu > ul ul { line-height: 80px; height:80px; position: absolute; nowhitespace: afterproperty; top: -999em; width: 200px; z-index: 9999; left: 0; border-radius: 2px;}
 
 
-#navigation #main-menu > ul ul li {	color: #000;top:10px; background-color: #F5DA81; border-bottom: 1px solid #FF9900;}
+#navigation #main-menu > ul ul li {	color: #fff;top:10px; background-color: #666666;}
 
 
 #navigation #main-menu > ul ul li:first-child { border-top: 0;}
@@ -129,5 +129,5 @@ nav#navigation div#main-menu ul.menu li ul.menu li a {
 
 
 
-#navigation #main-menu > ul ul > li:hover,#navigation #main-menu > ul ul .active-trail {  background-color: #FF9900;  color:#000;}
+#navigation #main-menu > ul ul > li:hover,#navigation #main-menu > ul ul .active-trail {  background-color: #858585;  color:#fff;}
 
