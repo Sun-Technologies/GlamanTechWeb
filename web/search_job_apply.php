@@ -80,7 +80,7 @@ require('database.php');
     <hr/>
     	<p>If you think you have knowledge, talent and zest to make a difference and are interested in joining us, then apply online or send in your resumes to <a href="mailto:hr@glamantech.com?Subject=Resume">hr@glamantech.com</a>. We'll get back to you shortly.</p>
     	<form method="post" action="search_job_apply.php" enctype="multipart/form-data">
-    		<table class="responsive-table">
+    		<table>
     			<?php 
     			if(isset($_GET['job_code'])) {
     				echo "<tr><td>Job Code</td><td>".$_GET['job_code']."</td></tr><tr>";
