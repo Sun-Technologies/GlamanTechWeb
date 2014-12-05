@@ -334,6 +334,40 @@ a:focus {
 }
 /* Content */
 
+.mydiv{
+	background-color:#D6FBFF;
+	 display: block; 
+  	display: -webkit-box;
+	margin-right: auto;
+	margin-top:auto;
+	 display: table;
+	height:220px;
+	width: 690px;
+	-webkit-line-clamp: 3;
+  	-webkit-box-orient: vertical;
+   	overflow:hidden;
+  	text-overflow: ellipsis;
+}
+.service-right-pane-style{
+	display: block; 
+    display: -webkit-box;
+	margin-left: auto;
+	margin-top:auto;
+	background-color:#D6FBFF;
+	height:700px;
+	width: 205px;
+	-webkit-line-clamp: 3;
+  	-webkit-box-orient: vertical;
+   	overflow:hidden;
+  	text-overflow: ellipsis;
+}
+
+.services-content-style{
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+ 	padding-top: 2%;
+ 	padding-left: 2%;
+ 	padding-right: 2%;
+}
 
 h1.page-title {
 	color: #666666;
@@ -425,7 +459,7 @@ ul.img-list {
 }
 ul.img-list li {
   display: inline-block;
-  height: 250px;
+  height: 210px;
   margin: 0 0em 1em 0;
   position: relative;
   width: 285px;

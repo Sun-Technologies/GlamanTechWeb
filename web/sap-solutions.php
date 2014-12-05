@@ -1,38 +1,38 @@
 <?php $CURRENT_PAGE= "services" ?>
 <?php include'header.php'; ?>
   <div id="primary" class="container   clearfix animated bounceIn">
-   <h1 id="side-nav" style="color;">SAP Solutions</h1>
+   <h1 id="side-nav">SAP Solutions</h1>
        <hr/>
        <section id="pattern" class="pattern">
         <ul class="img-list grid">
            <li>
             <a href="sap-implementation-migration.php">
-             <img src="images/migration.png"/>
+             <img src="images/implementation.png"/>
             </a>
           </li>
           <li >
             <h2 class="header-font-style">SAP Migration</h2>
-            <p class="header-font-style">We help you innovate, transform, enhance and optimize your business.</p>
-            <span class="pictured"><a href="https://www.youtube.com/watch?v=p6wQl2I_p6s">Read More</a></span>
+            <p class="header-font-style" style="margin-top:-17%">We help you innovate, transform, enhance and optimize your business.</p>
+            <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="https://www.youtube.com/watch?v=p6wQl2I_p6s">Read More</a></span>
           </li>
           <li>
-             <iframe width="235" height="230" src="//www.youtube.com/embed/p6wQl2I_p6s" frameborder="0" allowfullscreen></iframe>
+              <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/p6wQl2I_p6swmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
         </ul>
     
       
         <ul class="img-list grid">
            <li>
-            <iframe width="235" height="230" src="//www.youtube.com/embed/lYCEQqSM08I" frameborder="0" allowfullscreen></iframe>
+            <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/lYCEQqSM08Imode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
           <li>
             <h2 class="header-font-style"> SAP ERP</h2>
-             <p class="header-font-style">We are trusted, reliable, experienced partner and are committed to implementing SAP ERP</p>
-             <span class="pictured"><a href="https://www.youtube.com/watch?v=lYCEQqSM08I">Read More</a></span>
+            <p class="header-font-style" style="margin-top:-17%">We are trusted, reliable, experienced partner and are committed to implementing SAP ERP</p>
+             <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="https://www.youtube.com/watch?v=lYCEQqSM08I">Read More</a></span>
           </li>
           <li>
              <a href="sap-erp.php">
-              <img src="images/image.png"/>
+              <img src="images/erp.png"/>
              </a>
           </li>
         </ul>
@@ -43,26 +43,27 @@
           </li>
           <li>
              <h2 class="header-font-style">SAP CRM</h2>
-             <p class="header-font-style">We tailor the CRM user experience to match your needs.</p>
-             <span class="pictured"><a href="//www.youtube.com/embed/uzuSZSKgdMQ">Read More</a></span>
+             <p class="header-font-style" style="margin-top:-17%">We tailor the CRM user experience to match your needs.</p>
+              <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="//www.youtube.com/embed/uzuSZSKgdMQ">Read More</a></span>
           </li>
          <li>
-             <iframe width="235" height="230" src="https://www.youtube.com/embed/uzuSZSKgdMQ" frameborder="0" allowfullscreen></iframe>
+             <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/uzuSZSKgdMQwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
           </ul>
        
         <ul class="img-list grid">
           <li>
-            <iframe width="235" height="230" src="//www.youtube.com/embed/ffnRHEC0oys" frameborder="0" allowfullscreen></iframe>
+          <iframe width="235" height="165" style="padding-top:8%"src="https://www.youtube.com/embed/ffnRHEC0oys?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe> 
+          
           </li>  
           <li>
-             <h2 class="header-font-style"> SAP SRM</h2>
-             <p class="header-font-style">SAP SRM is implemented by using proven methodologies, proven technology and best practices to help you</p>
-             <span class="pictured"><a href="//www.youtube.com/embed/ffnRHEC0oys">Read More</a></span>
+             <h2 class="header-font-style" style="padding-top:15%"> SAP SRM</h2>
+             <p class="header-font-style" style="margin-top:-17%">SAP SRM is implemented by using proven methodologies, proven technology and best practices to help you</p>
+             <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="https://www.youtube.com/embed/ffnRHEC0oys">Read More</a></span>
           </li>
          <li>
            <a href="sap-srm">
-              <img src="images/srm1.png"/>
+              <img src="images/srm.png"/>
              </a> 
           </li>
           </ul>
@@ -70,28 +71,28 @@
           <ul class="img-list grid">
           <li>
            <a href="sap-scm.php">
-             <img src="images/scm.png"  />
+             <img src="images/scm.png"/>
             </a>  
           </li>  
           <li>
-            <h2 class="header-font-style">SAP SCM</h2>
-             <p class="header-font-style">We offer reliable and sustainable operations.</p>
-             <span class="pictured"><a href="https://www.youtube.com/watch?v=Mi1QBxVjZAw">Read More</a></span>
+           <h2 class="header-font-style" style="padding-top:15%">SAP SCM</h2>
+             <p class="header-font-style" style="margin-top:-17%">We offer reliable and sustainable operations.</p>
+              <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="https://www.youtube.com/watch?v=Mi1QBxVjZAw">Read More</a></span>
           </li>
          <li>
-          <iframe width="235" height="230" src="//www.youtube.com/embed/Mi1QBxVjZAw" frameborder="0" allowfullscreen></iframe>
+           <iframe width="235" height="165" style="padding-top:8%" style="padding-top:8%" src="//www.youtube.com/embed/Mi1QBxVjZAwwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </ul>
        
           <ul class="img-list grid">
           <li>
             <a href="https://www.youtube.com/watch?v=HGE0pXSJj3A">
-             <iframe width="235" height="230" src="//www.youtube.com/embed/HGE0pXSJj3A" frameborder="0" allowfullscreen></iframe>
+            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/HGE0pXSJj3Awmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
             </a>
           </li> 
           <li>
-            <h2 class="header-font-style">SAP SolMan</h2>
-             <p class="header-font-style">Our SAP SCM team support you to manage integrated business processes.</p>
-             <span class="pictured"><a href="//www.youtube.com/embed/HGE0pXSJj3A">Read More</a></span>
+           <h2 class="header-font-style" style="padding-top:15%">SAP SolMan</h2>
+              <p class="header-font-style" style="margin-top:-17%">Our SAP SCM team support you to manage integrated business processes.</p>
+              <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="//www.youtube.com/embed/HGE0pXSJj3A">Read More</a></span>
           </li>
           <li>
              <a href="sap-solution-manager.php">
@@ -107,23 +108,23 @@
              </a>
           </li>  
           <li>
-             <h2 class="header-font-style"> SAP Mobility</h2>
-             <p class="header-font-style">Well-established partner to guide and help you in understanding the complex roadmap of enterprise mobility.</p>
-             <span class="pictured"><a href="//www.youtube.com/embed/sgWLHWyyP1M">Read More</a></span>
+             <h2 class="header-font-style" style="padding-top:15%"> SAP Mobility</h2>
+              <p class="header-font-style" style="margin-top:-17%">Well-established partner to guide and help you in understanding the complex roadmap of enterprise mobility.</p>
+              <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="//www.youtube.com/embed/sgWLHWyyP1M">Read More</a></span>
           </li>
          <li>
-            <iframe width="235" height="230" src="//www.youtube.com/embed/sgWLHWyyP1M" frameborder="0" allowfullscreen></iframe>
+             <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/sgWLHWyyP1Mwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
           </ul>
      
           <ul class="img-list grid">
           <li>
-             <iframe width="235" height="230" src="//www.youtube.com/embed/OFEwPwdIKW0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/OFEwPwdIKW0wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>  
           <li>
-             <h2 class="header-font-style">SAP HANA</h2>
-             <p class="content-font-style">We offer real-time analytics and reporting on various platforms.</p>
-             <span class="pictured"><a href="//www.youtube.com/embed/sgWLHWyyP1M">Read More</a></span>
+             <h2 class="header-font-style" style="padding-top:15%">SAP HANA</h2>
+             <p class="header-font-style" style="margin-top:-17%">We offer real-time analytics and reporting on various platforms.</p>
+             <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="//www.youtube.com/embed/sgWLHWyyP1M">Read More</a></span>
           </li>
          <li>
             <a href="sap-hana.php">
@@ -139,23 +140,23 @@
              </a>
           </li>  
           <li>
-             <h2 class="header-font-style"> SAP AMS</h2>
-             <p class="header-font-style">We offer unique and innovative solutions for managing your application IT estate efficiently.</p>
-             <span class="pictured"><a href="//www.youtube.com/embed/sgWLHWyyP1M">Read More</a></span>
+            <h2 class="header-font-style" style="padding-top:15%"> SAP AMS</h2>
+             <p class="header-font-style" style="margin-top:-17%">We offer unique and innovative solutions for managing your application IT estate efficiently.</p>
+             <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="//www.youtube.com/embed/sgWLHWyyP1M">Read More</a></span>
           </li>
          <li>
-            <iframe width="235" height="230" src="//www.youtube.com/embed/sgWLHWyyP1M" frameborder="0" allowfullscreen></iframe>
+             <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/sgWLHWyyP1Mwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
           </ul>
        
           <ul class="img-list grid">
           <li>
-             <iframe width="235" height="230" src="//www.youtube.com/embed/r6DfkL8qM6U" frameborder="0" allowfullscreen></iframe>
+            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/r6DfkL8qM6Uwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>  
           <li>
-             <h2 class="header-font-style">SAP RDS</h2>
-             <p class="header-font-style">We offer a variety of customizable SAP RDS options to get you up and running implementations quickly.</p>
-             <span class="pictured"><a href="htt//www.youtube.com/embed/r6DfkL8qM6U">Read More</a></span>
+            <h2 class="header-font-style" style="padding-top:15%">SAP RDS</h2>
+             <p class="header-font-style" style="margin-top:-17%">We offer a variety of customizable SAP RDS options to get you up and running implementations quickly.</p>
+             <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="htt//www.youtube.com/embed/r6DfkL8qM6U">Read More</a></span>
           </li>
          <li>
             <a href="sap-rds.php">
