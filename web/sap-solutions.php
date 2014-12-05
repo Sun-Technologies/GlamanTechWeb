@@ -16,14 +16,14 @@
             <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="https://www.youtube.com/watch?v=p6wQl2I_p6s">Read More</a></span>
           </li>
           <li>
-              <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/p6wQl2I_p6swmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/p6wQl2I_p6s?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
         </ul>
     
       
         <ul class="img-list grid">
            <li>
-            <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/lYCEQqSM08Imode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/lYCEQqSM08I?mode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
           <li>
             <h2 class="header-font-style"> SAP ERP</h2>
@@ -47,7 +47,7 @@
               <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="//www.youtube.com/embed/uzuSZSKgdMQ">Read More</a></span>
           </li>
          <li>
-             <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/uzuSZSKgdMQwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+             <iframe width="235" height="165" style="padding-top:8%" src="https://www.youtube.com/embed/uzuSZSKgdMQ?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
           </ul>
        
@@ -80,13 +80,13 @@
               <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="https://www.youtube.com/watch?v=Mi1QBxVjZAw">Read More</a></span>
           </li>
          <li>
-           <iframe width="235" height="165" style="padding-top:8%" style="padding-top:8%" src="//www.youtube.com/embed/Mi1QBxVjZAwwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+           <iframe width="235" height="165" style="padding-top:8%" style="padding-top:8%" src="//www.youtube.com/embed/Mi1QBxVjZAw?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </ul>
        
           <ul class="img-list grid">
           <li>
             <a href="https://www.youtube.com/watch?v=HGE0pXSJj3A">
-            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/HGE0pXSJj3Awmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/HGE0pXSJj3A?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
             </a>
           </li> 
           <li>
@@ -113,13 +113,13 @@
               <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="//www.youtube.com/embed/sgWLHWyyP1M">Read More</a></span>
           </li>
          <li>
-             <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/sgWLHWyyP1Mwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+             <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/sgWLHWyyP1M?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
           </ul>
      
           <ul class="img-list grid">
           <li>
-            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/OFEwPwdIKW0wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/OFEwPwdIKW0?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>  
           <li>
              <h2 class="header-font-style" style="padding-top:15%">SAP HANA</h2>
@@ -145,13 +145,13 @@
              <span class="pictured" style="display:inline-block; overflow:auto; margin-bottom:22%; margin-left:30%"><a href="//www.youtube.com/embed/sgWLHWyyP1M">Read More</a></span>
           </li>
          <li>
-             <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/sgWLHWyyP1Mwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+             <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/sgWLHWyyP1M?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>
           </ul>
        
           <ul class="img-list grid">
           <li>
-            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/r6DfkL8qM6Uwmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="235" height="165" style="padding-top:8%" src="//www.youtube.com/embed/r6DfkL8qM6U?wmode=autohide=2&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
           </li>  
           <li>
             <h2 class="header-font-style" style="padding-top:15%">SAP RDS</h2>
