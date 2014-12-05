@@ -54,7 +54,7 @@
       <aside id="sidebar" role="complementary">
       <div class="region region-sidebar-first"> 
         <!-- /.block -->
-        <div id="block-block-4" class="block block-block">
+        <div id="block-block-4" class="block block-block industry-content">
           <h2 ><span>Industry  Solutions</span></h2>
           <div class="content">
             <div class="item-list">

@@ -2044,6 +2044,17 @@ ul.inline li {
 	height: 100px;
 	margin-left: 20%;
 }
+.industry-content {
+	background: #F0F8FF;
+	opacity: 0.8;
+	padding: 25px;
+}
+.industry-content-left {
+	background: #F0F8FF;
+	opacity: 0.8;
+	padding: 20px;
+	padding-right: 200px;
+}
 .list-style-none li {
 	list-style: none;
 	
