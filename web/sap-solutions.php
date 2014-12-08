@@ -7,7 +7,7 @@
         <ul class="img-list grid">
            <li>
             <a href="sap-implementation-migration.php">
-             <img src="images/implementation.png"/>
+             <img style="margin-top:12%" src="images/implementation.png"/>
             </a>
           </li>
           <li >
@@ -32,14 +32,14 @@
           </li>
           <li>
              <a href="sap-erp.php">
-              <img src="images/erp.png"/>
+              <img style="margin-top:12%" src="images/erp.png"/>
              </a>
           </li>
         </ul>
   
         <ul class="img-list grid">
           <li>
-             <img src="images/crm.png"  />
+             <img style="margin-top:12%" src="images/crm.png"  />
           </li>
           <li>
              <h2 class="header-font-style">SAP CRM</h2>
@@ -63,7 +63,7 @@
           </li>
          <li>
            <a href="sap-srm">
-              <img src="images/srm.png"/>
+              <img style="margin-top:12%" src="images/srm.png"/>
              </a> 
           </li>
           </ul>
@@ -71,7 +71,7 @@
           <ul class="img-list grid">
           <li>
            <a href="sap-scm.php">
-             <img src="images/scm.png"/>
+             <img style="margin-top:12%" src="images/scm.png"  />
             </a>  
           </li>  
           <li>
@@ -96,7 +96,7 @@
           </li>
           <li>
              <a href="sap-solution-manager.php">
-              <img src="images/solman.png"/>
+              <img style="margin-top:12%"src="images/solman.png"/>
              </a>
           </li> 
           </ul>
@@ -104,7 +104,7 @@
           <ul class="img-list grid">
           <li>
              <a href="sap-mobility.php">
-              <img src="images/mobility.png"/>
+              <img style="margin-top:12%" src="images/mobility.png"/>
              </a>
           </li>  
           <li>
@@ -128,7 +128,7 @@
           </li>
          <li>
             <a href="sap-hana.php">
-             <img src="images/hana.png"/>
+             <img style="margin-top:12%" src="images/hana.png"/>
             </a>
           </li>
           </ul>
@@ -136,7 +136,7 @@
           <ul class="img-list grid">
           <li>
              <a href="sap-ams.php">
-              <img src="images/ams.png"/>
+              <img style="margin-top:12%" src="images/ams.png"/>
              </a>
           </li>  
           <li>
@@ -160,7 +160,7 @@
           </li>
          <li>
             <a href="sap-rds.php">
-             <img src="images/rds.png"  />
+             <img style="margin-top:12%" src="images/rds.png"  />
             </a>
           </li>
           </ul>
