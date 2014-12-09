@@ -1725,6 +1725,23 @@ ul.inline li {
 	height: auto;
 	margin-top:1%;
 	margin-bottom:3%;
+	padding-left: 2%;
+	padding-right: 1%;
+	padding-top: 1%;
+	display:inline-block;
+	overflow:auto; 
+	margin-bottom:2%;
+	display:inline-block;
+	overflow:auto; 
+	margin-bottom:2%
+}
+.career-area {
+	background: #F0F8FF;
+	position: relative;
+	height: auto;
+	width:350px;
+	margin-top:1%;
+	margin-bottom:3%;
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-top: 1%;
@@ -2097,6 +2114,14 @@ ul.inline li {
 }
 .left-border {
 	border-left: 1px solid #fff;
+}
+.career-content{
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 300;
+	padding-bottom: 1%;
+	
 }
 .contact-message {
 		width: 490px; 
