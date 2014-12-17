@@ -93,9 +93,9 @@ jQuery(document).ready(function($) {$('headerimgs').bgimgSlideshow({photos : [{
         <!-- features top -->
         <div class="social_icons" id="social-icons">
           <ul>
-            <li><a href="http://www.facebook.com/" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
-            <li><a href="http://www.linkedin.com/" target="_blank" rel="me"><img src="images/in.png" alt="Linked In" style="height: 21px;"/></a></li>
-            <li><a href="https://plus.google.com/" target="_blank" rel="me"><img src="images/googleplus.png" alt="Google Plus"/></a></li>
+            <li><a href="https://www.facebook.com/pages/Glamantech-Inc/645395162245054" target="_blank" rel="me"><img src="images/facebook.png" alt="Facebook"/></a></li>
+            <li><a href="https://www.linkedin.com/company/glamantech-inc" target="_blank" rel="me"><img src="images/in.png" alt="Linked In" style="height: 21px;"/></a></li>
+            <li><a href="https://plus.google.com/107887369572031570689" target="_blank" rel="me"><img src="images/googleplus.png" alt="Google Plus"/></a></li>
           </ul>
         </div>
         <!-- end .features top -->
